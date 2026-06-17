@@ -1,0 +1,1750 @@
+{
+ "gerado_em": "17/06/2026 19:06",
+ "periodo": "01/06/2026 a 16/06/2026",
+ "tolerancia": 0.01,
+ "resumo": {
+  "completos_ok": 11,
+  "completos_div": 1,
+  "sem_ind_ok": 2,
+  "sem_ind_div": 2,
+  "venda_direta": 21,
+  "pendentes": 0,
+  "total_pedidos": 37
+ },
+ "totais": {
+  "ret": 24344.26,
+  "ind": 20994.42,
+  "venda": 50188.84,
+  "val_venda": 45302942.45
+ },
+ "pedidos": [
+  {
+   "pedido": "547",
+   "tipo": "SEM_IND",
+   "status": "DIVERGENTE",
+   "ret": 35.5,
+   "ind": 0,
+   "venda": 0,
+   "max_dif": 35.5,
+   "difs": {
+    "ret_venda": 35.5
+   },
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 35.5
+    },
+    {
+     "nome": "Venda",
+     "qtd": 0
+    }
+   ],
+   "navios": [
+    "#N/A"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "#N/A",
+     "ret": 35.5,
+     "ind": 0,
+     "venda": 0
+    }
+   ],
+   "cliente": "",
+   "clientes": [],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 0
+  },
+  {
+   "pedido": "551",
+   "tipo": "SEM_IND",
+   "status": "OK",
+   "ret": 216.56,
+   "ind": 0,
+   "venda": 216.56,
+   "max_dif": 0.0,
+   "difs": {
+    "ret_venda": 0.0
+   },
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 216.56
+    },
+    {
+     "nome": "Venda",
+     "qtd": 216.56
+    }
+   ],
+   "navios": [
+    "SPAR CORONA"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "SPAR CORONA",
+     "ret": 216.56,
+     "ind": 0,
+     "venda": 216.56
+    }
+   ],
+   "cliente": "ITAMBÉ",
+   "clientes": [
+    {
+     "nome": "ITAMBÉ",
+     "qtd": 216.56
+    }
+   ],
+   "filial": 6,
+   "produto": "COQUE VERDE",
+   "data_pedido": "01/05/2026",
+   "val_venda": 193972.35
+  },
+  {
+   "pedido": "558",
+   "tipo": "SEM_IND",
+   "status": "OK",
+   "ret": 315.21,
+   "ind": 0,
+   "venda": 315.21,
+   "max_dif": 0.0,
+   "difs": {
+    "ret_venda": 0.0
+   },
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 315.21
+    },
+    {
+     "nome": "Venda",
+     "qtd": 315.21
+    }
+   ],
+   "navios": [
+    "SPAR CORONA"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "SPAR CORONA",
+     "ret": 315.21,
+     "ind": 0,
+     "venda": 315.21
+    }
+   ],
+   "cliente": "MARGEM CIA / SUPREMO",
+   "clientes": [
+    {
+     "nome": "MARGEM CIA / SUPREMO",
+     "qtd": 315.21
+    }
+   ],
+   "filial": 6,
+   "produto": "COQUE VERDE",
+   "data_pedido": "01/05/2026",
+   "val_venda": 274700.59
+  },
+  {
+   "pedido": "565",
+   "tipo": "COMPLETO",
+   "status": "OK",
+   "ret": 3449.27,
+   "ind": 3449.27,
+   "venda": 3449.27,
+   "max_dif": 0.0,
+   "difs": {
+    "ret_ind": 0.0,
+    "ind_venda": 0.0,
+    "ret_venda": 0.0
+   },
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 3449.27
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 3449.27
+    },
+    {
+     "nome": "Venda",
+     "qtd": 3449.27
+    }
+   ],
+   "navios": [
+    "TERMICO STR- JOKER"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "TERMICO STR- JOKER",
+     "ret": 3449.27,
+     "ind": 3449.27,
+     "venda": 3449.27
+    }
+   ],
+   "cliente": "BRASKEM",
+   "clientes": [
+    {
+     "nome": "BRASKEM",
+     "qtd": 3449.27
+    }
+   ],
+   "filial": 6,
+   "produto": "CARVÃO TÉRMICO",
+   "data_pedido": "19/05/2026",
+   "val_venda": 3206958.83
+  },
+  {
+   "pedido": "569",
+   "tipo": "COMPLETO",
+   "status": "OK",
+   "ret": 2338.13,
+   "ind": 2338.13,
+   "venda": 2338.13,
+   "max_dif": 0.0,
+   "difs": {
+    "ret_ind": 0.0,
+    "ind_venda": 0.0,
+    "ret_venda": 0.0
+   },
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 2338.13
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 2338.13
+    },
+    {
+     "nome": "Venda",
+     "qtd": 2338.13
+    }
+   ],
+   "navios": [
+    "FENG ZE HAI"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "FENG ZE HAI",
+     "ret": 2338.13,
+     "ind": 2338.13,
+     "venda": 2338.13
+    }
+   ],
+   "cliente": "BRASKEM",
+   "clientes": [
+    {
+     "nome": "BRASKEM",
+     "qtd": 2338.13
+    }
+   ],
+   "filial": 6,
+   "produto": "CARVÃO TÉRMICO",
+   "data_pedido": "27/05/2026",
+   "val_venda": 2173876.38
+  },
+  {
+   "pedido": "570",
+   "tipo": "VENDA_DIRETA",
+   "status": "DIRETA",
+   "ret": 0,
+   "ind": 0,
+   "venda": 4246.38,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Venda",
+     "qtd": 4246.38
+    }
+   ],
+   "navios": [
+    "PORT VERA CRUZ"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "PORT VERA CRUZ",
+     "ret": 0,
+     "ind": 0,
+     "venda": 4246.38
+    }
+   ],
+   "cliente": "ITAMBÉ",
+   "clientes": [
+    {
+     "nome": "ITAMBÉ",
+     "qtd": 4246.38
+    }
+   ],
+   "filial": 6,
+   "produto": "GESSO NATURAL",
+   "data_pedido": "27/05/2026",
+   "val_venda": 1305209.84
+  },
+  {
+   "pedido": "571",
+   "tipo": "VENDA_DIRETA",
+   "status": "DIRETA",
+   "ret": 0,
+   "ind": 0,
+   "venda": 30.05,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Venda",
+     "qtd": 30.05
+    }
+   ],
+   "navios": [
+    "SPAR CORONA"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "SPAR CORONA",
+     "ret": 0,
+     "ind": 0,
+     "venda": 30.05
+    }
+   ],
+   "cliente": "BELLUNO",
+   "clientes": [
+    {
+     "nome": "BELLUNO",
+     "qtd": 30.05
+    }
+   ],
+   "filial": 6,
+   "produto": "COQUE VERDE",
+   "data_pedido": "28/05/2026",
+   "val_venda": 29413.06
+  },
+  {
+   "pedido": "572",
+   "tipo": "COMPLETO",
+   "status": "OK",
+   "ret": 246.37,
+   "ind": 246.37,
+   "venda": 246.37,
+   "max_dif": 0.0,
+   "difs": {
+    "ret_ind": 0.0,
+    "ind_venda": 0.0,
+    "ret_venda": 0.0
+   },
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 246.37
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 246.37
+    },
+    {
+     "nome": "Venda",
+     "qtd": 246.37
+    }
+   ],
+   "navios": [
+    "PACIFIC TALENT"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "PACIFIC TALENT",
+     "ret": 246.37,
+     "ind": 246.37,
+     "venda": 246.37
+    }
+   ],
+   "cliente": "BELLUNO",
+   "clientes": [
+    {
+     "nome": "BELLUNO",
+     "qtd": 246.37
+    }
+   ],
+   "filial": 6,
+   "produto": "CARVAO PREMIUM",
+   "data_pedido": "01/06/2026",
+   "val_venda": 325701.14
+  },
+  {
+   "pedido": "573",
+   "tipo": "VENDA_DIRETA",
+   "status": "DIRETA",
+   "ret": 0,
+   "ind": 0,
+   "venda": 105.44,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Venda",
+     "qtd": 105.44
+    }
+   ],
+   "navios": [
+    "MBS ODYSSE"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "MBS ODYSSE",
+     "ret": 0,
+     "ind": 0,
+     "venda": 105.44
+    }
+   ],
+   "cliente": "GABRIELLA MINERACAO",
+   "clientes": [
+    {
+     "nome": "GABRIELLA MINERACAO",
+     "qtd": 105.44
+    }
+   ],
+   "filial": 6,
+   "produto": "CARVÃO TÉRMICO",
+   "data_pedido": "01/06/2026",
+   "val_venda": 60100.8
+  },
+  {
+   "pedido": "574",
+   "tipo": "VENDA_DIRETA",
+   "status": "DIRETA",
+   "ret": 0,
+   "ind": 0,
+   "venda": 26.12,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Venda",
+     "qtd": 26.12
+    }
+   ],
+   "navios": [
+    "IRVINE BAY TÉRMICO YCRT"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "IRVINE BAY TÉRMICO YCRT",
+     "ret": 0,
+     "ind": 0,
+     "venda": 26.12
+    }
+   ],
+   "cliente": "GABRIELLA MINERACAO",
+   "clientes": [
+    {
+     "nome": "GABRIELLA MINERACAO",
+     "qtd": 26.12
+    }
+   ],
+   "filial": 6,
+   "produto": "CARVÃO TÉRMICO",
+   "data_pedido": "01/06/2026",
+   "val_venda": 14888.4
+  },
+  {
+   "pedido": "575",
+   "tipo": "VENDA_DIRETA",
+   "status": "DIRETA",
+   "ret": 0,
+   "ind": 0,
+   "venda": 1899.86,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Venda",
+     "qtd": 1899.86
+    }
+   ],
+   "navios": [
+    "IRVINE BAY TÉRMICO YCRT"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "IRVINE BAY TÉRMICO YCRT",
+     "ret": 0,
+     "ind": 0,
+     "venda": 1899.86
+    }
+   ],
+   "cliente": "METROPOLITANA",
+   "clientes": [
+    {
+     "nome": "METROPOLITANA",
+     "qtd": 1899.86
+    }
+   ],
+   "filial": 6,
+   "produto": "CARVÃO TÉRMICO",
+   "data_pedido": "01/06/2026",
+   "val_venda": 1139916.0
+  },
+  {
+   "pedido": "576",
+   "tipo": "VENDA_DIRETA",
+   "status": "DIRETA",
+   "ret": 0,
+   "ind": 0,
+   "venda": 216.5,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Venda",
+     "qtd": 216.5
+    }
+   ],
+   "navios": [
+    "MBS ODYSSE"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "MBS ODYSSE",
+     "ret": 0,
+     "ind": 0,
+     "venda": 216.5
+    }
+   ],
+   "cliente": "RIO DESERTO",
+   "clientes": [
+    {
+     "nome": "RIO DESERTO",
+     "qtd": 216.5
+    }
+   ],
+   "filial": 6,
+   "produto": "CARVÃO TÉRMICO",
+   "data_pedido": "01/06/2026",
+   "val_venda": 123405.0
+  },
+  {
+   "pedido": "577",
+   "tipo": "VENDA_DIRETA",
+   "status": "DIRETA",
+   "ret": 0,
+   "ind": 0,
+   "venda": 2766.0,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Venda",
+     "qtd": 2766.0
+    }
+   ],
+   "navios": [
+    "IRVINE BAY TÉRMICO YCRT"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "IRVINE BAY TÉRMICO YCRT",
+     "ret": 0,
+     "ind": 0,
+     "venda": 2766.0
+    }
+   ],
+   "cliente": "RIO DESERTO",
+   "clientes": [
+    {
+     "nome": "RIO DESERTO",
+     "qtd": 2766.0
+    }
+   ],
+   "filial": 6,
+   "produto": "CARVÃO TÉRMICO",
+   "data_pedido": "01/06/2026",
+   "val_venda": 1576620.0
+  },
+  {
+   "pedido": "578",
+   "tipo": "COMPLETO",
+   "status": "OK",
+   "ret": 1408.95,
+   "ind": 1408.95,
+   "venda": 1408.95,
+   "max_dif": 0.0,
+   "difs": {
+    "ret_ind": 0.0,
+    "ind_venda": 0.0,
+    "ret_venda": 0.0
+   },
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 1408.95
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 1408.95
+    },
+    {
+     "nome": "Venda",
+     "qtd": 1408.95
+    }
+   ],
+   "navios": [
+    "TERMICO STR- JOKER"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "TERMICO STR- JOKER",
+     "ret": 1408.95,
+     "ind": 1408.95,
+     "venda": 1408.95
+    }
+   ],
+   "cliente": "BELLUNO",
+   "clientes": [
+    {
+     "nome": "BELLUNO",
+     "qtd": 1408.95
+    }
+   ],
+   "filial": 6,
+   "produto": "CARVÃO TÉRMICO",
+   "data_pedido": "01/06/2026",
+   "val_venda": 1113070.5
+  },
+  {
+   "pedido": "579",
+   "tipo": "SEM_IND",
+   "status": "DIVERGENTE",
+   "ret": 2782.57,
+   "ind": 0,
+   "venda": 2855.3,
+   "max_dif": 72.73,
+   "difs": {
+    "ret_venda": -72.73
+   },
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 2782.57
+    },
+    {
+     "nome": "Venda",
+     "qtd": 2855.3
+    }
+   ],
+   "navios": [
+    "SPAR CORONA"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "SPAR CORONA",
+     "ret": 2782.57,
+     "ind": 0,
+     "venda": 2855.3
+    }
+   ],
+   "cliente": "ITAMBÉ",
+   "clientes": [
+    {
+     "nome": "ITAMBÉ",
+     "qtd": 2855.3
+    }
+   ],
+   "filial": 6,
+   "produto": "COQUE VERDE",
+   "data_pedido": "01/06/2026",
+   "val_venda": 2671767.77
+  },
+  {
+   "pedido": "580",
+   "tipo": "VENDA_DIRETA",
+   "status": "DIRETA",
+   "ret": 0,
+   "ind": 0,
+   "venda": 4159.52,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Venda",
+     "qtd": 4159.52
+    }
+   ],
+   "navios": [
+    "SPAR CORONA"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "SPAR CORONA",
+     "ret": 0,
+     "ind": 0,
+     "venda": 4159.52
+    }
+   ],
+   "cliente": "ITAMBÉ",
+   "clientes": [
+    {
+     "nome": "ITAMBÉ",
+     "qtd": 4159.52
+    }
+   ],
+   "filial": 6,
+   "produto": "COQUE VERDE",
+   "data_pedido": "09/06/2026",
+   "val_venda": 3890284.81
+  },
+  {
+   "pedido": "581",
+   "tipo": "VENDA_DIRETA",
+   "status": "DIRETA",
+   "ret": 0,
+   "ind": 0,
+   "venda": 906.93,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Venda",
+     "qtd": 906.93
+    }
+   ],
+   "navios": [
+    "SPAR CORONA"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "SPAR CORONA",
+     "ret": 0,
+     "ind": 0,
+     "venda": 906.93
+    }
+   ],
+   "cliente": "MARGEM CIA / SUPREMO",
+   "clientes": [
+    {
+     "nome": "MARGEM CIA / SUPREMO",
+     "qtd": 906.93
+    }
+   ],
+   "filial": 6,
+   "produto": "COQUE VERDE",
+   "data_pedido": "09/06/2026",
+   "val_venda": 787863.47
+  },
+  {
+   "pedido": "582",
+   "tipo": "COMPLETO",
+   "status": "OK",
+   "ret": 345.69,
+   "ind": 345.69,
+   "venda": 345.69,
+   "max_dif": 0.0,
+   "difs": {
+    "ret_ind": 0.0,
+    "ind_venda": 0.0,
+    "ret_venda": 0.0
+   },
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 345.69
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 345.69
+    },
+    {
+     "nome": "Venda",
+     "qtd": 345.69
+    }
+   ],
+   "navios": [
+    "TERMICO STR- JOKER"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "TERMICO STR- JOKER",
+     "ret": 345.69,
+     "ind": 345.69,
+     "venda": 345.69
+    }
+   ],
+   "cliente": "GABRIELLA MINERACAO",
+   "clientes": [
+    {
+     "nome": "GABRIELLA MINERACAO",
+     "qtd": 345.69
+    }
+   ],
+   "filial": 6,
+   "produto": "CARVÃO TÉRMICO",
+   "data_pedido": "09/06/2026",
+   "val_venda": 258230.43
+  },
+  {
+   "pedido": "583",
+   "tipo": "COMPLETO",
+   "status": "OK",
+   "ret": 95.53,
+   "ind": 95.53,
+   "venda": 95.53,
+   "max_dif": 0.0,
+   "difs": {
+    "ret_ind": 0.0,
+    "ind_venda": 0.0,
+    "ret_venda": 0.0
+   },
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 95.53
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 95.53
+    },
+    {
+     "nome": "Venda",
+     "qtd": 95.53
+    }
+   ],
+   "navios": [
+    "TERMICO STR- JOKER"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "TERMICO STR- JOKER",
+     "ret": 95.53,
+     "ind": 95.53,
+     "venda": 95.53
+    }
+   ],
+   "cliente": "METROPOLITANA",
+   "clientes": [
+    {
+     "nome": "METROPOLITANA",
+     "qtd": 95.53
+    }
+   ],
+   "filial": 6,
+   "produto": "CARVÃO TÉRMICO",
+   "data_pedido": "16/06/2026",
+   "val_venda": 75468.7
+  },
+  {
+   "pedido": "8333",
+   "tipo": "COMPLETO",
+   "status": "OK",
+   "ret": 243.62,
+   "ind": 243.62,
+   "venda": 243.62,
+   "max_dif": 0.0,
+   "difs": {
+    "ret_ind": 0.0,
+    "ind_venda": 0.0,
+    "ret_venda": 0.0
+   },
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 243.62
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 243.62
+    },
+    {
+     "nome": "Venda",
+     "qtd": 243.62
+    }
+   ],
+   "navios": [
+    "XIN HAI TONG"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "XIN HAI TONG",
+     "ret": 243.62,
+     "ind": 243.62,
+     "venda": 243.62
+    }
+   ],
+   "cliente": "CIM. LIZ",
+   "clientes": [
+    {
+     "nome": "CIM. LIZ",
+     "qtd": 243.62
+    }
+   ],
+   "filial": 1,
+   "produto": "COQUE VERDE",
+   "data_pedido": "20/05/2026",
+   "val_venda": 291229.04
+  },
+  {
+   "pedido": "8336",
+   "tipo": "COMPLETO",
+   "status": "OK",
+   "ret": 714.36,
+   "ind": 714.36,
+   "venda": 714.36,
+   "max_dif": 0.0,
+   "difs": {
+    "ret_ind": 0.0,
+    "ind_venda": 0.0,
+    "ret_venda": 0.0
+   },
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 714.36
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 714.36
+    },
+    {
+     "nome": "Venda",
+     "qtd": 714.36
+    }
+   ],
+   "navios": [
+    "XIN HAI TONG"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "XIN HAI TONG",
+     "ret": 714.36,
+     "ind": 714.36,
+     "venda": 714.36
+    }
+   ],
+   "cliente": "BELOCAL - SJDL",
+   "clientes": [
+    {
+     "nome": "BELOCAL - SJDL",
+     "qtd": 714.36
+    }
+   ],
+   "filial": 1,
+   "produto": "COQUE VERDE",
+   "data_pedido": "20/05/2026",
+   "val_venda": 964210.46
+  },
+  {
+   "pedido": "8337",
+   "tipo": "VENDA_DIRETA",
+   "status": "DIRETA",
+   "ret": 0,
+   "ind": 0,
+   "venda": 27.55,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Venda",
+     "qtd": 27.55
+    }
+   ],
+   "navios": [
+    "Normal"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "Normal",
+     "ret": 0,
+     "ind": 0,
+     "venda": 27.55
+    }
+   ],
+   "cliente": "AVANTT SIDERÚRGICA",
+   "clientes": [
+    {
+     "nome": "AVANTT SIDERÚRGICA",
+     "qtd": 27.55
+    }
+   ],
+   "filial": 1,
+   "produto": "COQUE 10/30mm",
+   "data_pedido": "20/05/2026",
+   "val_venda": 47036.67
+  },
+  {
+   "pedido": "8338",
+   "tipo": "VENDA_DIRETA",
+   "status": "DIRETA",
+   "ret": 0,
+   "ind": 0,
+   "venda": 6503.16,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Venda",
+     "qtd": 6503.16
+    }
+   ],
+   "navios": [
+    "SOLE"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "SOLE",
+     "ret": 0,
+     "ind": 0,
+     "venda": 6503.16
+    }
+   ],
+   "cliente": "CSN - ARCOS",
+   "clientes": [
+    {
+     "nome": "CSN - ARCOS",
+     "qtd": 6503.16
+    }
+   ],
+   "filial": 1,
+   "produto": "COQUE VERDE",
+   "data_pedido": "22/05/2026",
+   "val_venda": 6077144.9
+  },
+  {
+   "pedido": "8339",
+   "tipo": "VENDA_DIRETA",
+   "status": "DIRETA",
+   "ret": 0,
+   "ind": 0,
+   "venda": 1179.06,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Venda",
+     "qtd": 1179.06
+    }
+   ],
+   "navios": [
+    "SOLE"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "SOLE",
+     "ret": 0,
+     "ind": 0,
+     "venda": 1179.06
+    }
+   ],
+   "cliente": "CSN - BARROSO",
+   "clientes": [
+    {
+     "nome": "CSN - BARROSO",
+     "qtd": 1179.06
+    }
+   ],
+   "filial": 1,
+   "produto": "COQUE VERDE",
+   "data_pedido": "22/05/2026",
+   "val_venda": 1101821.07
+  },
+  {
+   "pedido": "8340",
+   "tipo": "VENDA_DIRETA",
+   "status": "DIRETA",
+   "ret": 0,
+   "ind": 0,
+   "venda": 71.66,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Venda",
+     "qtd": 71.66
+    }
+   ],
+   "navios": [
+    "SOLE"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "SOLE",
+     "ret": 0,
+     "ind": 0,
+     "venda": 71.66
+    }
+   ],
+   "cliente": "CSN (CANTAGALO - RJ)",
+   "clientes": [
+    {
+     "nome": "CSN (CANTAGALO - RJ)",
+     "qtd": 71.66
+    }
+   ],
+   "filial": 1,
+   "produto": "COQUE VERDE",
+   "data_pedido": "22/05/2026",
+   "val_venda": 57199.55
+  },
+  {
+   "pedido": "8342",
+   "tipo": "VENDA_DIRETA",
+   "status": "DIRETA",
+   "ret": 0,
+   "ind": 0,
+   "venda": 75.0,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Venda",
+     "qtd": 75.0
+    }
+   ],
+   "navios": [
+    "SOLE"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "SOLE",
+     "ret": 0,
+     "ind": 0,
+     "venda": 75.0
+    }
+   ],
+   "cliente": "CSN - MONTES CLAROS",
+   "clientes": [
+    {
+     "nome": "CSN - MONTES CLAROS",
+     "qtd": 75.0
+    }
+   ],
+   "filial": 1,
+   "produto": "COQUE VERDE",
+   "data_pedido": "22/05/2026",
+   "val_venda": 70086.83
+  },
+  {
+   "pedido": "8343",
+   "tipo": "VENDA_DIRETA",
+   "status": "DIRETA",
+   "ret": 0,
+   "ind": 0,
+   "venda": 1086.32,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Venda",
+     "qtd": 1086.32
+    }
+   ],
+   "navios": [
+    "SOLE"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "SOLE",
+     "ret": 0,
+     "ind": 0,
+     "venda": 1086.32
+    }
+   ],
+   "cliente": "CSN (PEDRO LEOPOLDO)",
+   "clientes": [
+    {
+     "nome": "CSN (PEDRO LEOPOLDO)",
+     "qtd": 1086.32
+    }
+   ],
+   "filial": 1,
+   "produto": "COQUE VERDE",
+   "data_pedido": "22/05/2026",
+   "val_venda": 1015156.37
+  },
+  {
+   "pedido": "8344",
+   "tipo": "COMPLETO",
+   "status": "DIVERGENTE",
+   "ret": 6227.23,
+   "ind": 6227.23,
+   "venda": 6292.07,
+   "max_dif": 64.84,
+   "difs": {
+    "ret_ind": 0.0,
+    "ind_venda": -64.84,
+    "ret_venda": -64.84
+   },
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 6227.23
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 6227.23
+    },
+    {
+     "nome": "Venda",
+     "qtd": 6292.07
+    }
+   ],
+   "navios": [
+    "XIN HAI TONG"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "XIN HAI TONG",
+     "ret": 6227.23,
+     "ind": 6227.23,
+     "venda": 6292.07
+    }
+   ],
+   "cliente": "CIM. LIZ",
+   "clientes": [
+    {
+     "nome": "CIM. LIZ",
+     "qtd": 6292.07
+    }
+   ],
+   "filial": 1,
+   "produto": "COQUE VERDE",
+   "data_pedido": "28/05/2026",
+   "val_venda": 7809997.61
+  },
+  {
+   "pedido": "8345",
+   "tipo": "VENDA_DIRETA",
+   "status": "DIRETA",
+   "ret": 0,
+   "ind": 0,
+   "venda": 878.72,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Venda",
+     "qtd": 878.72
+    }
+   ],
+   "navios": [
+    "XIN HAI TONG"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "XIN HAI TONG",
+     "ret": 0,
+     "ind": 0,
+     "venda": 878.72
+    }
+   ],
+   "cliente": "L S METAIS",
+   "clientes": [
+    {
+     "nome": "L S METAIS",
+     "qtd": 878.72
+    }
+   ],
+   "filial": 1,
+   "produto": "COQUE VERDE",
+   "data_pedido": "28/05/2026",
+   "val_venda": 1023747.05
+  },
+  {
+   "pedido": "8346",
+   "tipo": "COMPLETO",
+   "status": "OK",
+   "ret": 4064.57,
+   "ind": 4064.57,
+   "venda": 4064.57,
+   "max_dif": 0.0,
+   "difs": {
+    "ret_ind": 0.0,
+    "ind_venda": 0.0,
+    "ret_venda": 0.0
+   },
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 4064.57
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 4064.57
+    },
+    {
+     "nome": "Venda",
+     "qtd": 4064.57
+    }
+   ],
+   "navios": [
+    "SOLE"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "SOLE",
+     "ret": 4064.57,
+     "ind": 4064.57,
+     "venda": 4064.57
+    }
+   ],
+   "cliente": "CSN - ARCOS",
+   "clientes": [
+    {
+     "nome": "CSN - ARCOS",
+     "qtd": 4064.57
+    }
+   ],
+   "filial": 1,
+   "produto": "COQUE VERDE",
+   "data_pedido": "09/06/2026",
+   "val_venda": 3772385.83
+  },
+  {
+   "pedido": "8347",
+   "tipo": "COMPLETO",
+   "status": "OK",
+   "ret": 412.06,
+   "ind": 412.06,
+   "venda": 412.06,
+   "max_dif": 0.0,
+   "difs": {
+    "ret_ind": 0.0,
+    "ind_venda": 0.0,
+    "ret_venda": 0.0
+   },
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 412.06
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 412.06
+    },
+    {
+     "nome": "Venda",
+     "qtd": 412.06
+    }
+   ],
+   "navios": [
+    "SOLE"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "SOLE",
+     "ret": 412.06,
+     "ind": 412.06,
+     "venda": 412.06
+    }
+   ],
+   "cliente": "L S METAIS",
+   "clientes": [
+    {
+     "nome": "L S METAIS",
+     "qtd": 412.06
+    }
+   ],
+   "filial": 1,
+   "produto": "COQUE VERDE",
+   "data_pedido": "09/06/2026",
+   "val_venda": 476338.14
+  },
+  {
+   "pedido": "8348",
+   "tipo": "VENDA_DIRETA",
+   "status": "DIRETA",
+   "ret": 0,
+   "ind": 0,
+   "venda": 1081.68,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Venda",
+     "qtd": 1081.68
+    }
+   ],
+   "navios": [
+    "FYM CRYSTAL"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "FYM CRYSTAL",
+     "ret": 0,
+     "ind": 0,
+     "venda": 1081.68
+    }
+   ],
+   "cliente": "CIM. LIZ",
+   "clientes": [
+    {
+     "nome": "CIM. LIZ",
+     "qtd": 1081.68
+    }
+   ],
+   "filial": 1,
+   "produto": "COQUE VERDE",
+   "data_pedido": "09/06/2026",
+   "val_venda": 1426863.49
+  },
+  {
+   "pedido": "8349",
+   "tipo": "VENDA_DIRETA",
+   "status": "DIRETA",
+   "ret": 0,
+   "ind": 0,
+   "venda": 44.6,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Venda",
+     "qtd": 44.6
+    }
+   ],
+   "navios": [
+    "FYM CRYSTAL"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "FYM CRYSTAL",
+     "ret": 0,
+     "ind": 0,
+     "venda": 44.6
+    }
+   ],
+   "cliente": "BELOCAL - MTZ",
+   "clientes": [
+    {
+     "nome": "BELOCAL - MTZ",
+     "qtd": 44.6
+    }
+   ],
+   "filial": 1,
+   "produto": "COQUE VERDE",
+   "data_pedido": "11/06/2026",
+   "val_venda": 52260.05
+  },
+  {
+   "pedido": "8350",
+   "tipo": "VENDA_DIRETA",
+   "status": "DIRETA",
+   "ret": 0,
+   "ind": 0,
+   "venda": 215.56,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Venda",
+     "qtd": 215.56
+    }
+   ],
+   "navios": [
+    "FYM CRYSTAL"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "FYM CRYSTAL",
+     "ret": 0,
+     "ind": 0,
+     "venda": 215.56
+    }
+   ],
+   "cliente": "LHOIST - DORESOPOLIS",
+   "clientes": [
+    {
+     "nome": "LHOIST - DORESOPOLIS",
+     "qtd": 215.56
+    }
+   ],
+   "filial": 1,
+   "produto": "COQUE VERDE",
+   "data_pedido": "11/06/2026",
+   "val_venda": 274009.61
+  },
+  {
+   "pedido": "8351",
+   "tipo": "VENDA_DIRETA",
+   "status": "DIRETA",
+   "ret": 0,
+   "ind": 0,
+   "venda": 127.98,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Venda",
+     "qtd": 127.98
+    }
+   ],
+   "navios": [
+    "FYM CRYSTAL"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "FYM CRYSTAL",
+     "ret": 0,
+     "ind": 0,
+     "venda": 127.98
+    }
+   ],
+   "cliente": "BELOCAL - SJDL",
+   "clientes": [
+    {
+     "nome": "BELOCAL - SJDL",
+     "qtd": 127.98
+    }
+   ],
+   "filial": 1,
+   "produto": "COQUE VERDE",
+   "data_pedido": "11/06/2026",
+   "val_venda": 151026.26
+  },
+  {
+   "pedido": "8352",
+   "tipo": "COMPLETO",
+   "status": "OK",
+   "ret": 1448.64,
+   "ind": 1448.64,
+   "venda": 1448.64,
+   "max_dif": 0.0,
+   "difs": {
+    "ret_ind": 0.0,
+    "ind_venda": 0.0,
+    "ret_venda": 0.0
+   },
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 1448.64
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 1448.64
+    },
+    {
+     "nome": "Venda",
+     "qtd": 1448.64
+    }
+   ],
+   "navios": [
+    "SOLE"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "SOLE",
+     "ret": 1448.64,
+     "ind": 1448.64,
+     "venda": 1448.64
+    }
+   ],
+   "cliente": "CSN - BARROSO",
+   "clientes": [
+    {
+     "nome": "CSN - BARROSO",
+     "qtd": 1448.64
+    }
+   ],
+   "filial": 1,
+   "produto": "COQUE VERDE",
+   "data_pedido": "12/06/2026",
+   "val_venda": 1332109.46
+  },
+  {
+   "pedido": "8353",
+   "tipo": "VENDA_DIRETA",
+   "status": "DIRETA",
+   "ret": 0,
+   "ind": 0,
+   "venda": 94.42,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Venda",
+     "qtd": 94.42
+    }
+   ],
+   "navios": [
+    "FYM CRYSTAL"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "FYM CRYSTAL",
+     "ret": 0,
+     "ind": 0,
+     "venda": 94.42
+    }
+   ],
+   "cliente": "GECAL",
+   "clientes": [
+    {
+     "nome": "GECAL",
+     "qtd": 94.42
+    }
+   ],
+   "filial": 1,
+   "produto": "COQUE VERDE",
+   "data_pedido": "15/06/2026",
+   "val_venda": 138871.99
+  }
+ ],
+ "navios": [
+  {
+   "navio": "#N/A",
+   "ret": 35.5,
+   "ind": 0.0,
+   "venda": 0.0,
+   "pedidos": [
+    "547"
+   ],
+   "n_pedidos": 1,
+   "status": "DIVERGENTE"
+  },
+  {
+   "navio": "FENG ZE HAI",
+   "ret": 2338.13,
+   "ind": 2338.13,
+   "venda": 2338.13,
+   "pedidos": [
+    "569"
+   ],
+   "n_pedidos": 1,
+   "status": "OK"
+  },
+  {
+   "navio": "FYM CRYSTAL",
+   "ret": 0.0,
+   "ind": 0.0,
+   "venda": 1564.24,
+   "pedidos": [
+    "8348",
+    "8349",
+    "8350",
+    "8351",
+    "8353"
+   ],
+   "n_pedidos": 5,
+   "status": "DIRETA"
+  },
+  {
+   "navio": "IRVINE BAY TÉRMICO YCRT",
+   "ret": 0.0,
+   "ind": 0.0,
+   "venda": 4691.98,
+   "pedidos": [
+    "574",
+    "575",
+    "577"
+   ],
+   "n_pedidos": 3,
+   "status": "DIRETA"
+  },
+  {
+   "navio": "MBS ODYSSE",
+   "ret": 0.0,
+   "ind": 0.0,
+   "venda": 321.94,
+   "pedidos": [
+    "573",
+    "576"
+   ],
+   "n_pedidos": 2,
+   "status": "DIRETA"
+  },
+  {
+   "navio": "Normal",
+   "ret": 0.0,
+   "ind": 0.0,
+   "venda": 27.55,
+   "pedidos": [
+    "8337"
+   ],
+   "n_pedidos": 1,
+   "status": "DIRETA"
+  },
+  {
+   "navio": "PACIFIC TALENT",
+   "ret": 246.37,
+   "ind": 246.37,
+   "venda": 246.37,
+   "pedidos": [
+    "572"
+   ],
+   "n_pedidos": 1,
+   "status": "OK"
+  },
+  {
+   "navio": "PORT VERA CRUZ",
+   "ret": 0.0,
+   "ind": 0.0,
+   "venda": 4246.38,
+   "pedidos": [
+    "570"
+   ],
+   "n_pedidos": 1,
+   "status": "DIRETA"
+  },
+  {
+   "navio": "SOLE",
+   "ret": 5925.27,
+   "ind": 5925.27,
+   "venda": 14840.47,
+   "pedidos": [
+    "8338",
+    "8339",
+    "8340",
+    "8342",
+    "8343",
+    "8346",
+    "8347",
+    "8352"
+   ],
+   "n_pedidos": 8,
+   "status": "OK"
+  },
+  {
+   "navio": "SPAR CORONA",
+   "ret": 3314.34,
+   "ind": 0.0,
+   "venda": 8483.57,
+   "pedidos": [
+    "551",
+    "558",
+    "571",
+    "579",
+    "580",
+    "581"
+   ],
+   "n_pedidos": 6,
+   "status": "DIVERGENTE"
+  },
+  {
+   "navio": "TERMICO STR- JOKER",
+   "ret": 5299.44,
+   "ind": 5299.44,
+   "venda": 5299.44,
+   "pedidos": [
+    "565",
+    "578",
+    "582",
+    "583"
+   ],
+   "n_pedidos": 4,
+   "status": "OK"
+  },
+  {
+   "navio": "XIN HAI TONG",
+   "ret": 7185.21,
+   "ind": 7185.21,
+   "venda": 8128.77,
+   "pedidos": [
+    "8333",
+    "8336",
+    "8344",
+    "8345"
+   ],
+   "n_pedidos": 4,
+   "status": "DIVERGENTE"
+  }
+ ]
+}
