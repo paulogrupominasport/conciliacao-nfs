@@ -1,0 +1,54 @@
+name: Atualizar dados do dashboard
+
+# Roda automaticamente a cada 30 min e tambem manualmente pelo botao "Run workflow"
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:
+      - "build_data.py"
+      - ".github/workflows/atualizar.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Baixar planilha do Google Sheets (.xlsx)
+        env:
+          SHEET_ID: "1U5K5EWqIPMTs6_04NxIPS2DbVXxxkBIIW214aBxBdeI"
+        run: |
+          echo "Baixando planilha ${SHEET_ID} ..."
+          curl -L -s -o "BD_-_Conciliacao_Estoque.xlsx" \
+            "https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=xlsx"
+          ls -la "BD_-_Conciliacao_Estoque.xlsx"
+
+      - name: Gerar dados.json
+        run: python build_data.py
+
+      - name: Commitar dados.json se mudou
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dados.json
+          if git diff --staged --quiet; then
+            echo "Sem mudancas nos dados."
+          else
+            git commit -m "Atualiza dados.json [automatico] $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
