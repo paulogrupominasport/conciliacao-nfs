@@ -189,11 +189,27 @@ footer a{color:var(--verde-d);text-decoration:none}
   .row .cli{grid-column:1/-1;order:-1}
   .row .num.col-ret,.row .num.col-ind{display:none}
 }
-@media(max-width:560px){
-  .kpis{grid-template-columns:1fr 1fr}
-  header{flex-wrap:wrap;gap:12px}
-  header .meta{width:100%;text-align:left}
+/* ---------- impressão / exportar PDF ---------- */
+@page{ size:A4 portrait; margin:12mm 10mm; }
+@media print{
+  /* preserva o tema escuro da marca no PDF */
+  *{ -webkit-print-color-adjust:exact !important; print-color-adjust:exact !important; }
+  html,body{ background:var(--preto) !important; }
+  body{ background-image:none !important; font-size:11px; }
+  .wrap{ max-width:none; padding:0 4mm 0; }
+  /* esconde controles interativos */
+  #btn-refresh, #btn-pdf, .controls, .search, .seg, #filtros, header .refresh-btn{ display:none !important; }
+  header{ position:static !important; border-bottom:1px solid var(--linha); }
+  /* não quebrar elementos no meio da página */
+  .row, .detail, .detail-inner, .nav-card, .vol, .v, .kpi, .flow-step, .nav-tbl tr{ break-inside:avoid; page-break-inside:avoid; }
+  .kpis{ gap:8px; margin:14px 0 6px; }
+  .navios-grid{ grid-template-columns:repeat(2,1fr); }
+  /* garante que ambas as visões caibam; imprime a visão ativa */
+  footer{ margin-top:24px; }
+  /* cabeçalho de relatório */
+  .print-only{ display:block !important; }
 }
+.print-only{ display:none; }
 </style>
 </head>
 <body>
@@ -208,6 +224,7 @@ footer a{color:var(--verde-d);text-decoration:none}
     <div>Atualizado <b id="m-gerado">—</b></div>
     <div>Período <b id="m-periodo">—</b></div>
     <button class="refresh-btn" id="btn-refresh">↻ atualizar</button>
+    <button class="refresh-btn" id="btn-pdf">⤓ exportar PDF</button>
   </div>
 </header>
 
@@ -446,6 +463,7 @@ function detalheHTML(p){
       <div><b>Filial:</b> ${p.filial||"—"}</div>
       <div><b>Clientes:</b> ${cliList}</div>
       <div><b>Faturamento:</b> R$ ${fmt(p.val_venda)}</div>
+      ${p.mp ? `<div><b>Movim. interna (MP):</b> ${fmt(p.mp)} t</div>` : ``}
     </div>
   </div>`;
 }
@@ -495,6 +513,12 @@ el("seg-view").querySelectorAll("button").forEach(b=>{
 });
 el("search").oninput = e=>{ busca=e.target.value.trim(); renderLista(); };
 el("btn-refresh").onclick = ()=>{ el("btn-refresh").textContent="↻ ..."; carregar().then(()=>el("btn-refresh").innerHTML="↻ atualizar"); };
+
+el("btn-pdf").onclick = ()=>{
+  // Exporta via diálogo de impressão do navegador ("Salvar como PDF").
+  // Robusto e offline — sem bibliotecas externas, sem erro de canvas.
+  window.print();
+};
 
 carregar();
 </script>

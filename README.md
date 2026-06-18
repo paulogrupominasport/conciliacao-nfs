@@ -60,3 +60,32 @@ publicado.
 
 > O ID da planilha está fixado no workflow (`SHEET_ID`). Se trocar de planilha,
 > edite esse valor em `.github/workflows/atualizar.yml`.
+
+---
+
+## Atualizações desta versão
+
+**1. Consolidação por pedido de venda (base).**
+Os números de ordem de compra derivados (ex.: `56501` = retorno, `56502` =
+industrialização) são automaticamente agrupados sob o pedido de venda base
+(`565`). A regra: números com 5+ dígitos têm os 2 últimos removidos para
+obter a base; números de 3-4 dígitos são mantidos. Isso vale mesmo que a
+planilha viva traga os números crus na coluna "Pedido" — o `build_data.py`
+normaliza tanto a ENTRADA quanto a SAÍDA. Quando a coluna "Pedido" vier vazia,
+a base é derivada da "Nº da Ordem de Compra".
+
+**2. Classificação de pendentes corrigida.**
+Um pedido que teve entrada (retorno/industrialização) mas ainda não foi
+vendido agora é classificado como PENDENTE (antes caía como DIVERGENTE).
+
+**3. Movimentação interna (MP) exposta.**
+Quando um pedido tem movimentação interna (série MP), o valor aparece no painel
+de detalhe — útil para explicar divergências de estoque entre pedidos.
+
+**4. Exportar PDF.**
+Botão "⤓ exportar PDF" no cabeçalho. Usa a impressão nativa do navegador
+("Salvar como PDF") com folha de estilo dedicada: oculta controles, preserva o
+tema escuro da marca e evita quebrar pedidos no meio da página. É totalmente
+offline, sem bibliotecas externas — o que elimina o erro de canvas dos
+exportadores baseados em html2canvas/jsPDF. Dica: deixe expandidos os pedidos
+cujo detalhe você quer no relatório antes de exportar.
