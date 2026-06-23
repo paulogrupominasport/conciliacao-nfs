@@ -1,6 +1,6 @@
 {
- "gerado_em": "23/06/2026 10:48",
- "periodo": "01/06/2026 a 21/06/2026",
+ "gerado_em": "23/06/2026 17:31",
+ "periodo": "01/06/2026 a 22/06/2026",
  "tolerancia": 0.01,
  "resumo": {
   "completos_ok": 0,
@@ -12,10 +12,10 @@
   "total_pedidos": 60
  },
  "totais": {
-  "ret": 33752.12,
-  "ind": 29970.18,
-  "venda": 66543.04,
-  "val_venda": 59981505.73
+  "ret": 35500.42,
+  "ind": 30807.19,
+  "venda": 68826.08,
+  "val_venda": 61974011.12
  },
  "pedidos": [
   {
@@ -139,23 +139,23 @@
    "pedido": "565",
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
-   "ret": 5682.13,
-   "ind": 5682.13,
+   "ret": 6340.67,
+   "ind": 6340.67,
    "venda": 0,
-   "max_dif": 5682.13,
+   "max_dif": 6340.67,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": 5682.13,
-    "ret_venda": 5682.13
+    "ind_venda": 6340.67,
+    "ret_venda": 6340.67
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 5682.13
+     "qtd": 6340.67
     },
     {
      "nome": "Industrializacao",
-     "qtd": 5682.13
+     "qtd": 6340.67
     },
     {
      "nome": "Venda",
@@ -168,8 +168,8 @@
    "navio_detalhe": [
     {
      "navio": "TERMICO STR- JOKER",
-     "ret": 5682.13,
-     "ind": 5682.13,
+     "ret": 6340.67,
+     "ind": 6340.67,
      "venda": 0
     }
    ],
@@ -274,23 +274,23 @@
    "pedido": "578",
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
-   "ret": 1808.98,
-   "ind": 1808.98,
+   "ret": 1934.28,
+   "ind": 1934.28,
    "venda": 0,
-   "max_dif": 1808.98,
+   "max_dif": 1934.28,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": 1808.98,
-    "ret_venda": 1808.98
+    "ind_venda": 1934.28,
+    "ret_venda": 1934.28
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 1808.98
+     "qtd": 1934.28
     },
     {
      "nome": "Industrializacao",
-     "qtd": 1808.98
+     "qtd": 1934.28
     },
     {
      "nome": "Venda",
@@ -303,8 +303,8 @@
    "navio_detalhe": [
     {
      "navio": "TERMICO STR- JOKER",
-     "ret": 1808.98,
-     "ind": 1808.98,
+     "ret": 1934.28,
+     "ind": 1934.28,
      "venda": 0
     }
    ],
@@ -358,23 +358,23 @@
    "pedido": "582",
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
-   "ret": 431.01,
-   "ind": 431.01,
+   "ret": 484.18,
+   "ind": 484.18,
    "venda": 0,
-   "max_dif": 431.01,
+   "max_dif": 484.18,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": 431.01,
-    "ret_venda": 431.01
+    "ind_venda": 484.18,
+    "ret_venda": 484.18
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 431.01
+     "qtd": 484.18
     },
     {
      "nome": "Industrializacao",
-     "qtd": 431.01
+     "qtd": 484.18
     },
     {
      "nome": "Venda",
@@ -387,8 +387,8 @@
    "navio_detalhe": [
     {
      "navio": "TERMICO STR- JOKER",
-     "ret": 431.01,
-     "ind": 431.01,
+     "ret": 484.18,
+     "ind": 484.18,
      "venda": 0
     }
    ],
@@ -448,17 +448,17 @@
    "pedido": "584",
    "tipo": "SEM_IND",
    "status": "DIVERGENTE",
-   "ret": 207.19,
+   "ret": 547.31,
    "ind": 0,
    "venda": 0,
-   "max_dif": 207.19,
+   "max_dif": 547.31,
    "difs": {
-    "ret_venda": 207.19
+    "ret_venda": 547.31
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 207.19
+     "qtd": 547.31
     },
     {
      "nome": "Venda",
@@ -471,7 +471,7 @@
    "navio_detalhe": [
     {
      "navio": "IRVINE BAY TÉRMICO YCRT",
-     "ret": 207.19,
+     "ret": 547.31,
      "ind": 0,
      "venda": 0
     }
@@ -487,17 +487,17 @@
    "pedido": "585",
    "tipo": "SEM_IND",
    "status": "DIVERGENTE",
-   "ret": 224.91,
+   "ret": 361.25,
    "ind": 0,
    "venda": 0,
-   "max_dif": 224.91,
+   "max_dif": 361.25,
    "difs": {
-    "ret_venda": 224.91
+    "ret_venda": 361.25
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 224.91
+     "qtd": 361.25
     },
     {
      "nome": "Venda",
@@ -510,7 +510,7 @@
    "navio_detalhe": [
     {
      "navio": "IRVINE BAY TÉRMICO YCRT",
-     "ret": 224.91,
+     "ret": 361.25,
      "ind": 0,
      "venda": 0
     }
@@ -661,19 +661,19 @@
    "pedido": "8346",
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
-   "ret": 6073.0,
+   "ret": 6407.68,
    "ind": 6112.0,
    "venda": 0,
-   "max_dif": 6112.0,
+   "max_dif": 6407.68,
    "difs": {
-    "ret_ind": -39.0,
+    "ret_ind": 295.68,
     "ind_venda": 6112.0,
-    "ret_venda": 6073.0
+    "ret_venda": 6407.68
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 6073.0
+     "qtd": 6407.68
     },
     {
      "nome": "Industrializacao",
@@ -690,7 +690,7 @@
    "navio_detalhe": [
     {
      "navio": "SOLE",
-     "ret": 6073.0,
+     "ret": 6407.68,
      "ind": 6112.0,
      "venda": 0
     }
@@ -796,19 +796,19 @@
    "pedido": "8354",
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
-   "ret": 290.75,
+   "ret": 390.9,
    "ind": 290.75,
    "venda": 0,
-   "max_dif": 290.75,
+   "max_dif": 390.9,
    "difs": {
-    "ret_ind": 0.0,
+    "ret_ind": 100.15,
     "ind_venda": 290.75,
-    "ret_venda": 290.75
+    "ret_venda": 390.9
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 290.75
+     "qtd": 390.9
     },
     {
      "nome": "Industrializacao",
@@ -825,7 +825,7 @@
    "navio_detalhe": [
     {
      "navio": "FENG ZE HAI",
-     "ret": 290.75,
+     "ret": 390.9,
      "ind": 290.75,
      "venda": 0
     }
@@ -919,13 +919,13 @@
    "status": "DIRETA",
    "ret": 0,
    "ind": 0,
-   "venda": 5682.13,
+   "venda": 6340.67,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
     {
      "nome": "Venda",
-     "qtd": 5682.13
+     "qtd": 6340.67
     }
    ],
    "navios": [
@@ -936,20 +936,20 @@
      "navio": "TERMICO STR- JOKER",
      "ret": 0,
      "ind": 0,
-     "venda": 5682.13
+     "venda": 6340.67
     }
    ],
    "cliente": "BRASKEM",
    "clientes": [
     {
      "nome": "BRASKEM",
-     "qtd": 5682.13
+     "qtd": 6340.67
     }
    ],
    "filial": 6.0,
    "produto": "CARVÃO TÉRMICO",
    "data_pedido": "19/05/2026",
-   "val_venda": 5282960.44
+   "val_venda": 5895238.02
   },
   {
    "pedido": "569.0",
@@ -1299,13 +1299,13 @@
    "status": "DIRETA",
    "ret": 0,
    "ind": 0,
-   "venda": 1808.98,
+   "venda": 1934.28,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
     {
      "nome": "Venda",
-     "qtd": 1808.98
+     "qtd": 1934.28
     }
    ],
    "navios": [
@@ -1316,20 +1316,20 @@
      "navio": "TERMICO STR- JOKER",
      "ret": 0,
      "ind": 0,
-     "venda": 1808.98
+     "venda": 1934.28
     }
    ],
    "cliente": "BELLUNO",
    "clientes": [
     {
      "nome": "BELLUNO",
-     "qtd": 1808.98
+     "qtd": 1934.28
     }
    ],
    "filial": 6.0,
    "produto": "CARVÃO TÉRMICO",
    "data_pedido": "01/06/2026",
-   "val_venda": 1429094.2
+   "val_venda": 1528081.2
   },
   {
    "pedido": "579.0",
@@ -1375,13 +1375,13 @@
    "status": "DIRETA",
    "ret": 0,
    "ind": 0,
-   "venda": 4925.96,
+   "venda": 5138.76,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
     {
      "nome": "Venda",
-     "qtd": 4925.96
+     "qtd": 5138.76
     }
    ],
    "navios": [
@@ -1392,20 +1392,20 @@
      "navio": "SPAR CORONA",
      "ret": 0,
      "ind": 0,
-     "venda": 4925.96
+     "venda": 5138.76
     }
    ],
    "cliente": "ITAMBÉ",
    "clientes": [
     {
      "nome": "ITAMBÉ",
-     "qtd": 4925.96
+     "qtd": 5138.76
     }
    ],
    "filial": 6.0,
    "produto": "COQUE VERDE",
    "data_pedido": "09/06/2026",
-   "val_venda": 4589285.75
+   "val_venda": 4783361.48
   },
   {
    "pedido": "581.0",
@@ -1413,13 +1413,13 @@
    "status": "DIRETA",
    "ret": 0,
    "ind": 0,
-   "venda": 1782.54,
+   "venda": 1908.38,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
     {
      "nome": "Venda",
-     "qtd": 1782.54
+     "qtd": 1908.38
     }
    ],
    "navios": [
@@ -1430,20 +1430,20 @@
      "navio": "SPAR CORONA",
      "ret": 0,
      "ind": 0,
-     "venda": 1782.54
+     "venda": 1908.38
     }
    ],
    "cliente": "MARGEM CIA / SUPREMO",
    "clientes": [
     {
      "nome": "MARGEM CIA / SUPREMO",
-     "qtd": 1782.54
+     "qtd": 1908.38
     }
    ],
    "filial": 6.0,
    "produto": "COQUE VERDE",
    "data_pedido": "09/06/2026",
-   "val_venda": 1531606.59
+   "val_venda": 1638495.09
   },
   {
    "pedido": "582.0",
@@ -1451,13 +1451,13 @@
    "status": "DIRETA",
    "ret": 0,
    "ind": 0,
-   "venda": 431.01,
+   "venda": 484.18,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
     {
      "nome": "Venda",
-     "qtd": 431.01
+     "qtd": 484.18
     }
    ],
    "navios": [
@@ -1468,20 +1468,20 @@
      "navio": "TERMICO STR- JOKER",
      "ret": 0,
      "ind": 0,
-     "venda": 431.01
+     "venda": 484.18
     }
    ],
    "cliente": "GABRIELLA MINERACAO",
    "clientes": [
     {
      "nome": "GABRIELLA MINERACAO",
-     "qtd": 431.01
+     "qtd": 484.18
     }
    ],
    "filial": 6.0,
    "produto": "CARVÃO TÉRMICO",
    "data_pedido": "09/06/2026",
-   "val_venda": 321964.47
+   "val_venda": 361682.46
   },
   {
    "pedido": "583.0",
@@ -1527,13 +1527,13 @@
    "status": "DIRETA",
    "ret": 0,
    "ind": 0,
-   "venda": 207.19,
+   "venda": 547.31,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
     {
      "nome": "Venda",
-     "qtd": 207.19
+     "qtd": 547.31
     }
    ],
    "navios": [
@@ -1544,20 +1544,20 @@
      "navio": "IRVINE BAY TÉRMICO YCRT",
      "ret": 0,
      "ind": 0,
-     "venda": 207.19
+     "venda": 547.31
     }
    ],
    "cliente": "RIO DESERTO",
    "clientes": [
     {
      "nome": "RIO DESERTO",
-     "qtd": 207.19
+     "qtd": 547.31
     }
    ],
    "filial": 6.0,
    "produto": "CARVÃO TÉRMICO",
    "data_pedido": "18/06/2026",
-   "val_venda": 118098.3
+   "val_venda": 311966.7
   },
   {
    "pedido": "585.0",
@@ -1565,13 +1565,13 @@
    "status": "DIRETA",
    "ret": 0,
    "ind": 0,
-   "venda": 224.91,
+   "venda": 361.25,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
     {
      "nome": "Venda",
-     "qtd": 224.91
+     "qtd": 361.25
     }
    ],
    "navios": [
@@ -1582,20 +1582,20 @@
      "navio": "IRVINE BAY TÉRMICO YCRT",
      "ret": 0,
      "ind": 0,
-     "venda": 224.91
+     "venda": 361.25
     }
    ],
    "cliente": "METROPOLITANA",
    "clientes": [
     {
      "nome": "METROPOLITANA",
-     "qtd": 224.91
+     "qtd": 361.25
     }
    ],
    "filial": 6.0,
    "produto": "CARVÃO TÉRMICO",
    "data_pedido": "18/06/2026",
-   "val_venda": 134946.0
+   "val_venda": 216750.0
   },
   {
    "pedido": "8333.0",
@@ -1983,12 +1983,12 @@
    "status": "DIVERGENTE",
    "ret": 1707.41,
    "ind": 1668.41,
-   "venda": 7691.86,
-   "max_dif": 6023.45,
+   "venda": 8026.54,
+   "max_dif": 6358.13,
    "difs": {
     "ret_ind": 39.0,
-    "ind_venda": -6023.45,
-    "ret_venda": -5984.45
+    "ind_venda": -6358.13,
+    "ret_venda": -6319.13
    },
    "etapas": [
     {
@@ -2001,7 +2001,7 @@
     },
     {
      "nome": "Venda",
-     "qtd": 7691.86
+     "qtd": 8026.54
     }
    ],
    "navios": [
@@ -2012,20 +2012,20 @@
      "navio": "SOLE",
      "ret": 1707.41,
      "ind": 1668.41,
-     "venda": 7691.86
+     "venda": 8026.54
     }
    ],
    "cliente": "CSN - ARCOS",
    "clientes": [
     {
      "nome": "CSN - ARCOS",
-     "qtd": 7691.86
+     "qtd": 8026.54
     }
    ],
    "filial": 1.0,
    "produto": "COQUE VERDE",
    "data_pedido": "09/06/2026",
-   "val_venda": 7076157.91
+   "val_venda": 7380987.8
   },
   {
    "pedido": "8347.0",
@@ -2121,13 +2121,13 @@
    "status": "DIRETA",
    "ret": 0,
    "ind": 0,
-   "venda": 1266.3,
+   "venda": 1299.84,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
     {
      "nome": "Venda",
-     "qtd": 1266.3
+     "qtd": 1299.84
     }
    ],
    "navios": [
@@ -2138,20 +2138,20 @@
      "navio": "FYM CRYSTAL",
      "ret": 0,
      "ind": 0,
-     "venda": 1266.3
+     "venda": 1299.84
     }
    ],
    "cliente": "BELOCAL - MTZ",
    "clientes": [
     {
      "nome": "BELOCAL - MTZ",
-     "qtd": 1266.3
+     "qtd": 1299.84
     }
    ],
    "filial": 1.0,
    "produto": "COQUE VERDE",
    "data_pedido": "11/06/2026",
-   "val_venda": 1483787.02
+   "val_venda": 1523087.52
   },
   {
    "pedido": "8350.0",
@@ -2197,13 +2197,13 @@
    "status": "DIRETA",
    "ret": 0,
    "ind": 0,
-   "venda": 921.98,
+   "venda": 1084.54,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
     {
      "nome": "Venda",
-     "qtd": 921.98
+     "qtd": 1084.54
     }
    ],
    "navios": [
@@ -2214,20 +2214,20 @@
      "navio": "FYM CRYSTAL",
      "ret": 0,
      "ind": 0,
-     "venda": 921.98
+     "venda": 1084.54
     }
    ],
    "cliente": "BELOCAL - SJDL",
    "clientes": [
     {
      "nome": "BELOCAL - SJDL",
-     "qtd": 921.98
+     "qtd": 1084.54
     }
    ],
    "filial": 1.0,
    "produto": "COQUE VERDE",
    "data_pedido": "11/06/2026",
-   "val_venda": 1081395.75
+   "val_venda": 1271875.43
   },
   {
    "pedido": "8352.0",
@@ -2323,13 +2323,13 @@
    "status": "DIRETA",
    "ret": 0,
    "ind": 0,
-   "venda": 290.75,
+   "venda": 390.9,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
     {
      "nome": "Venda",
-     "qtd": 290.75
+     "qtd": 390.9
     }
    ],
    "navios": [
@@ -2340,20 +2340,20 @@
      "navio": "FENG ZE HAI",
      "ret": 0,
      "ind": 0,
-     "venda": 290.75
+     "venda": 390.9
     }
    ],
    "cliente": "CIM. LIZ",
    "clientes": [
     {
      "nome": "CIM. LIZ",
-     "qtd": 290.75
+     "qtd": 390.9
     }
    ],
    "filial": 1.0,
    "produto": "CARVÃO MINERAL",
    "data_pedido": "19/06/2026",
-   "val_venda": 378210.5
+   "val_venda": 508486.62
   },
   {
    "pedido": "149601.0",
@@ -2446,9 +2446,9 @@
   },
   {
    "navio": "FENG ZE HAI",
-   "ret": 2807.72,
+   "ret": 2907.87,
    "ind": 2807.72,
-   "venda": 2807.72,
+   "venda": 2907.87,
    "pedidos": [
     "569",
     "8354",
@@ -2462,7 +2462,7 @@
    "navio": "FYM CRYSTAL",
    "ret": 0.0,
    "ind": 0.0,
-   "venda": 3847.04,
+   "venda": 4043.14,
    "pedidos": [
     "8348.0",
     "8349.0",
@@ -2475,9 +2475,9 @@
   },
   {
    "navio": "IRVINE BAY TÉRMICO YCRT",
-   "ret": 432.1,
+   "ret": 908.56,
    "ind": 0.0,
-   "venda": 5339.41,
+   "venda": 5815.87,
    "pedidos": [
     "584",
     "585",
@@ -2549,9 +2549,9 @@
   },
   {
    "navio": "SOLE",
-   "ret": 11364.67,
+   "ret": 11699.35,
    "ind": 11364.67,
-   "venda": 22747.12,
+   "venda": 23081.8,
    "pedidos": [
     "8346",
     "8347",
@@ -2573,7 +2573,7 @@
    "navio": "SPAR CORONA",
    "ret": 3314.34,
    "ind": 0.0,
-   "venda": 10125.62,
+   "venda": 10464.26,
    "pedidos": [
     "551",
     "558",
@@ -2590,9 +2590,9 @@
   },
   {
    "navio": "TERMICO STR- JOKER",
-   "ret": 8366.21,
-   "ind": 8366.21,
-   "venda": 8366.21,
+   "ret": 9203.22,
+   "ind": 9203.22,
+   "venda": 9203.22,
    "pedidos": [
     "565",
     "578",
