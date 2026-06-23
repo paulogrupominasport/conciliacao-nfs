@@ -21,6 +21,7 @@ Tipos de pedido:
 """
 
 import json
+import re
 import sys
 import os
 import datetime
@@ -58,6 +59,38 @@ def num(v):
         return float(s)
     except ValueError:
         return 0.0
+
+
+def base_pedido(v, origem="entrada"):
+    """Consolida sub-numeros de ordem de compra no numero do pedido de venda.
+
+    Um projeto pode aparecer com varios numeros derivados: o pedido de venda
+    (ex.: 565) recebe sufixos de 2 digitos para cada ordem de compra de entrada
+    (56501 = retorno, 56502 = industrializacao, 56515...). Os sufixos variam
+    SEMPRE nos 2 ultimos digitos.
+
+    Layout dos numeros:
+        Sudeste -> Saida 4 digitos (8346)   / Entrada 6 digitos (834605, 834606)
+        Sul     -> Saida 3 digitos (569)    / Entrada 5 digitos (56901, 56902)
+
+    Por isso a regra de "remover os 2 ultimos digitos" so vale para a ENTRADA
+    (a Saida JA e a base e nunca deve ser truncada -- ha vendas com 6 digitos,
+    ex. 149601/149801, que nao podem virar 1496).
+
+    Alem disso, a aba SAIDA chega do Excel como numero (float), entao um pedido
+    8346 vira a string "8346.0". O passo de limpeza remove esse sufixo decimal
+    antes de qualquer comparacao -- e essa a causa do "casamento" que falhava.
+
+    Parametros:
+        origem="entrada" -> 5/6 digitos: remove os 2 ultimos -> base.
+        origem="saida"   -> mantem o numero (ja e a base).
+    """
+    s = str(v).strip() if v is not None else ""
+    # numero lido como float do Excel: "8346.0" -> "8346", "834605.0" -> "834605"
+    s = re.sub(r"[.,]0+$", "", s)
+    if origem == "entrada" and s.isdigit() and len(s) >= 5:
+        return s[:-2]
+    return s
 
 
 def fdate(v):
@@ -138,7 +171,9 @@ def main():
     datas = []
 
     for r in ent:
-        pedido = g(r[19])
+        # Coluna "Pedido" (19) ja costuma trazer a base; se vier vazia ou crua,
+        # derivamos da "Nº da Ordem de Compra" (15). base_pedido normaliza ambos.
+        pedido = base_pedido(g(r[19]) or g(r[15]), "entrada")
         if not pedido:
             continue
         serie = g(r[14])
@@ -171,7 +206,7 @@ def main():
     plantas = defaultdict(set)
 
     for r in sai:
-        pedido = g(r[0])
+        pedido = base_pedido(g(r[0]), "saida")
         if not pedido:
             continue
         q = num(r[6])
@@ -224,14 +259,15 @@ def main():
         tot_val_venda += val_venda.get(p, 0)
 
         # tipo
-        if has_ret and has_ind:
+        if not has_venda and (has_ret or has_ind):
+            # entrou (retorno e/ou industrializacao) mas ainda nao vendeu
+            tipo = "PENDENTE"
+        elif has_ret and has_ind:
             tipo = "COMPLETO"
         elif has_ret and not has_ind:
             tipo = "SEM_IND"
         elif not has_ret and not has_ind and has_venda:
             tipo = "VENDA_DIRETA"
-        elif not has_venda and (has_ret or has_ind):
-            tipo = "PENDENTE"  # entrou mas ainda nao vendeu
         else:
             tipo = "OUTRO"
 
@@ -311,6 +347,7 @@ def main():
                 "ret": round(R, 2),
                 "ind": round(I, 2),
                 "venda": round(V, 2),
+                "mp": round(mp.get(p, 0), 2),
                 "max_dif": round(max_dif, 2),
                 "difs": difs,
                 "etapas": [{"nome": n, "qtd": round(q, 2)} for n, q in etapas],
