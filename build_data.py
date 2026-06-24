@@ -110,29 +110,6 @@ def fdate(v):
     return g(v)
 
 
-def dedup_entrada(rows):
-    """Remove linhas DUPLICADAS da aba ENTRADA.
-
-    A planilha-fonte traz a mesma linha fiscal repetida, variando apenas nas
-    colunas "Pedido" (19) -- as vezes '8346', as vezes '8346.0' -- e "Navio"
-    (20) -- ora vazio, ora preenchido. Sem dedup, retorno e industrializacao
-    ficam inflados (ex.: 565 somaria 9.719 em vez de 6.827).
-
-    A chave de unicidade e a linha inteira EXCETO essas duas colunas de ruido
-    (ou seja: Data, Fornecedor, NF, Artigo, CFOP, Qtd, Valor, Serie, OC, etc.).
-    Quando ha duplicata, mantemos a copia com Navio preenchido para preservar
-    a visao por navio.
-    """
-    best = {}
-    for r in rows:
-        key = tuple(r[:19])  # tudo menos Pedido(19) e Navio(20)
-        if key not in best:
-            best[key] = r
-        elif not g(best[key][20]) and g(r[20]):
-            best[key] = r  # prefere a linha que tem navio
-    return list(best.values())
-
-
 def parse_date(v):
     """Retorna datetime ou None para ordenacao."""
     if isinstance(v, datetime.datetime):
@@ -173,11 +150,6 @@ def main():
     ent = list(ws_ent.iter_rows(min_row=2, values_only=True))
     sai = list(ws_sai.iter_rows(min_row=2, values_only=True))
     ped = list(ws_ped.iter_rows(min_row=2, values_only=True))
-
-    # ENTRADA chega com linhas duplicadas (ver dedup_entrada); remove antes de somar
-    n_antes = len(ent)
-    ent = dedup_entrada(ent)
-    print(f"  ENTRADA: {n_antes} linhas -> {len(ent)} apos remover duplicatas")
 
     # ------------------------------------------------ PEDIDOS (cabecalho)
     # 0 codigo,1 data,2 cliente,3 prodcod,4 proddesc,5 cond,6 cfopdig,
