@@ -1,5 +1,5 @@
 {
- "gerado_em": "24/06/2026 17:27",
+ "gerado_em": "24/06/2026 17:34",
  "periodo": "01/06/2026 a 23/06/2026",
  "tolerancia": 0.01,
  "resumo": {
@@ -613,7 +613,7 @@
    "navio_detalhe": [
     {
      "navio": "SPAR CORONA",
-     "ret": 2782.57,
+     "ret": 2818.07,
      "ind": 0,
      "venda": 2855.3
     }
@@ -2092,7 +2092,7 @@
   },
   {
    "navio": "SPAR CORONA",
-   "ret": 3314.34,
+   "ret": 3349.84,
    "ind": 0.0,
    "venda": 10733.84,
    "pedidos": [
