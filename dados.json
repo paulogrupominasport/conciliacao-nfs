@@ -1,5 +1,5 @@
 {
- "gerado_em": "24/06/2026 14:38",
+ "gerado_em": "24/06/2026 14:43",
  "periodo": "01/06/2026 a 23/06/2026",
  "tolerancia": 0.01,
  "resumo": {
@@ -392,11 +392,11 @@
     }
    ],
    "navios": [
-    "MBS ODYSSE"
+    "MBS ODYSSEY"
    ],
    "navio_detalhe": [
     {
-     "navio": "MBS ODYSSE",
+     "navio": "MBS ODYSSEY",
      "ret": 0,
      "ind": 0,
      "venda": 105.44
@@ -509,11 +509,11 @@
     }
    ],
    "navios": [
-    "MBS ODYSSE"
+    "MBS ODYSSEY"
    ],
    "navio_detalhe": [
     {
-     "navio": "MBS ODYSSE",
+     "navio": "MBS ODYSSEY",
      "ret": 0,
      "ind": 0,
      "venda": 216.5
@@ -2062,7 +2062,7 @@
    "status": "DIRETA"
   },
   {
-   "navio": "MBS ODYSSE",
+   "navio": "MBS ODYSSEY",
    "ret": 0.0,
    "ind": 0.0,
    "venda": 321.94,
