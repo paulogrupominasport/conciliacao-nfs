@@ -182,9 +182,12 @@ def main():
     datas = []
 
     for r in ent:
-        # Coluna "Pedido" (19) ja costuma trazer a base; se vier vazia ou crua,
-        # derivamos da "Nº da Ordem de Compra" (15). base_pedido normaliza ambos.
-        pedido = base_pedido(g(r[19]) or g(r[15]), "entrada")
+        # FONTE DE VERDADE = "Nº da Ordem de Compra" (col 15). base_pedido faz
+        # o equivalente a INT(OC/100): joga fora os 2 ultimos digitos (834701 ->
+        # 8347, 56901 -> 569). A coluna 19 ("Pedido") NAO e usada: ela dependia
+        # de uma formula na planilha que ja sumiu uma vez e atribuiu pedidos
+        # errados. Derivar da OC torna o dashboard imune a isso.
+        pedido = base_pedido(g(r[15]), "entrada")
         if not pedido:
             continue
         serie = g(r[14])

@@ -1,15 +1,15 @@
 {
- "gerado_em": "24/06/2026 16:28",
+ "gerado_em": "24/06/2026 17:27",
  "periodo": "01/06/2026 a 23/06/2026",
  "tolerancia": 0.01,
  "resumo": {
-  "completos_ok": 10,
-  "completos_div": 4,
+  "completos_ok": 13,
+  "completos_div": 1,
   "sem_ind_ok": 3,
   "sem_ind_div": 2,
   "venda_direta": 25,
-  "pendentes": 2,
-  "total_pedidos": 46
+  "pendentes": 1,
+  "total_pedidos": 45
  },
  "totais": {
   "ret": 38030.12,
@@ -18,42 +18,6 @@
   "val_venda": 71643977.81
  },
  "pedidos": [
-  {
-   "pedido": "547",
-   "tipo": "PENDENTE",
-   "status": "PENDENTE",
-   "ret": 35.5,
-   "ind": 0,
-   "venda": 0,
-   "mp": 0,
-   "max_dif": 35.5,
-   "difs": {
-    "ret_ind": 35.5,
-    "ind_venda": 0
-   },
-   "etapas": [
-    {
-     "nome": "Retorno",
-     "qtd": 35.5
-    },
-    {
-     "nome": "Industrializacao",
-     "qtd": 0
-    },
-    {
-     "nome": "Venda",
-     "qtd": 0
-    }
-   ],
-   "navios": [],
-   "navio_detalhe": [],
-   "cliente": "",
-   "clientes": [],
-   "filial": "",
-   "produto": "",
-   "data_pedido": "",
-   "val_venda": 0
-  },
   {
    "pedido": "551",
    "tipo": "SEM_IND",
@@ -625,18 +589,18 @@
    "pedido": "579",
    "tipo": "SEM_IND",
    "status": "DIVERGENTE",
-   "ret": 2782.57,
+   "ret": 2818.07,
    "ind": 0,
    "venda": 2855.3,
    "mp": 0,
-   "max_dif": 72.73,
+   "max_dif": 37.23,
    "difs": {
-    "ret_venda": -72.73
+    "ret_venda": -37.23
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 2782.57
+     "qtd": 2818.07
     },
     {
      "nome": "Venda",
@@ -1401,25 +1365,25 @@
   {
    "pedido": "8346",
    "tipo": "COMPLETO",
-   "status": "DIVERGENTE",
-   "ret": 8380.6,
-   "ind": 8380.6,
+   "status": "OK",
+   "ret": 8292.05,
+   "ind": 8292.05,
    "venda": 8292.05,
    "mp": 0,
-   "max_dif": 88.55,
+   "max_dif": 0.0,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": 88.55,
-    "ret_venda": 88.55
+    "ind_venda": 0.0,
+    "ret_venda": 0.0
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 8380.6
+     "qtd": 8292.05
     },
     {
      "nome": "Industrializacao",
-     "qtd": 8380.6
+     "qtd": 8292.05
     },
     {
      "nome": "Venda",
@@ -1432,8 +1396,8 @@
    "navio_detalhe": [
     {
      "navio": "SOLE",
-     "ret": 8380.6,
-     "ind": 8380.6,
+     "ret": 8292.05,
+     "ind": 8292.05,
      "venda": 8292.05
     }
    ],
@@ -1452,25 +1416,25 @@
   {
    "pedido": "8347",
    "tipo": "COMPLETO",
-   "status": "DIVERGENTE",
-   "ret": 1885.62,
-   "ind": 1885.62,
+   "status": "OK",
+   "ret": 1925.07,
+   "ind": 1925.07,
    "venda": 1925.07,
    "mp": 0,
-   "max_dif": 39.45,
+   "max_dif": 0.0,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": -39.45,
-    "ret_venda": -39.45
+    "ind_venda": 0.0,
+    "ret_venda": 0.0
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 1885.62
+     "qtd": 1925.07
     },
     {
      "nome": "Industrializacao",
-     "qtd": 1885.62
+     "qtd": 1925.07
     },
     {
      "nome": "Venda",
@@ -1483,8 +1447,8 @@
    "navio_detalhe": [
     {
      "navio": "SOLE",
-     "ret": 1885.62,
-     "ind": 1885.62,
+     "ret": 1925.07,
+     "ind": 1925.07,
      "venda": 1925.07
     }
    ],
@@ -1659,25 +1623,25 @@
   {
    "pedido": "8352",
    "tipo": "COMPLETO",
-   "status": "DIVERGENTE",
-   "ret": 1938.58,
-   "ind": 1938.58,
+   "status": "OK",
+   "ret": 1987.68,
+   "ind": 1987.68,
    "venda": 1987.68,
    "mp": 0,
-   "max_dif": 49.1,
+   "max_dif": 0.0,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": -49.1,
-    "ret_venda": -49.1
+    "ind_venda": 0.0,
+    "ret_venda": 0.0
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 1938.58
+     "qtd": 1987.68
     },
     {
      "nome": "Industrializacao",
-     "qtd": 1938.58
+     "qtd": 1987.68
     },
     {
      "nome": "Venda",
@@ -1690,8 +1654,8 @@
    "navio_detalhe": [
     {
      "navio": "SOLE",
-     "ret": 1938.58,
-     "ind": 1938.58,
+     "ret": 1987.68,
+     "ind": 1987.68,
      "venda": 1987.68
     }
    ],
@@ -2124,7 +2088,7 @@
     "149801"
    ],
    "n_pedidos": 10,
-   "status": "DIVERGENTE"
+   "status": "OK"
   },
   {
    "navio": "SPAR CORONA",
