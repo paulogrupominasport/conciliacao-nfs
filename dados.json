@@ -1,5 +1,5 @@
 {
- "gerado_em": "24/06/2026 14:49",
+ "gerado_em": "24/06/2026 15:57",
  "periodo": "01/06/2026 a 23/06/2026",
  "tolerancia": 0.01,
  "resumo": {
@@ -178,8 +178,8 @@
    "navio_detalhe": [
     {
      "navio": "TERMICO STR- JOKER",
-     "ret": 288.39,
-     "ind": 288.39,
+     "ret": 6827.62,
+     "ind": 6827.62,
      "venda": 6827.62
     }
    ],
@@ -229,8 +229,8 @@
    "navio_detalhe": [
     {
      "navio": "FENG ZE HAI",
-     "ret": 349.91,
-     "ind": 349.91,
+     "ret": 2545.35,
+     "ind": 2545.35,
      "venda": 2545.35
     }
    ],
@@ -358,8 +358,8 @@
    "navio_detalhe": [
     {
      "navio": "PACIFIC TALENT",
-     "ret": 0,
-     "ind": 0,
+     "ret": 246.37,
+     "ind": 246.37,
      "venda": 246.37
     }
    ],
@@ -604,8 +604,8 @@
    "navio_detalhe": [
     {
      "navio": "TERMICO STR- JOKER",
-     "ret": 160.99,
-     "ind": 128.28,
+     "ret": 2121.7,
+     "ind": 2088.99,
      "venda": 2121.7
     }
    ],
@@ -778,8 +778,8 @@
    "navio_detalhe": [
     {
      "navio": "TERMICO STR- JOKER",
-     "ret": 0,
-     "ind": 0,
+     "ret": 538.98,
+     "ind": 538.98,
      "venda": 538.98
     }
    ],
@@ -829,8 +829,8 @@
    "navio_detalhe": [
     {
      "navio": "TERMICO STR- JOKER",
-     "ret": 0,
-     "ind": 0,
+     "ret": 621.88,
+     "ind": 621.88,
      "venda": 621.88
     }
    ],
@@ -2008,8 +2008,8 @@
  "navios": [
   {
    "navio": "FENG ZE HAI",
-   "ret": 971.35,
-   "ind": 971.35,
+   "ret": 3166.79,
+   "ind": 3166.79,
    "venda": 3166.79,
    "pedidos": [
     "569",
@@ -2086,8 +2086,8 @@
   },
   {
    "navio": "PACIFIC TALENT",
-   "ret": 0.0,
-   "ind": 0.0,
+   "ret": 246.37,
+   "ind": 246.37,
    "venda": 246.37,
    "pedidos": [
     "572"
@@ -2144,8 +2144,8 @@
   },
   {
    "navio": "TERMICO STR- JOKER",
-   "ret": 449.38,
-   "ind": 416.67,
+   "ret": 10110.18,
+   "ind": 10077.47,
    "venda": 10110.18,
    "pedidos": [
     "565",
