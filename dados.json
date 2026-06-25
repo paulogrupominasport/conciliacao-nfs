@@ -1,19 +1,19 @@
 {
- "gerado_em": "25/06/2026 10:53",
+ "gerado_em": "25/06/2026 14:34",
  "periodo": "01/06/2026 a 24/06/2026",
  "tolerancia": 0.01,
  "resumo": {
-  "completos_ok": 14,
-  "completos_div": 1,
-  "sem_ind_ok": 4,
-  "sem_ind_div": 1,
+  "completos_ok": 13,
+  "completos_div": 2,
+  "sem_ind_ok": 5,
+  "sem_ind_div": 0,
   "venda_direta": 28,
   "pendentes": 1,
   "total_pedidos": 49
  },
  "totais": {
-  "ret": 40688.35,
-  "ind": 35863.67,
+  "ret": 40725.58,
+  "ind": 35890.24,
   "venda": 85780.11,
   "val_venda": 75430027.15
  },
@@ -588,19 +588,19 @@
   {
    "pedido": "579",
    "tipo": "SEM_IND",
-   "status": "DIVERGENTE",
-   "ret": 2818.07,
+   "status": "OK",
+   "ret": 2855.3,
    "ind": 0,
    "venda": 2855.3,
    "mp": 0,
-   "max_dif": 37.23,
+   "max_dif": 0.0,
    "difs": {
-    "ret_venda": -37.23
+    "ret_venda": 0.0
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 2818.07
+     "qtd": 2855.3
     },
     {
      "nome": "Venda",
@@ -613,7 +613,7 @@
    "navio_detalhe": [
     {
      "navio": "SPAR CORONA",
-     "ret": 2818.07,
+     "ret": 2855.3,
      "ind": 0,
      "venda": 2855.3
     }
@@ -711,15 +711,15 @@
   {
    "pedido": "582",
    "tipo": "COMPLETO",
-   "status": "OK",
+   "status": "DIVERGENTE",
    "ret": 670.25,
-   "ind": 670.25,
+   "ind": 696.82,
    "venda": 670.25,
    "mp": 0,
-   "max_dif": 0.0,
+   "max_dif": 26.57,
    "difs": {
-    "ret_ind": 0.0,
-    "ind_venda": 0.0,
+    "ret_ind": -26.57,
+    "ind_venda": 26.57,
     "ret_venda": 0.0
    },
    "etapas": [
@@ -729,7 +729,7 @@
     },
     {
      "nome": "Industrializacao",
-     "qtd": 670.25
+     "qtd": 696.82
     },
     {
      "nome": "Venda",
@@ -743,7 +743,7 @@
     {
      "navio": "TERMICO STR- JOKER",
      "ret": 670.25,
-     "ind": 670.25,
+     "ind": 696.82,
      "venda": 670.25
     }
    ],
@@ -2262,7 +2262,7 @@
   },
   {
    "navio": "SPAR CORONA",
-   "ret": 3349.84,
+   "ret": 3387.07,
    "ind": 0.0,
    "venda": 11463.71,
    "pedidos": [
@@ -2275,12 +2275,12 @@
     "586"
    ],
    "n_pedidos": 7,
-   "status": "DIVERGENTE"
+   "status": "OK"
   },
   {
    "navio": "TERMICO STR- JOKER",
    "ret": 11528.35,
-   "ind": 11528.35,
+   "ind": 11554.92,
    "venda": 11528.35,
    "pedidos": [
     "565",
@@ -2290,7 +2290,7 @@
     "587"
    ],
    "n_pedidos": 5,
-   "status": "OK"
+   "status": "DIVERGENTE"
   },
   {
    "navio": "XIN HAI TONG",
