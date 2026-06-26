@@ -1,10 +1,10 @@
 {
- "gerado_em": "26/06/2026 07:38",
+ "gerado_em": "26/06/2026 13:40",
  "periodo": "01/06/2026 a 25/06/2026",
  "tolerancia": 0.01,
  "resumo": {
-  "completos_ok": 14,
-  "completos_div": 2,
+  "completos_ok": 15,
+  "completos_div": 1,
   "sem_ind_ok": 5,
   "sem_ind_div": 0,
   "venda_direta": 29,
@@ -13,7 +13,7 @@
  },
  "totais": {
   "ret": 43577.12,
-  "ind": 38741.78,
+  "ind": 38715.21,
   "venda": 90419.35,
   "val_venda": 79609091.36
  },
@@ -750,15 +750,15 @@
   {
    "pedido": "582",
    "tipo": "COMPLETO",
-   "status": "DIVERGENTE",
+   "status": "OK",
    "ret": 723.54,
-   "ind": 750.11,
+   "ind": 723.54,
    "venda": 723.54,
    "mp": 0,
-   "max_dif": 26.57,
+   "max_dif": 0.0,
    "difs": {
-    "ret_ind": -26.57,
-    "ind_venda": 26.57,
+    "ret_ind": 0.0,
+    "ind_venda": 0.0,
     "ret_venda": 0.0
    },
    "etapas": [
@@ -768,7 +768,7 @@
     },
     {
      "nome": "Industrializacao",
-     "qtd": 750.11
+     "qtd": 723.54
     },
     {
      "nome": "Venda",
@@ -782,7 +782,7 @@
     {
      "navio": "TERMICO STR- JOKER",
      "ret": 723.54,
-     "ind": 750.11,
+     "ind": 723.54,
      "venda": 723.54
     }
    ],
@@ -2382,7 +2382,7 @@
   {
    "navio": "TERMICO STR- JOKER",
    "ret": 13285.56,
-   "ind": 13312.13,
+   "ind": 13285.56,
    "venda": 13285.56,
    "pedidos": [
     "565",
@@ -2392,7 +2392,7 @@
     "587"
    ],
    "n_pedidos": 5,
-   "status": "DIVERGENTE"
+   "status": "OK"
   },
   {
    "navio": "XIN HAI TONG",
