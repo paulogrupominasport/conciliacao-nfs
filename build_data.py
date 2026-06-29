@@ -173,12 +173,15 @@ def main():
     ret = defaultdict(float)
     ind = defaultdict(float)
     mp = defaultdict(float)
+    dev = defaultdict(float)  # DEV = devolucao: subtrai da venda (saiu mas voltou)
     # por pedido+navio
     ret_pn = defaultdict(float)
     ind_pn = defaultdict(float)
+    dev_pn = defaultdict(float)
     navios_ent = defaultdict(set)
     val_ret = defaultdict(float)
     val_ind = defaultdict(float)
+    val_dev = defaultdict(float)
     datas = []
 
     for r in ent:
@@ -207,6 +210,12 @@ def main():
             ind_pn[(pedido, navio)] += q
         elif serie == "MP":
             mp[pedido] += q
+        elif serie == "DEV":
+            # Devolucao: a mercadoria saiu (foi faturada) mas voltou, logo NAO
+            # foi vendida de fato. Acumula para subtrair da venda do projeto.
+            dev[pedido] += q
+            val_dev[pedido] += val
+            dev_pn[(pedido, navio)] += q
         if navio:
             navios_ent[pedido].add(navio)
 
@@ -242,7 +251,7 @@ def main():
 
     # ------------------------------------------------ Conciliacao por pedido
     all_pedidos = sorted(
-        set(ret) | set(ind) | set(venda) | set(mp),
+        set(ret) | set(ind) | set(venda) | set(mp) | set(dev),
         key=lambda x: (len(x), x),
     )
 
@@ -262,7 +271,11 @@ def main():
     for p in all_pedidos:
         R = round(ret.get(p, 0), 4)
         I = round(ind.get(p, 0), 4)
-        V = round(venda.get(p, 0), 4)
+        # Venda LIQUIDA: a devolucao (DEV) e subtraida, pois a mercadoria saiu
+        # mas voltou -> nao foi vendida de fato.
+        D = round(dev.get(p, 0), 4)
+        V = round(venda.get(p, 0) - D, 4)
+        V_bruta = round(venda.get(p, 0), 4)
         has_ret = R > TOLERANCIA
         has_ind = I > TOLERANCIA
         has_venda = V > TOLERANCIA
@@ -270,7 +283,7 @@ def main():
         tot_ret += R
         tot_ind += I
         tot_venda += V
-        tot_val_venda += val_venda.get(p, 0)
+        tot_val_venda += val_venda.get(p, 0) - val_dev.get(p, 0)
 
         # tipo
         if not has_venda and (has_ret or has_ind):
@@ -344,7 +357,8 @@ def main():
         for nv in navios:
             rr = round(ret_pn.get((p, nv), 0), 2)
             ii = round(ind_pn.get((p, nv), 0), 2)
-            vv = round(venda_pn.get((p, nv), 0), 2)
+            # venda liquida do navio: desconta a devolucao do mesmo navio
+            vv = round(venda_pn.get((p, nv), 0) - dev_pn.get((p, nv), 0), 2)
             navio_detalhe.append({"navio": nv, "ret": rr, "ind": ii, "venda": vv})
 
         info = pedido_info.get(p, {})
@@ -361,6 +375,8 @@ def main():
                 "ret": round(R, 2),
                 "ind": round(I, 2),
                 "venda": round(V, 2),
+                "venda_bruta": round(V_bruta, 2),
+                "dev": round(D, 2),
                 "mp": round(mp.get(p, 0), 2),
                 "max_dif": round(max_dif, 2),
                 "difs": difs,
@@ -372,7 +388,7 @@ def main():
                 "filial": info.get("filial", ""),
                 "produto": info.get("produto", ""),
                 "data_pedido": info.get("data_pedido", ""),
-                "val_venda": round(val_venda.get(p, 0), 2),
+                "val_venda": round(val_venda.get(p, 0) - val_dev.get(p, 0), 2),
             }
         )
 
@@ -385,8 +401,12 @@ def main():
         for nv in (navios_ent.get(p, set()) | navios_sai.get(p, set())):
             navio_agg[nv]["ret"] += ret_pn.get((p, nv), 0)
             navio_agg[nv]["ind"] += ind_pn.get((p, nv), 0)
-            navio_agg[nv]["venda"] += venda_pn.get((p, nv), 0)
+            # venda liquida por navio (desconta devolucao)
+            navio_agg[nv]["venda"] += venda_pn.get((p, nv), 0) - dev_pn.get((p, nv), 0)
             navio_agg[nv]["pedidos"].add(p)
+
+    def venda_liq(x):
+        return venda.get(x, 0) - dev.get(x, 0)
 
     navios_out = []
     for nv, d in sorted(navio_agg.items()):
@@ -399,9 +419,9 @@ def main():
             for x in proc:
                 if ind.get(x, 0) > TOLERANCIA:
                     maxd = max(maxd, abs(ret.get(x, 0) - ind.get(x, 0)),
-                               abs(ind.get(x, 0) - venda.get(x, 0)))
+                               abs(ind.get(x, 0) - venda_liq(x)))
                 else:
-                    maxd = max(maxd, abs(ret.get(x, 0) - venda.get(x, 0)))
+                    maxd = max(maxd, abs(ret.get(x, 0) - venda_liq(x)))
             nstatus = "OK" if maxd <= TOLERANCIA else "DIVERGENTE"
         else:
             nstatus = "DIRETA"

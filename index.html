@@ -521,6 +521,17 @@ el("btn-pdf").onclick = ()=>{
 };
 
 carregar();
+
+// Atualizacao automatica a cada 10 minutos (re-busca dados.json com cache-bust).
+// Pausa quando a aba esta em segundo plano e recarrega ao voltar o foco,
+// para o usuario sempre ver o dado mais recente sem clicar em nada.
+const AUTO_REFRESH_MS = 10 * 60 * 1000; // 10 min
+setInterval(() => {
+  if (document.visibilityState === "visible") carregar();
+}, AUTO_REFRESH_MS);
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "visible") carregar();
+});
 </script>
 </body>
 </html>
