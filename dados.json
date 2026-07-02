@@ -1,10 +1,10 @@
 {
- "gerado_em": "02/07/2026 16:58",
+ "gerado_em": "02/07/2026 17:08",
  "periodo": "01/05/2026 a 01/07/2026",
  "tolerancia": 0.01,
  "resumo": {
-  "completos_ok": 34,
-  "completos_div": 2,
+  "completos_ok": 35,
+  "completos_div": 1,
   "sem_ind_ok": 6,
   "sem_ind_div": 1,
   "venda_direta": 54,
@@ -3235,26 +3235,26 @@
    "pedido": "8336",
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
-   "ret": 2542.45,
-   "ind": 2542.45,
+   "ret": 2428.23,
+   "ind": 2428.23,
    "venda": 2477.61,
    "venda_bruta": 2542.45,
    "dev": 64.84,
    "mp": 0,
-   "max_dif": 64.84,
+   "max_dif": 49.38,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": 64.84,
-    "ret_venda": 64.84
+    "ind_venda": -49.38,
+    "ret_venda": -49.38
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 2542.45
+     "qtd": 2428.23
     },
     {
      "nome": "Industrializacao",
-     "qtd": 2542.45
+     "qtd": 2428.23
     },
     {
      "nome": "Venda",
@@ -3267,8 +3267,8 @@
    "navio_detalhe": [
     {
      "navio": "XIN HAI TONG",
-     "ret": 2542.45,
-     "ind": 2542.45,
+     "ret": 2428.23,
+     "ind": 2428.23,
      "venda": 2477.61
     }
    ],
@@ -3574,27 +3574,27 @@
   {
    "pedido": "8344",
    "tipo": "COMPLETO",
-   "status": "DIVERGENTE",
-   "ret": 7994.78,
-   "ind": 7994.78,
+   "status": "OK",
+   "ret": 8109.0,
+   "ind": 8109.0,
    "venda": 8109.0,
    "venda_bruta": 8109.0,
    "dev": 0,
    "mp": 0,
-   "max_dif": 114.22,
+   "max_dif": 0.0,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": -114.22,
-    "ret_venda": -114.22
+    "ind_venda": 0.0,
+    "ret_venda": 0.0
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 7994.78
+     "qtd": 8109.0
     },
     {
      "nome": "Industrializacao",
-     "qtd": 7994.78
+     "qtd": 8109.0
     },
     {
      "nome": "Venda",
@@ -3607,8 +3607,8 @@
    "navio_detalhe": [
     {
      "navio": "XIN HAI TONG",
-     "ret": 7994.78,
-     "ind": 7994.78,
+     "ret": 8109.0,
+     "ind": 8109.0,
      "venda": 8109.0
     }
    ],
