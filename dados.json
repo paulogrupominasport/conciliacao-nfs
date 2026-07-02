@@ -1,10 +1,10 @@
 {
- "gerado_em": "02/07/2026 14:57",
+ "gerado_em": "02/07/2026 15:43",
  "periodo": "01/05/2026 a 01/07/2026",
  "tolerancia": 0.01,
  "resumo": {
-  "completos_ok": 33,
-  "completos_div": 3,
+  "completos_ok": 34,
+  "completos_div": 2,
   "sem_ind_ok": 5,
   "sem_ind_div": 2,
   "venda_direta": 54,
@@ -3075,27 +3075,27 @@
   {
    "pedido": "8333",
    "tipo": "COMPLETO",
-   "status": "DIVERGENTE",
-   "ret": 5104.46,
-   "ind": 5055.61,
+   "status": "OK",
+   "ret": 5003.76,
+   "ind": 5003.76,
    "venda": 5003.76,
    "venda_bruta": 5003.76,
    "dev": 0,
    "mp": 0,
-   "max_dif": 100.7,
+   "max_dif": 0.0,
    "difs": {
-    "ret_ind": 48.85,
-    "ind_venda": 51.85,
-    "ret_venda": 100.7
+    "ret_ind": 0.0,
+    "ind_venda": 0.0,
+    "ret_venda": 0.0
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 5104.46
+     "qtd": 5003.76
     },
     {
      "nome": "Industrializacao",
-     "qtd": 5055.61
+     "qtd": 5003.76
     },
     {
      "nome": "Venda",
@@ -3108,8 +3108,8 @@
    "navio_detalhe": [
     {
      "navio": "XIN HAI TONG",
-     "ret": 5104.46,
-     "ind": 5055.61,
+     "ret": 5003.76,
+     "ind": 5003.76,
      "venda": 5003.76
     }
    ],
@@ -3575,26 +3575,26 @@
    "pedido": "8344",
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
-   "ret": 7894.08,
-   "ind": 7942.93,
+   "ret": 7994.78,
+   "ind": 7994.78,
    "venda": 8109.0,
    "venda_bruta": 8109.0,
    "dev": 0,
    "mp": 0,
-   "max_dif": 214.92,
+   "max_dif": 114.22,
    "difs": {
-    "ret_ind": -48.85,
-    "ind_venda": -166.07,
-    "ret_venda": -214.92
+    "ret_ind": 0.0,
+    "ind_venda": -114.22,
+    "ret_venda": -114.22
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 7894.08
+     "qtd": 7994.78
     },
     {
      "nome": "Industrializacao",
-     "qtd": 7942.93
+     "qtd": 7994.78
     },
     {
      "nome": "Venda",
@@ -3607,8 +3607,8 @@
    "navio_detalhe": [
     {
      "navio": "XIN HAI TONG",
-     "ret": 7894.08,
-     "ind": 7942.93,
+     "ret": 7994.78,
+     "ind": 7994.78,
      "venda": 8109.0
     }
    ],
