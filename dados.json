@@ -1,12 +1,12 @@
 {
- "gerado_em": "02/07/2026 16:38",
+ "gerado_em": "02/07/2026 16:48",
  "periodo": "01/05/2026 a 01/07/2026",
  "tolerancia": 0.01,
  "resumo": {
   "completos_ok": 34,
   "completos_div": 2,
-  "sem_ind_ok": 5,
-  "sem_ind_div": 2,
+  "sem_ind_ok": 6,
+  "sem_ind_div": 1,
   "venda_direta": 54,
   "pendentes": 2,
   "total_pedidos": 105
@@ -215,21 +215,21 @@
   {
    "pedido": "551",
    "tipo": "SEM_IND",
-   "status": "DIVERGENTE",
-   "ret": 12891.9,
+   "status": "OK",
+   "ret": 13004.0,
    "ind": 0,
    "venda": 13004.0,
    "venda_bruta": 13004.0,
    "dev": 0,
    "mp": 0,
-   "max_dif": 112.1,
+   "max_dif": 0.0,
    "difs": {
-    "ret_venda": -112.1
+    "ret_venda": 0.0
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 12891.9
+     "qtd": 13004.0
     },
     {
      "nome": "Venda",
@@ -242,7 +242,7 @@
    "navio_detalhe": [
     {
      "navio": "SPAR CORONA",
-     "ret": 12891.9,
+     "ret": 13004.0,
      "ind": 0,
      "venda": 13004.0
     }
@@ -527,20 +527,20 @@
    "pedido": "558",
    "tipo": "SEM_IND",
    "status": "DIVERGENTE",
-   "ret": 6660.97,
+   "ret": 6548.87,
    "ind": 0,
    "venda": 6583.5,
    "venda_bruta": 6583.5,
    "dev": 0,
    "mp": 0,
-   "max_dif": 77.47,
+   "max_dif": 34.63,
    "difs": {
-    "ret_venda": 77.47
+    "ret_venda": -34.63
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 6660.97
+     "qtd": 6548.87
     },
     {
      "nome": "Venda",
@@ -553,7 +553,7 @@
    "navio_detalhe": [
     {
      "navio": "SPAR CORONA",
-     "ret": 6660.97,
+     "ret": 6548.87,
      "ind": 0,
      "venda": 6583.5
     }
