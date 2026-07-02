@@ -1,10 +1,10 @@
 {
- "gerado_em": "02/07/2026 14:28",
+ "gerado_em": "02/07/2026 14:46",
  "periodo": "01/05/2026 a 01/07/2026",
  "tolerancia": 0.01,
  "resumo": {
-  "completos_ok": 32,
-  "completos_div": 4,
+  "completos_ok": 33,
+  "completos_div": 3,
   "sem_ind_ok": 5,
   "sem_ind_div": 2,
   "venda_direta": 54,
@@ -3128,27 +3128,27 @@
   {
    "pedido": "8334",
    "tipo": "COMPLETO",
-   "status": "DIVERGENTE",
-   "ret": 945.02,
-   "ind": 945.02,
+   "status": "OK",
+   "ret": 895.06,
+   "ind": 895.06,
    "venda": 895.06,
    "venda_bruta": 895.06,
    "dev": 0,
    "mp": 0,
-   "max_dif": 49.96,
+   "max_dif": 0.0,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": 49.96,
-    "ret_venda": 49.96
+    "ind_venda": 0.0,
+    "ret_venda": 0.0
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 945.02
+     "qtd": 895.06
     },
     {
      "nome": "Industrializacao",
-     "qtd": 945.02
+     "qtd": 895.06
     },
     {
      "nome": "Venda",
@@ -3161,8 +3161,8 @@
    "navio_detalhe": [
     {
      "navio": "XIN HAI TONG",
-     "ret": 945.02,
-     "ind": 945.02,
+     "ret": 895.06,
+     "ind": 895.06,
      "venda": 895.06
     }
    ],
@@ -3575,26 +3575,26 @@
    "pedido": "8344",
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
-   "ret": 7844.12,
-   "ind": 7892.97,
+   "ret": 7894.08,
+   "ind": 7942.93,
    "venda": 8109.0,
    "venda_bruta": 8109.0,
    "dev": 0,
    "mp": 0,
-   "max_dif": 264.88,
+   "max_dif": 214.92,
    "difs": {
     "ret_ind": -48.85,
-    "ind_venda": -216.03,
-    "ret_venda": -264.88
+    "ind_venda": -166.07,
+    "ret_venda": -214.92
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 7844.12
+     "qtd": 7894.08
     },
     {
      "nome": "Industrializacao",
-     "qtd": 7892.97
+     "qtd": 7942.93
     },
     {
      "nome": "Venda",
@@ -3607,8 +3607,8 @@
    "navio_detalhe": [
     {
      "navio": "XIN HAI TONG",
-     "ret": 7844.12,
-     "ind": 7892.97,
+     "ret": 7894.08,
+     "ind": 7942.93,
      "venda": 8109.0
     }
    ],
