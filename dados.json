@@ -1,15 +1,15 @@
 {
- "gerado_em": "03/07/2026 07:28",
+ "gerado_em": "03/07/2026 07:38",
  "periodo": "01/05/2026 a 01/07/2026",
  "tolerancia": 0.01,
  "resumo": {
-  "completos_ok": 35,
-  "completos_div": 1,
+  "completos_ok": 36,
+  "completos_div": 0,
   "sem_ind_ok": 6,
   "sem_ind_div": 1,
   "venda_direta": 54,
   "pendentes": 2,
-  "total_pedidos": 105
+  "total_pedidos": 104
  },
  "totais": {
   "ret": 110759.59,
@@ -2050,41 +2050,6 @@
    "val_venda": 0
   },
   {
-   "pedido": "8241",
-   "tipo": "OUTRO",
-   "status": "OK",
-   "ret": 0,
-   "ind": 0,
-   "venda": -49.38,
-   "venda_bruta": 0,
-   "dev": 49.38,
-   "mp": 0,
-   "max_dif": 0.0,
-   "difs": {},
-   "etapas": [
-    {
-     "nome": "Retorno",
-     "qtd": 0
-    },
-    {
-     "nome": "Industrializacao",
-     "qtd": 0
-    },
-    {
-     "nome": "Venda",
-     "qtd": -49.38
-    }
-   ],
-   "navios": [],
-   "navio_detalhe": [],
-   "cliente": "",
-   "clientes": [],
-   "filial": "",
-   "produto": "",
-   "data_pedido": "",
-   "val_venda": -66650.87
-  },
-  {
    "pedido": "8307",
    "tipo": "COMPLETO",
    "status": "OK",
@@ -3234,18 +3199,18 @@
   {
    "pedido": "8336",
    "tipo": "COMPLETO",
-   "status": "DIVERGENTE",
+   "status": "OK",
    "ret": 2428.23,
    "ind": 2428.23,
-   "venda": 2477.61,
+   "venda": 2428.23,
    "venda_bruta": 2542.45,
-   "dev": 64.84,
+   "dev": 114.22,
    "mp": 0,
-   "max_dif": 49.38,
+   "max_dif": 0.0,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": -49.38,
-    "ret_venda": -49.38
+    "ind_venda": 0.0,
+    "ret_venda": 0.0
    },
    "etapas": [
     {
@@ -3258,7 +3223,7 @@
     },
     {
      "nome": "Venda",
-     "qtd": 2477.61
+     "qtd": 2428.23
     }
    ],
    "navios": [
@@ -3269,7 +3234,7 @@
      "navio": "XIN HAI TONG",
      "ret": 2428.23,
      "ind": 2428.23,
-     "venda": 2477.61
+     "venda": 2428.23
     }
    ],
    "cliente": "BELOCAL - SJDL",
@@ -3282,7 +3247,7 @@
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 3257202.01
+   "val_venda": 3190551.14
   },
   {
    "pedido": "8337",
@@ -5060,7 +5025,7 @@
    "navio": "XIN HAI TONG",
    "ret": 16920.62,
    "ind": 16920.62,
-   "venda": 65912.36,
+   "venda": 65862.98,
    "pedidos": [
     "8323",
     "8324",
@@ -5075,7 +5040,7 @@
     "149701"
    ],
    "n_pedidos": 11,
-   "status": "DIVERGENTE"
+   "status": "OK"
   }
  ]
 }
