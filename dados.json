@@ -1,10 +1,10 @@
 {
- "gerado_em": "07/07/2026 07:38",
+ "gerado_em": "07/07/2026 07:48",
  "periodo": "01/05/2026 a 06/07/2026",
  "tolerancia": 0.01,
  "resumo": {
-  "completos_ok": 36,
-  "completos_div": 2,
+  "completos_ok": 38,
+  "completos_div": 0,
   "sem_ind_ok": 6,
   "sem_ind_div": 1,
   "venda_direta": 56,
@@ -1963,11 +1963,11 @@
     }
    ],
    "navios": [
-    "#N/A"
+    "MAGIC CELESTE"
    ],
    "navio_detalhe": [
     {
-     "navio": "#N/A",
+     "navio": "MAGIC CELESTE",
      "ret": 0,
      "ind": 0,
      "venda": 649.06
@@ -3281,23 +3281,23 @@
   {
    "pedido": "8336",
    "tipo": "COMPLETO",
-   "status": "DIVERGENTE",
-   "ret": 2476.05,
+   "status": "OK",
+   "ret": 2428.23,
    "ind": 2428.23,
    "venda": 2428.23,
    "venda_bruta": 2542.45,
    "dev": 114.22,
    "mp": 0,
-   "max_dif": 47.82,
+   "max_dif": 0.0,
    "difs": {
-    "ret_ind": 47.82,
+    "ret_ind": 0.0,
     "ind_venda": 0.0,
-    "ret_venda": 47.82
+    "ret_venda": 0.0
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 2476.05
+     "qtd": 2428.23
     },
     {
      "nome": "Industrializacao",
@@ -3314,7 +3314,7 @@
    "navio_detalhe": [
     {
      "navio": "XIN HAI TONG",
-     "ret": 2476.05,
+     "ret": 2428.23,
      "ind": 2428.23,
      "venda": 2428.23
     }
@@ -4348,13 +4348,13 @@
     }
    ],
    "navios": [
-    "#N/A"
+    "SOLE"
    ],
    "navio_detalhe": [
     {
-     "navio": "#N/A",
-     "ret": 0,
-     "ind": 0,
+     "navio": "SOLE",
+     "ret": 819.96,
+     "ind": 819.96,
      "venda": 819.96
     }
    ],
@@ -4373,23 +4373,23 @@
   {
    "pedido": "8360",
    "tipo": "COMPLETO",
-   "status": "DIVERGENTE",
-   "ret": 263.64,
+   "status": "OK",
+   "ret": 311.46,
    "ind": 311.46,
    "venda": 311.46,
    "venda_bruta": 311.46,
    "dev": 0,
    "mp": 0,
-   "max_dif": 47.82,
+   "max_dif": 0.0,
    "difs": {
-    "ret_ind": -47.82,
+    "ret_ind": 0.0,
     "ind_venda": 0.0,
-    "ret_venda": -47.82
+    "ret_venda": 0.0
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 263.64
+     "qtd": 311.46
     },
     {
      "nome": "Industrializacao",
@@ -4401,13 +4401,13 @@
     }
    ],
    "navios": [
-    "#N/A"
+    "XIN HAI TONG"
    ],
    "navio_detalhe": [
     {
-     "navio": "#N/A",
-     "ret": 0,
-     "ind": 0,
+     "navio": "XIN HAI TONG",
+     "ret": 311.46,
+     "ind": 311.46,
      "venda": 311.46
     }
    ],
@@ -4956,21 +4956,18 @@
    "navio": "#N/A",
    "ret": 0.0,
    "ind": 0.0,
-   "venda": 11203.55,
+   "venda": 9423.07,
    "pedidos": [
     "0",
     "511",
     "513",
-    "589",
     "8307",
-    "8359",
-    "8360",
     "148901",
     "149201",
     "14780101"
    ],
-   "n_pedidos": 10,
-   "status": "DIVERGENTE"
+   "n_pedidos": 7,
+   "status": "OK"
   },
   {
    "navio": "DISKO ISLAND",
@@ -5043,6 +5040,17 @@
     "149601"
    ],
    "n_pedidos": 2,
+   "status": "DIRETA"
+  },
+  {
+   "navio": "MAGIC CELESTE",
+   "ret": 0.0,
+   "ind": 0.0,
+   "venda": 649.06,
+   "pedidos": [
+    "589"
+   ],
+   "n_pedidos": 1,
    "status": "DIRETA"
   },
   {
@@ -5159,9 +5167,9 @@
   },
   {
    "navio": "SOLE",
-   "ret": 16612.48,
-   "ind": 16612.48,
-   "venda": 67655.52,
+   "ret": 17432.44,
+   "ind": 17432.44,
+   "venda": 68475.48,
    "pedidos": [
     "8338",
     "8339",
@@ -5174,9 +5182,10 @@
     "8352",
     "8355",
     "8356",
+    "8359",
     "149801"
    ],
-   "n_pedidos": 12,
+   "n_pedidos": 13,
    "status": "OK"
   },
   {
@@ -5215,9 +5224,9 @@
   },
   {
    "navio": "XIN HAI TONG",
-   "ret": 16968.44,
-   "ind": 16920.62,
-   "venda": 65862.98,
+   "ret": 17232.08,
+   "ind": 17232.08,
+   "venda": 66174.44,
    "pedidos": [
     "8323",
     "8324",
@@ -5229,10 +5238,11 @@
     "8336",
     "8344",
     "8345",
+    "8360",
     "149701"
    ],
-   "n_pedidos": 11,
-   "status": "DIVERGENTE"
+   "n_pedidos": 12,
+   "status": "OK"
   }
  ]
 }
