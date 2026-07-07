@@ -1,21 +1,21 @@
 {
- "gerado_em": "07/07/2026 07:28",
- "periodo": "01/05/2026 a 05/07/2026",
+ "gerado_em": "07/07/2026 07:38",
+ "periodo": "01/05/2026 a 06/07/2026",
  "tolerancia": 0.01,
  "resumo": {
   "completos_ok": 36,
   "completos_div": 2,
   "sem_ind_ok": 6,
   "sem_ind_div": 1,
-  "venda_direta": 55,
+  "venda_direta": 56,
   "pendentes": 2,
-  "total_pedidos": 107
+  "total_pedidos": 108
  },
  "totais": {
-  "ret": 113241.07,
-  "ind": 87477.55,
-  "venda": 349364.04,
-  "val_venda": 261935767.23
+  "ret": 114248.13,
+  "ind": 88484.61,
+  "venda": 351160.84,
+  "val_venda": 263245196.36
  },
  "pedidos": [
   {
@@ -24,8 +24,8 @@
    "status": "DIRETA",
    "ret": 0,
    "ind": 0,
-   "venda": 488.0,
-   "venda_bruta": 488.0,
+   "venda": 487.0,
+   "venda_bruta": 487.0,
    "dev": 0,
    "mp": 0,
    "max_dif": 0.0,
@@ -33,7 +33,7 @@
    "etapas": [
     {
      "nome": "Venda",
-     "qtd": 488.0
+     "qtd": 487.0
     }
    ],
    "navios": [
@@ -70,22 +70,22 @@
      "qtd": 2.0
     },
     {
-     "nome": "PETRORECONCAVO (RN)",
-     "qtd": 2.0
-    },
-    {
      "nome": "CANTEIROPOLIS",
      "qtd": 1.0
     },
     {
      "nome": "EMBRAER S.A.",
      "qtd": 1.0
+    },
+    {
+     "nome": "PETRORECONCAVO (RN)",
+     "qtd": 1.0
     }
    ],
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 1609782.25
+   "val_venda": 1606575.82
   },
   {
    "pedido": "511",
@@ -862,10 +862,10 @@
    "pedido": "565",
    "tipo": "COMPLETO",
    "status": "OK",
-   "ret": 12732.0,
-   "ind": 12732.0,
-   "venda": 12732.0,
-   "venda_bruta": 12732.0,
+   "ret": 13034.04,
+   "ind": 13034.04,
+   "venda": 13034.04,
+   "venda_bruta": 13034.04,
    "dev": 0,
    "mp": 0,
    "max_dif": 0.0,
@@ -877,15 +877,15 @@
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 12732.0
+     "qtd": 13034.04
     },
     {
      "nome": "Industrializacao",
-     "qtd": 12732.0
+     "qtd": 13034.04
     },
     {
      "nome": "Venda",
-     "qtd": 12732.0
+     "qtd": 13034.04
     }
    ],
    "navios": [
@@ -894,22 +894,22 @@
    "navio_detalhe": [
     {
      "navio": "TERMICO STR- JOKER",
-     "ret": 12732.0,
-     "ind": 12732.0,
-     "venda": 12732.0
+     "ret": 13034.04,
+     "ind": 13034.04,
+     "venda": 13034.04
     }
    ],
    "cliente": "BRASKEM",
    "clientes": [
     {
      "nome": "BRASKEM",
-     "qtd": 12732.0
+     "qtd": 13034.04
     }
    ],
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 11837577.09
+   "val_venda": 12118398.79
   },
   {
    "pedido": "566",
@@ -1613,10 +1613,10 @@
    "pedido": "582",
    "tipo": "COMPLETO",
    "status": "OK",
-   "ret": 1048.75,
-   "ind": 1048.75,
-   "venda": 1048.75,
-   "venda_bruta": 1048.75,
+   "ret": 1119.38,
+   "ind": 1119.38,
+   "venda": 1119.38,
+   "venda_bruta": 1119.38,
    "dev": 0,
    "mp": 0,
    "max_dif": 0.0,
@@ -1628,15 +1628,15 @@
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 1048.75
+     "qtd": 1119.38
     },
     {
      "nome": "Industrializacao",
-     "qtd": 1048.75
+     "qtd": 1119.38
     },
     {
      "nome": "Venda",
-     "qtd": 1048.75
+     "qtd": 1119.38
     }
    ],
    "navios": [
@@ -1645,31 +1645,31 @@
    "navio_detalhe": [
     {
      "navio": "TERMICO STR- JOKER",
-     "ret": 1048.75,
-     "ind": 1048.75,
-     "venda": 1048.75
+     "ret": 1119.38,
+     "ind": 1119.38,
+     "venda": 1119.38
     }
    ],
    "cliente": "GABRIELLA MINERACAO",
    "clientes": [
     {
      "nome": "GABRIELLA MINERACAO",
-     "qtd": 1048.75
+     "qtd": 1119.38
     }
    ],
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 783416.25
+   "val_venda": 836176.86
   },
   {
    "pedido": "583",
    "tipo": "COMPLETO",
    "status": "OK",
-   "ret": 4144.42,
-   "ind": 4144.42,
-   "venda": 4144.42,
-   "venda_bruta": 4144.42,
+   "ret": 4179.49,
+   "ind": 4179.49,
+   "venda": 4179.49,
+   "venda_bruta": 4179.49,
    "dev": 0,
    "mp": 0,
    "max_dif": 0.0,
@@ -1681,15 +1681,15 @@
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 4144.42
+     "qtd": 4179.49
     },
     {
      "nome": "Industrializacao",
-     "qtd": 4144.42
+     "qtd": 4179.49
     },
     {
      "nome": "Venda",
-     "qtd": 4144.42
+     "qtd": 4179.49
     }
    ],
    "navios": [
@@ -1698,22 +1698,22 @@
    "navio_detalhe": [
     {
      "navio": "TERMICO STR- JOKER",
-     "ret": 4144.42,
-     "ind": 4144.42,
-     "venda": 4144.42
+     "ret": 4179.49,
+     "ind": 4179.49,
+     "venda": 4179.49
     }
    ],
    "cliente": "METROPOLITANA",
    "clientes": [
     {
      "nome": "METROPOLITANA",
-     "qtd": 4144.42
+     "qtd": 4179.49
     }
    ],
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 3092110.3
+   "val_venda": 3118275.68
   },
   {
    "pedido": "584",
@@ -1815,8 +1815,8 @@
    "status": "DIRETA",
    "ret": 0,
    "ind": 0,
-   "venda": 8987.88,
-   "venda_bruta": 8987.88,
+   "venda": 9129.56,
+   "venda_bruta": 9129.56,
    "dev": 0,
    "mp": 0,
    "max_dif": 0.0,
@@ -1824,7 +1824,7 @@
    "etapas": [
     {
      "nome": "Venda",
-     "qtd": 8987.88
+     "qtd": 9129.56
     }
    ],
    "navios": [
@@ -1835,20 +1835,20 @@
      "navio": "SPAR CORONA",
      "ret": 0,
      "ind": 0,
-     "venda": 8987.88
+     "venda": 9129.56
     }
    ],
    "cliente": "ITAMBÉ",
    "clientes": [
     {
      "nome": "ITAMBÉ",
-     "qtd": 8987.88
+     "qtd": 9129.56
     }
    ],
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 7906548.24
+   "val_venda": 8031182.72
   },
   {
    "pedido": "587",
@@ -1943,6 +1943,47 @@
    "produto": "",
    "data_pedido": "",
    "val_venda": 555073.13
+  },
+  {
+   "pedido": "589",
+   "tipo": "VENDA_DIRETA",
+   "status": "DIRETA",
+   "ret": 0,
+   "ind": 0,
+   "venda": 649.06,
+   "venda_bruta": 649.06,
+   "dev": 0,
+   "mp": 0,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Venda",
+     "qtd": 649.06
+    }
+   ],
+   "navios": [
+    "#N/A"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "#N/A",
+     "ret": 0,
+     "ind": 0,
+     "venda": 649.06
+    }
+   ],
+   "cliente": "ITAMBÉ",
+   "clientes": [
+    {
+     "nome": "ITAMBÉ",
+     "qtd": 649.06
+    }
+   ],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 176570.28
   },
   {
    "pedido": "1472",
@@ -4280,10 +4321,10 @@
    "pedido": "8359",
    "tipo": "COMPLETO",
    "status": "OK",
-   "ret": 366.43,
-   "ind": 366.43,
-   "venda": 366.43,
-   "venda_bruta": 366.43,
+   "ret": 819.96,
+   "ind": 819.96,
+   "venda": 819.96,
+   "venda_bruta": 819.96,
    "dev": 0,
    "mp": 0,
    "max_dif": 0.0,
@@ -4295,48 +4336,48 @@
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 366.43
+     "qtd": 819.96
     },
     {
      "nome": "Industrializacao",
-     "qtd": 366.43
+     "qtd": 819.96
     },
     {
      "nome": "Venda",
-     "qtd": 366.43
+     "qtd": 819.96
     }
    ],
    "navios": [
-    "VERDE"
+    "#N/A"
    ],
    "navio_detalhe": [
     {
-     "navio": "VERDE",
-     "ret": 366.43,
-     "ind": 366.43,
-     "venda": 366.43
+     "navio": "#N/A",
+     "ret": 0,
+     "ind": 0,
+     "venda": 819.96
     }
    ],
    "cliente": "ITAMBÉ",
    "clientes": [
     {
      "nome": "ITAMBÉ",
-     "qtd": 366.43
+     "qtd": 819.96
     }
    ],
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 375085.08
+   "val_venda": 839327.45
   },
   {
    "pedido": "8360",
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
-   "ret": 117.85,
-   "ind": 165.67,
-   "venda": 165.67,
-   "venda_bruta": 165.67,
+   "ret": 263.64,
+   "ind": 311.46,
+   "venda": 311.46,
+   "venda_bruta": 311.46,
    "dev": 0,
    "mp": 0,
    "max_dif": 47.82,
@@ -4348,39 +4389,39 @@
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 117.85
+     "qtd": 263.64
     },
     {
      "nome": "Industrializacao",
-     "qtd": 165.67
+     "qtd": 311.46
     },
     {
      "nome": "Venda",
-     "qtd": 165.67
+     "qtd": 311.46
     }
    ],
    "navios": [
-    "COQUE"
+    "#N/A"
    ],
    "navio_detalhe": [
     {
-     "navio": "COQUE",
-     "ret": 117.85,
-     "ind": 165.67,
-     "venda": 165.67
+     "navio": "#N/A",
+     "ret": 0,
+     "ind": 0,
+     "venda": 311.46
     }
    ],
    "cliente": "CIM. LIZ",
    "clientes": [
     {
      "nome": "CIM. LIZ",
-     "qtd": 165.67
+     "qtd": 311.46
     }
    ],
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 213000.27
+   "val_venda": 400441.01
   },
   {
    "pedido": "147801",
@@ -4915,28 +4956,20 @@
    "navio": "#N/A",
    "ret": 0.0,
    "ind": 0.0,
-   "venda": 9423.07,
+   "venda": 11203.55,
    "pedidos": [
     "0",
     "511",
     "513",
+    "589",
     "8307",
+    "8359",
+    "8360",
     "148901",
     "149201",
     "14780101"
    ],
-   "n_pedidos": 7,
-   "status": "OK"
-  },
-  {
-   "navio": "COQUE",
-   "ret": 117.85,
-   "ind": 165.67,
-   "venda": 165.67,
-   "pedidos": [
-    "8360"
-   ],
-   "n_pedidos": 1,
+   "n_pedidos": 10,
    "status": "DIVERGENTE"
   },
   {
@@ -5150,7 +5183,7 @@
    "navio": "SPAR CORONA",
    "ret": 22530.19,
    "ind": 0.0,
-   "venda": 40444.49,
+   "venda": 40586.17,
    "pedidos": [
     "551",
     "558",
@@ -5166,9 +5199,9 @@
   },
   {
    "navio": "TERMICO STR- JOKER",
-   "ret": 22887.1,
-   "ind": 21328.48,
-   "venda": 22887.1,
+   "ret": 23294.84,
+   "ind": 21736.22,
+   "venda": 23294.84,
    "pedidos": [
     "552",
     "565",
@@ -5178,17 +5211,6 @@
     "587"
    ],
    "n_pedidos": 6,
-   "status": "OK"
-  },
-  {
-   "navio": "VERDE",
-   "ret": 366.43,
-   "ind": 366.43,
-   "venda": 366.43,
-   "pedidos": [
-    "8359"
-   ],
-   "n_pedidos": 1,
    "status": "OK"
   },
   {
