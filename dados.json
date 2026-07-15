@@ -1,10 +1,10 @@
 {
- "gerado_em": "15/07/2026 10:48",
+ "gerado_em": "15/07/2026 10:58",
  "periodo": "01/05/2026 a 14/07/2026",
  "tolerancia": 0.01,
  "resumo": {
-  "completos_ok": 41,
-  "completos_div": 2,
+  "completos_ok": 42,
+  "completos_div": 1,
   "sem_ind_ok": 6,
   "sem_ind_div": 1,
   "venda_direta": 62,
@@ -12,8 +12,8 @@
   "total_pedidos": 119
  },
  "totais": {
-  "ret": 123035.34,
-  "ind": 97221.09,
+  "ret": 123123.37,
+  "ind": 97309.12,
   "venda": 406478.16,
   "val_venda": 300586234.45
  },
@@ -894,8 +894,8 @@
    "navio_detalhe": [
     {
      "navio": "TERMICO STR- JOKER",
-     "ret": 14797.7,
-     "ind": 14758.23,
+     "ret": 14834.14,
+     "ind": 14834.14,
      "venda": 14834.14
     }
    ],
@@ -1698,8 +1698,8 @@
    "navio_detalhe": [
     {
      "navio": "TERMICO STR- JOKER",
-     "ret": 4512.37,
-     "ind": 4512.37,
+     "ret": 4630.31,
+     "ind": 4630.31,
      "venda": 4630.31
     }
    ],
@@ -2127,8 +2127,8 @@
    "navio_detalhe": [
     {
      "navio": "TERMICO STR- JOKER",
-     "ret": 372.56,
-     "ind": 372.56,
+     "ret": 436.35,
+     "ind": 436.35,
      "venda": 436.35
     }
    ],
@@ -4279,27 +4279,27 @@
   {
    "pedido": "8354",
    "tipo": "COMPLETO",
-   "status": "DIVERGENTE",
-   "ret": 2570.69,
-   "ind": 2570.69,
+   "status": "OK",
+   "ret": 2658.72,
+   "ind": 2658.72,
    "venda": 2658.72,
    "venda_bruta": 2658.72,
    "dev": 0,
    "mp": 0,
-   "max_dif": 88.03,
+   "max_dif": 0.0,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": -88.03,
-    "ret_venda": -88.03
+    "ind_venda": 0.0,
+    "ret_venda": 0.0
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 2570.69
+     "qtd": 2658.72
     },
     {
      "nome": "Industrializacao",
-     "qtd": 2570.69
+     "qtd": 2658.72
     },
     {
      "nome": "Venda",
@@ -4312,8 +4312,8 @@
    "navio_detalhe": [
     {
      "navio": "FENG ZE HAI",
-     "ret": 2570.69,
-     "ind": 2570.69,
+     "ret": 2658.72,
+     "ind": 2658.72,
      "venda": 2658.72
     }
    ],
@@ -5505,8 +5505,8 @@
   },
   {
    "navio": "FENG ZE HAI",
-   "ret": 8634.33,
-   "ind": 8634.33,
+   "ret": 8722.36,
+   "ind": 8722.36,
    "venda": 8722.36,
    "pedidos": [
     "555",
@@ -5514,7 +5514,7 @@
     "8354"
    ],
    "n_pedidos": 3,
-   "status": "DIVERGENTE"
+   "status": "OK"
   },
   {
    "navio": "FYM CRYSTAL",
@@ -5736,8 +5736,8 @@
   },
   {
    "navio": "TERMICO STR- JOKER",
-   "ret": 26748.0,
-   "ind": 25149.91,
+   "ret": 26966.17,
+   "ind": 25407.55,
    "venda": 30296.26,
    "pedidos": [
     "552",
