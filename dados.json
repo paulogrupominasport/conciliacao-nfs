@@ -1,10 +1,10 @@
 {
- "gerado_em": "16/07/2026 08:58",
+ "gerado_em": "16/07/2026 09:06",
  "periodo": "01/05/2026 a 15/07/2026",
  "tolerancia": 0.01,
  "resumo": {
-  "completos_ok": 43,
-  "completos_div": 1,
+  "completos_ok": 44,
+  "completos_div": 0,
   "sem_ind_ok": 6,
   "sem_ind_div": 1,
   "venda_direta": 64,
@@ -13,7 +13,7 @@
  },
  "totais": {
   "ret": 125407.37,
-  "ind": 99515.49,
+  "ind": 99566.22,
   "venda": 410074.46,
   "val_venda": 304602434.11
  },
@@ -894,8 +894,8 @@
    "navio_detalhe": [
     {
      "navio": "TERMICO STR- JOKER",
-     "ret": 14834.14,
-     "ind": 14834.14,
+     "ret": 15144.47,
+     "ind": 15144.47,
      "venda": 15144.47
     }
    ],
@@ -1645,8 +1645,8 @@
    "navio_detalhe": [
     {
      "navio": "TERMICO STR- JOKER",
-     "ret": 1908.12,
-     "ind": 1908.12,
+     "ret": 2118.64,
+     "ind": 2118.64,
      "venda": 2118.64
     }
    ],
@@ -1698,8 +1698,8 @@
    "navio_detalhe": [
     {
      "navio": "TERMICO STR- JOKER",
-     "ret": 4630.31,
-     "ind": 4630.31,
+     "ret": 4747.53,
+     "ind": 4747.53,
      "venda": 4747.53
     }
    ],
@@ -2127,8 +2127,8 @@
    "navio_detalhe": [
     {
      "navio": "TERMICO STR- JOKER",
-     "ret": 436.35,
-     "ind": 436.35,
+     "ret": 589.35,
+     "ind": 589.35,
      "venda": 589.35
     }
    ],
@@ -4391,8 +4391,8 @@
    "navio_detalhe": [
     {
      "navio": "FENG ZE HAI",
-     "ret": 2658.72,
-     "ind": 2658.72,
+     "ret": 2707.51,
+     "ind": 2707.51,
      "venda": 2707.51
     }
    ],
@@ -4652,17 +4652,17 @@
   {
    "pedido": "8360",
    "tipo": "COMPLETO",
-   "status": "DIVERGENTE",
+   "status": "OK",
    "ret": 2179.97,
-   "ind": 2129.24,
+   "ind": 2179.97,
    "venda": 2179.97,
    "venda_bruta": 2179.97,
    "dev": 0,
    "mp": 0,
-   "max_dif": 50.73,
+   "max_dif": 0.0,
    "difs": {
-    "ret_ind": 50.73,
-    "ind_venda": -50.73,
+    "ret_ind": 0.0,
+    "ind_venda": 0.0,
     "ret_venda": 0.0
    },
    "etapas": [
@@ -4672,7 +4672,7 @@
     },
     {
      "nome": "Industrializacao",
-     "qtd": 2129.24
+     "qtd": 2179.97
     },
     {
      "nome": "Venda",
@@ -4685,8 +4685,8 @@
    "navio_detalhe": [
     {
      "navio": "XIN HAI TONG",
-     "ret": 1287.23,
-     "ind": 1236.5,
+     "ret": 2179.97,
+     "ind": 2179.97,
      "venda": 2179.97
     }
    ],
@@ -4738,8 +4738,8 @@
    "navio_detalhe": [
     {
      "navio": "XIN HAI TONG",
-     "ret": 185.7,
-     "ind": 185.7,
+     "ret": 309.21,
+     "ind": 309.21,
      "venda": 309.21
     }
    ],
@@ -4791,8 +4791,8 @@
    "navio_detalhe": [
     {
      "navio": "XIN HAI TONG",
-     "ret": 33.4,
-     "ind": 33.4,
+     "ret": 226.57,
+     "ind": 226.57,
      "venda": 226.57
     }
    ],
@@ -4885,8 +4885,8 @@
    "navio_detalhe": [
     {
      "navio": "XIN HAI TONG",
-     "ret": 0,
-     "ind": 0,
+     "ret": 157.09,
+     "ind": 157.09,
      "venda": 157.09
     }
    ],
@@ -5678,8 +5678,8 @@
   },
   {
    "navio": "FENG ZE HAI",
-   "ret": 8722.36,
-   "ind": 8722.36,
+   "ret": 8771.15,
+   "ind": 8771.15,
    "venda": 8771.15,
    "pedidos": [
     "555",
@@ -5921,8 +5921,8 @@
   },
   {
    "navio": "TERMICO STR- JOKER",
-   "ret": 26966.17,
-   "ind": 25407.55,
+   "ret": 27757.24,
+   "ind": 26198.62,
    "venda": 31087.33,
    "pedidos": [
     "552",
@@ -5939,8 +5939,8 @@
   },
   {
    "navio": "XIN HAI TONG",
-   "ret": 18426.95,
-   "ind": 18376.22,
+   "ret": 19793.46,
+   "ind": 19793.46,
    "venda": 68735.82,
    "pedidos": [
     "8323",
@@ -5960,7 +5960,7 @@
     "149701"
    ],
    "n_pedidos": 15,
-   "status": "DIVERGENTE"
+   "status": "OK"
   }
  ]
 }
