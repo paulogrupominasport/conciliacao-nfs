@@ -1,21 +1,21 @@
 {
- "gerado_em": "28/07/2026 07:58",
- "periodo": "01/05/2026 a 26/07/2026",
+ "gerado_em": "28/07/2026 08:08",
+ "periodo": "01/05/2026 a 27/07/2026",
  "tolerancia": 0.01,
  "resumo": {
-  "completos_ok": 49,
-  "completos_div": 2,
+  "completos_ok": 43,
+  "completos_div": 8,
   "sem_ind_ok": 6,
   "sem_ind_div": 1,
-  "venda_direta": 66,
+  "venda_direta": 68,
   "pendentes": 5,
-  "total_pedidos": 134
+  "total_pedidos": 136
  },
  "totais": {
   "ret": 140546.56,
   "ind": 114589.99,
-  "venda": 437641.99,
-  "val_venda": 332772828.67
+  "venda": 438943.02,
+  "val_venda": 334131724.46
  },
  "pedidos": [
   {
@@ -865,18 +865,18 @@
   {
    "pedido": "565",
    "tipo": "COMPLETO",
-   "status": "OK",
+   "status": "DIVERGENTE",
    "ret": 17516.08,
    "ind": 17516.08,
-   "venda": 17516.08,
-   "venda_bruta": 17516.08,
+   "venda": 17611.4,
+   "venda_bruta": 17611.4,
    "dev": 0,
    "mp": 0,
-   "max_dif": 0.0,
+   "max_dif": 95.32,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": 0.0,
-    "ret_venda": 0.0
+    "ind_venda": -95.32,
+    "ret_venda": -95.32
    },
    "etapas": [
     {
@@ -889,7 +889,7 @@
     },
     {
      "nome": "Venda",
-     "qtd": 17516.08
+     "qtd": 17611.4
     }
    ],
    "navios": [
@@ -900,20 +900,20 @@
      "navio": "TERMICO STR- JOKER",
      "ret": 17516.08,
      "ind": 17516.08,
-     "venda": 17516.08
+     "venda": 17611.4
     }
    ],
    "cliente": "BRASKEM",
    "clientes": [
     {
      "nome": "BRASKEM",
-     "qtd": 17516.08
+     "qtd": 17611.4
     }
    ],
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 16285575.46
+   "val_venda": 16374199.23
   },
   {
    "pedido": "566",
@@ -2236,8 +2236,8 @@
    "status": "DIRETA",
    "ret": 0,
    "ind": 0,
-   "venda": 641.0,
-   "venda_bruta": 641.0,
+   "venda": 720.14,
+   "venda_bruta": 720.14,
    "dev": 0,
    "mp": 0,
    "max_dif": 0.0,
@@ -2245,7 +2245,7 @@
    "etapas": [
     {
      "nome": "Venda",
-     "qtd": 641.0
+     "qtd": 720.14
     }
    ],
    "navios": [
@@ -2256,20 +2256,20 @@
      "navio": "IRVINE BAY TÉRMICO YCRT",
      "ret": 0,
      "ind": 0,
-     "venda": 641.0
+     "venda": 720.14
     }
    ],
    "cliente": "GABRIELLA MINERACAO",
    "clientes": [
     {
      "nome": "GABRIELLA MINERACAO",
-     "qtd": 641.0
+     "qtd": 720.14
     }
    ],
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 398061.0
+   "val_venda": 447206.94
   },
   {
    "pedido": "596",
@@ -4535,15 +4535,15 @@
    "status": "DIVERGENTE",
    "ret": 3429.02,
    "ind": 3350.93,
-   "venda": 3429.02,
-   "venda_bruta": 3429.02,
+   "venda": 3555.17,
+   "venda_bruta": 3555.17,
    "dev": 0,
    "mp": 0,
-   "max_dif": 78.09,
+   "max_dif": 204.24,
    "difs": {
     "ret_ind": 78.09,
-    "ind_venda": -78.09,
-    "ret_venda": 0.0
+    "ind_venda": -204.24,
+    "ret_venda": -126.15
    },
    "etapas": [
     {
@@ -4556,7 +4556,7 @@
     },
     {
      "nome": "Venda",
-     "qtd": 3429.02
+     "qtd": 3555.17
     }
    ],
    "navios": [
@@ -4567,20 +4567,20 @@
      "navio": "FENG ZE HAI",
      "ret": 3429.02,
      "ind": 3350.93,
-     "venda": 3429.02
+     "venda": 3555.17
     }
    ],
    "cliente": "CIM. LIZ",
    "clientes": [
     {
      "nome": "CIM. LIZ",
-     "qtd": 3429.02
+     "qtd": 3555.17
     }
    ],
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 4460503.5
+   "val_venda": 4624600.69
   },
   {
    "pedido": "8355",
@@ -4988,15 +4988,15 @@
    "status": "DIVERGENTE",
    "ret": 1545.01,
    "ind": 1513.08,
-   "venda": 1545.01,
-   "venda_bruta": 1545.01,
+   "venda": 1709.88,
+   "venda_bruta": 1709.88,
    "dev": 0,
    "mp": 0,
-   "max_dif": 31.93,
+   "max_dif": 196.8,
    "difs": {
     "ret_ind": 31.93,
-    "ind_venda": -31.93,
-    "ret_venda": 0.0
+    "ind_venda": -196.8,
+    "ret_venda": -164.87
    },
    "etapas": [
     {
@@ -5009,7 +5009,7 @@
     },
     {
      "nome": "Venda",
-     "qtd": 1545.01
+     "qtd": 1709.88
     }
    ],
    "navios": [
@@ -5020,29 +5020,29 @@
      "navio": "SOLE",
      "ret": 1545.01,
      "ind": 1513.08,
-     "venda": 1545.01
+     "venda": 1709.88
     }
    ],
    "cliente": "CARBOAMERICA - MG",
    "clientes": [
     {
      "nome": "CARBOAMERICA - MG",
-     "qtd": 1545.01
+     "qtd": 1709.88
     }
    ],
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 1314231.86
+   "val_venda": 1454475.23
   },
   {
-   "pedido": "8365",
+   "pedido": "8364",
    "tipo": "VENDA_DIRETA",
    "status": "DIRETA",
    "ret": 0,
    "ind": 0,
-   "venda": 850.52,
-   "venda_bruta": 850.52,
+   "venda": 39.49,
+   "venda_bruta": 39.49,
    "dev": 0,
    "mp": 0,
    "max_dif": 0.0,
@@ -5050,7 +5050,7 @@
    "etapas": [
     {
      "nome": "Venda",
-     "qtd": 850.52
+     "qtd": 39.49
     }
    ],
    "navios": [
@@ -5061,20 +5061,61 @@
      "navio": "Normal",
      "ret": 0,
      "ind": 0,
-     "venda": 850.52
+     "venda": 39.49
     }
    ],
    "cliente": "COMERCIAL CARVALHO",
    "clientes": [
     {
      "nome": "COMERCIAL CARVALHO",
-     "qtd": 850.52
+     "qtd": 39.49
     }
    ],
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 680416.0
+   "val_venda": 33566.5
+  },
+  {
+   "pedido": "8365",
+   "tipo": "VENDA_DIRETA",
+   "status": "DIRETA",
+   "ret": 0,
+   "ind": 0,
+   "venda": 904.14,
+   "venda_bruta": 904.14,
+   "dev": 0,
+   "mp": 0,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Venda",
+     "qtd": 904.14
+    }
+   ],
+   "navios": [
+    "Normal"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "Normal",
+     "ret": 0,
+     "ind": 0,
+     "venda": 904.14
+    }
+   ],
+   "cliente": "COMERCIAL CARVALHO",
+   "clientes": [
+    {
+     "nome": "COMERCIAL CARVALHO",
+     "qtd": 904.14
+    }
+   ],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 723312.0
   },
   {
    "pedido": "8366",
@@ -5132,18 +5173,18 @@
   {
    "pedido": "8367",
    "tipo": "COMPLETO",
-   "status": "OK",
+   "status": "DIVERGENTE",
    "ret": 5233.1,
    "ind": 5233.1,
-   "venda": 5233.1,
-   "venda_bruta": 5233.1,
+   "venda": 5570.97,
+   "venda_bruta": 5570.97,
    "dev": 0,
    "mp": 0,
-   "max_dif": 0.0,
+   "max_dif": 337.87,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": 0.0,
-    "ret_venda": 0.0
+    "ind_venda": -337.87,
+    "ret_venda": -337.87
    },
    "etapas": [
     {
@@ -5156,7 +5197,7 @@
     },
     {
      "nome": "Venda",
-     "qtd": 5233.1
+     "qtd": 5570.97
     }
    ],
    "navios": [
@@ -5167,36 +5208,36 @@
      "navio": "XIN HAI TONG",
      "ret": 5233.1,
      "ind": 5233.1,
-     "venda": 5233.1
+     "venda": 5570.97
     }
    ],
    "cliente": "CIM. LIZ",
    "clientes": [
     {
      "nome": "CIM. LIZ",
-     "qtd": 5233.1
+     "qtd": 5570.97
     }
    ],
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 6957354.13
+   "val_venda": 7406548.92
   },
   {
    "pedido": "8368",
    "tipo": "COMPLETO",
-   "status": "OK",
+   "status": "DIVERGENTE",
    "ret": 706.42,
    "ind": 706.42,
-   "venda": 706.42,
-   "venda_bruta": 706.42,
+   "venda": 804.04,
+   "venda_bruta": 804.04,
    "dev": 0,
    "mp": 0,
-   "max_dif": 0.0,
+   "max_dif": 97.62,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": 0.0,
-    "ret_venda": 0.0
+    "ind_venda": -97.62,
+    "ret_venda": -97.62
    },
    "etapas": [
     {
@@ -5209,7 +5250,7 @@
     },
     {
      "nome": "Venda",
-     "qtd": 706.42
+     "qtd": 804.04
     }
    ],
    "navios": [
@@ -5220,36 +5261,36 @@
      "navio": "XIN HAI TONG",
      "ret": 706.42,
      "ind": 706.42,
-     "venda": 706.42
+     "venda": 804.04
     }
    ],
    "cliente": "BELOCAL - MTZ",
    "clientes": [
     {
      "nome": "BELOCAL - MTZ",
-     "qtd": 706.42
+     "qtd": 804.04
     }
    ],
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 783970.79
+   "val_venda": 892307.51
   },
   {
    "pedido": "8369",
    "tipo": "COMPLETO",
-   "status": "OK",
+   "status": "DIVERGENTE",
    "ret": 913.61,
    "ind": 913.61,
-   "venda": 913.61,
-   "venda_bruta": 913.61,
+   "venda": 989.94,
+   "venda_bruta": 989.94,
    "dev": 0,
    "mp": 0,
-   "max_dif": 0.0,
+   "max_dif": 76.33,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": 0.0,
-    "ret_venda": 0.0
+    "ind_venda": -76.33,
+    "ret_venda": -76.33
    },
    "etapas": [
     {
@@ -5262,7 +5303,7 @@
     },
     {
      "nome": "Venda",
-     "qtd": 913.61
+     "qtd": 989.94
     }
    ],
    "navios": [
@@ -5273,36 +5314,36 @@
      "navio": "XIN HAI TONG",
      "ret": 913.61,
      "ind": 913.61,
-     "venda": 913.61
+     "venda": 989.94
     }
    ],
    "cliente": "BELOCAL - SJDL",
    "clientes": [
     {
      "nome": "BELOCAL - SJDL",
-     "qtd": 913.61
+     "qtd": 989.94
     }
    ],
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 1013906.09
+   "val_venda": 1098615.6
   },
   {
    "pedido": "8370",
    "tipo": "COMPLETO",
-   "status": "OK",
+   "status": "DIVERGENTE",
    "ret": 633.82,
    "ind": 633.82,
-   "venda": 633.82,
-   "venda_bruta": 633.82,
+   "venda": 670.49,
+   "venda_bruta": 670.49,
    "dev": 0,
    "mp": 0,
-   "max_dif": 0.0,
+   "max_dif": 36.67,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": 0.0,
-    "ret_venda": 0.0
+    "ind_venda": -36.67,
+    "ret_venda": -36.67
    },
    "etapas": [
     {
@@ -5315,7 +5356,7 @@
     },
     {
      "nome": "Venda",
-     "qtd": 633.82
+     "qtd": 670.49
     }
    ],
    "navios": [
@@ -5326,36 +5367,77 @@
      "navio": "XIN HAI TONG",
      "ret": 633.82,
      "ind": 633.82,
-     "venda": 633.82
+     "venda": 670.49
     }
    ],
    "cliente": "LHOIST - DORESOPOLIS",
    "clientes": [
     {
      "nome": "LHOIST - DORESOPOLIS",
-     "qtd": 633.82
+     "qtd": 670.49
     }
    ],
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 745987.12
+   "val_venda": 789146.61
+  },
+  {
+   "pedido": "8371",
+   "tipo": "VENDA_DIRETA",
+   "status": "DIRETA",
+   "ret": 0,
+   "ind": 0,
+   "venda": 48.15,
+   "venda_bruta": 48.15,
+   "dev": 0,
+   "mp": 0,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Venda",
+     "qtd": 48.15
+    }
+   ],
+   "navios": [
+    "XIN HAI TONG"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "XIN HAI TONG",
+     "ret": 0,
+     "ind": 0,
+     "venda": 48.15
+    }
+   ],
+   "cliente": "INNMOV TRADING",
+   "clientes": [
+    {
+     "nome": "INNMOV TRADING",
+     "qtd": 48.15
+    }
+   ],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 46978.03
   },
   {
    "pedido": "8373",
    "tipo": "COMPLETO",
-   "status": "OK",
+   "status": "DIVERGENTE",
    "ret": 122.05,
    "ind": 122.05,
-   "venda": 122.05,
-   "venda_bruta": 122.05,
+   "venda": 267.85,
+   "venda_bruta": 267.85,
    "dev": 0,
    "mp": 0,
-   "max_dif": 0.0,
+   "max_dif": 145.8,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": 0.0,
-    "ret_venda": 0.0
+    "ind_venda": -145.8,
+    "ret_venda": -145.8
    },
    "etapas": [
     {
@@ -5368,7 +5450,7 @@
     },
     {
      "nome": "Venda",
-     "qtd": 122.05
+     "qtd": 267.85
     }
    ],
    "navios": [
@@ -5379,20 +5461,20 @@
      "navio": "SOLE",
      "ret": 122.05,
      "ind": 122.05,
-     "venda": 122.05
+     "venda": 267.85
     }
    ],
    "cliente": "INTERCEMENT-MS",
    "clientes": [
     {
      "nome": "INTERCEMENT-MS",
-     "qtd": 122.05
+     "qtd": 267.85
     }
    ],
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 90360.94
+   "val_venda": 198305.42
   },
   {
    "pedido": "118012",
@@ -6213,7 +6295,7 @@
    "navio": "FENG ZE HAI",
    "ret": 9492.66,
    "ind": 9414.57,
-   "venda": 9492.66,
+   "venda": 9618.81,
    "pedidos": [
     "555",
     "569",
@@ -6244,7 +6326,7 @@
    "navio": "IRVINE BAY TÉRMICO YCRT",
    "ret": 1429.49,
    "ind": 0.0,
-   "venda": 7533.94,
+   "venda": 7613.08,
    "pedidos": [
     "553",
     "574",
@@ -6348,15 +6430,16 @@
    "navio": "Normal",
    "ret": 0.0,
    "ind": 0.0,
-   "venda": 11721.59,
+   "venda": 11814.7,
    "pedidos": [
     "8337",
+    "8364",
     "8365",
     "129508",
     "149501",
     "150601"
    ],
-   "n_pedidos": 5,
+   "n_pedidos": 6,
    "status": "DIRETA"
   },
   {
@@ -6418,7 +6501,7 @@
    "navio": "SOLE",
    "ret": 21684.37,
    "ind": 21652.44,
-   "venda": 72765.41,
+   "venda": 73076.08,
    "pedidos": [
     "8338",
     "8339",
@@ -6461,7 +6544,7 @@
    "navio": "TERMICO STR- JOKER",
    "ret": 30762.09,
    "ind": 29203.47,
-   "venda": 34169.81,
+   "venda": 34265.13,
    "pedidos": [
     "552",
     "565",
@@ -6473,13 +6556,13 @@
     "150401"
    ],
    "n_pedidos": 8,
-   "status": "OK"
+   "status": "DIVERGENTE"
   },
   {
    "navio": "XIN HAI TONG",
    "ret": 28739.26,
    "ind": 28739.26,
-   "venda": 77681.62,
+   "venda": 78278.26,
    "pedidos": [
     "8323",
     "8324",
@@ -6499,10 +6582,11 @@
     "8368",
     "8369",
     "8370",
+    "8371",
     "149701"
    ],
-   "n_pedidos": 19,
-   "status": "OK"
+   "n_pedidos": 20,
+   "status": "DIVERGENTE"
   }
  ]
 }
