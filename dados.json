@@ -1,10 +1,10 @@
 {
- "gerado_em": "29/07/2026 08:58",
+ "gerado_em": "29/07/2026 09:08",
  "periodo": "01/05/2026 a 28/07/2026",
  "tolerancia": 0.01,
  "resumo": {
-  "completos_ok": 51,
-  "completos_div": 1,
+  "completos_ok": 52,
+  "completos_div": 0,
   "sem_ind_ok": 6,
   "sem_ind_div": 1,
   "venda_direta": 67,
@@ -13,7 +13,7 @@
  },
  "totais": {
   "ret": 143746.59,
-  "ind": 117871.12,
+  "ind": 117900.04,
   "venda": 441812.31,
   "val_venda": 337041442.63
  },
@@ -4573,17 +4573,17 @@
   {
    "pedido": "8354",
    "tipo": "COMPLETO",
-   "status": "DIVERGENTE",
+   "status": "OK",
    "ret": 3974.9,
-   "ind": 3945.98,
+   "ind": 3974.9,
    "venda": 3974.9,
    "venda_bruta": 3974.9,
    "dev": 0,
    "mp": 0,
-   "max_dif": 28.92,
+   "max_dif": 0.0,
    "difs": {
-    "ret_ind": 28.92,
-    "ind_venda": -28.92,
+    "ret_ind": 0.0,
+    "ind_venda": 0.0,
     "ret_venda": 0.0
    },
    "etapas": [
@@ -4593,7 +4593,7 @@
     },
     {
      "nome": "Industrializacao",
-     "qtd": 3945.98
+     "qtd": 3974.9
     },
     {
      "nome": "Venda",
@@ -4607,7 +4607,7 @@
     {
      "navio": "FENG ZE HAI",
      "ret": 3974.9,
-     "ind": 3945.98,
+     "ind": 3974.9,
      "venda": 3974.9
     }
    ],
@@ -6306,7 +6306,7 @@
   {
    "navio": "FENG ZE HAI",
    "ret": 10038.54,
-   "ind": 10009.62,
+   "ind": 10038.54,
    "venda": 10038.54,
    "pedidos": [
     "555",
@@ -6314,7 +6314,7 @@
     "8354"
    ],
    "n_pedidos": 3,
-   "status": "DIVERGENTE"
+   "status": "OK"
   },
   {
    "navio": "FYM CRYSTAL",
