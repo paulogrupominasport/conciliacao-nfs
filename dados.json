@@ -1,5 +1,5 @@
 {
- "gerado_em": "29/07/2026 07:58",
+ "gerado_em": "29/07/2026 08:08",
  "periodo": "01/05/2026 a 28/07/2026",
  "tolerancia": 0.01,
  "resumo": {
@@ -14,8 +14,8 @@
  "totais": {
   "ret": 143791.98,
   "ind": 117835.41,
-  "venda": 441816.31,
-  "val_venda": 337051707.24
+  "venda": 441812.31,
+  "val_venda": 337041442.63
  },
  "pedidos": [
   {
@@ -24,8 +24,8 @@
    "status": "DIRETA",
    "ret": 0,
    "ind": 0,
-   "venda": 495.0,
-   "venda_bruta": 495.0,
+   "venda": 491.0,
+   "venda_bruta": 491.0,
    "dev": 0,
    "mp": 0,
    "max_dif": 0.0,
@@ -33,7 +33,7 @@
    "etapas": [
     {
      "nome": "Venda",
-     "qtd": 495.0
+     "qtd": 491.0
     }
    ],
    "navios": [
@@ -44,14 +44,14 @@
      "navio": "#N/A",
      "ret": 0,
      "ind": 0,
-     "venda": 495.0
+     "venda": 491.0
     }
    ],
    "cliente": "GERDAU ACOMINAS",
    "clientes": [
     {
      "nome": "GERDAU ACOMINAS",
-     "qtd": 350.0
+     "qtd": 348.0
     },
     {
      "nome": "GERDAU",
@@ -66,15 +66,15 @@
      "qtd": 6.0
     },
     {
-     "nome": "PETRORECONCAVO (RN)",
-     "qtd": 4.0
-    },
-    {
      "nome": "L S METAIS",
      "qtd": 3.0
     },
     {
      "nome": "MINAS TRADING (MG)",
+     "qtd": 2.0
+    },
+    {
+     "nome": "PETRORECONCAVO (RN)",
      "qtd": 2.0
     },
     {
@@ -89,7 +89,7 @@
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 1623811.08
+   "val_venda": 1613546.47
   },
   {
    "pedido": "511",
@@ -2343,11 +2343,11 @@
     }
    ],
    "navios": [
-    "#N/A"
+    "VOTORANTIM - NACIONAL"
    ],
    "navio_detalhe": [
     {
-     "navio": "#N/A",
+     "navio": "VOTORANTIM - NACIONAL",
      "ret": 0,
      "ind": 0,
      "venda": 447.8
@@ -6267,19 +6267,18 @@
    "navio": "#N/A",
    "ret": 0.0,
    "ind": 0.0,
-   "venda": 10173.04,
+   "venda": 9721.24,
    "pedidos": [
     "0",
     "511",
     "513",
-    "600",
     "8307",
     "147501",
     "148901",
     "149201",
     "14780101"
    ],
-   "n_pedidos": 9,
+   "n_pedidos": 8,
    "status": "OK"
   },
   {
@@ -6569,6 +6568,17 @@
    ],
    "n_pedidos": 8,
    "status": "OK"
+  },
+  {
+   "navio": "VOTORANTIM - NACIONAL",
+   "ret": 0.0,
+   "ind": 0.0,
+   "venda": 447.8,
+   "pedidos": [
+    "600"
+   ],
+   "n_pedidos": 1,
+   "status": "DIRETA"
   },
   {
    "navio": "XIN HAI TONG",
