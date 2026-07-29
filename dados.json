@@ -1,10 +1,10 @@
 {
- "gerado_em": "29/07/2026 08:48",
+ "gerado_em": "29/07/2026 08:58",
  "periodo": "01/05/2026 a 28/07/2026",
  "tolerancia": 0.01,
  "resumo": {
-  "completos_ok": 49,
-  "completos_div": 3,
+  "completos_ok": 51,
+  "completos_div": 1,
   "sem_ind_ok": 6,
   "sem_ind_div": 1,
   "venda_direta": 67,
@@ -12,8 +12,8 @@
   "total_pedidos": 136
  },
  "totais": {
-  "ret": 143791.98,
-  "ind": 117835.41,
+  "ret": 143746.59,
+  "ind": 117871.12,
   "venda": 441812.31,
   "val_venda": 337041442.63
  },
@@ -4575,15 +4575,15 @@
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
    "ret": 3974.9,
-   "ind": 3896.81,
+   "ind": 3945.98,
    "venda": 3974.9,
    "venda_bruta": 3974.9,
    "dev": 0,
    "mp": 0,
-   "max_dif": 78.09,
+   "max_dif": 28.92,
    "difs": {
-    "ret_ind": 78.09,
-    "ind_venda": -78.09,
+    "ret_ind": 28.92,
+    "ind_venda": -28.92,
     "ret_venda": 0.0
    },
    "etapas": [
@@ -4593,7 +4593,7 @@
     },
     {
      "nome": "Industrializacao",
-     "qtd": 3896.81
+     "qtd": 3945.98
     },
     {
      "nome": "Venda",
@@ -4607,7 +4607,7 @@
     {
      "navio": "FENG ZE HAI",
      "ret": 3974.9,
-     "ind": 3896.81,
+     "ind": 3945.98,
      "venda": 3974.9
     }
    ],
@@ -5026,17 +5026,17 @@
   {
    "pedido": "8363",
    "tipo": "COMPLETO",
-   "status": "DIVERGENTE",
+   "status": "OK",
    "ret": 1826.5,
-   "ind": 1794.57,
+   "ind": 1826.5,
    "venda": 1826.5,
    "venda_bruta": 1826.5,
    "dev": 0,
    "mp": 0,
-   "max_dif": 31.93,
+   "max_dif": 0.0,
    "difs": {
-    "ret_ind": 31.93,
-    "ind_venda": -31.93,
+    "ret_ind": 0.0,
+    "ind_venda": 0.0,
     "ret_venda": 0.0
    },
    "etapas": [
@@ -5046,7 +5046,7 @@
     },
     {
      "nome": "Industrializacao",
-     "qtd": 1794.57
+     "qtd": 1826.5
     },
     {
      "nome": "Venda",
@@ -5060,7 +5060,7 @@
     {
      "navio": "SOLE",
      "ret": 1826.5,
-     "ind": 1794.57,
+     "ind": 1826.5,
      "venda": 1826.5
     }
    ],
@@ -5173,27 +5173,27 @@
   {
    "pedido": "8367",
    "tipo": "COMPLETO",
-   "status": "DIVERGENTE",
-   "ret": 6386.62,
-   "ind": 6386.62,
+   "status": "OK",
+   "ret": 6341.23,
+   "ind": 6341.23,
    "venda": 6341.23,
    "venda_bruta": 6341.23,
    "dev": 0,
    "mp": 0,
-   "max_dif": 45.39,
+   "max_dif": 0.0,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": 45.39,
-    "ret_venda": 45.39
+    "ind_venda": 0.0,
+    "ret_venda": 0.0
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 6386.62
+     "qtd": 6341.23
     },
     {
      "nome": "Industrializacao",
-     "qtd": 6386.62
+     "qtd": 6341.23
     },
     {
      "nome": "Venda",
@@ -5206,8 +5206,8 @@
    "navio_detalhe": [
     {
      "navio": "XIN HAI TONG",
-     "ret": 6386.62,
-     "ind": 6386.62,
+     "ret": 6341.23,
+     "ind": 6341.23,
      "venda": 6341.23
     }
    ],
@@ -6306,7 +6306,7 @@
   {
    "navio": "FENG ZE HAI",
    "ret": 10038.54,
-   "ind": 9960.45,
+   "ind": 10009.62,
    "venda": 10038.54,
    "pedidos": [
     "555",
@@ -6511,7 +6511,7 @@
   {
    "navio": "SOLE",
    "ret": 22259.9,
-   "ind": 22227.97,
+   "ind": 22259.9,
    "venda": 73340.94,
    "pedidos": [
     "8338",
@@ -6531,7 +6531,7 @@
     "149801"
    ],
    "n_pedidos": 15,
-   "status": "DIVERGENTE"
+   "status": "OK"
   },
   {
    "navio": "SPAR CORONA",
@@ -6582,8 +6582,8 @@
   },
   {
    "navio": "XIN HAI TONG",
-   "ret": 30566.42,
-   "ind": 30566.42,
+   "ret": 30521.03,
+   "ind": 30521.03,
    "venda": 79463.39,
    "pedidos": [
     "8323",
@@ -6608,7 +6608,7 @@
     "149701"
    ],
    "n_pedidos": 20,
-   "status": "DIVERGENTE"
+   "status": "OK"
   }
  ]
 }
