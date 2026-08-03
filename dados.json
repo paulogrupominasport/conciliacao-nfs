@@ -1,5 +1,5 @@
 {
- "gerado_em": "03/08/2026 07:58",
+ "gerado_em": "03/08/2026 08:08",
  "periodo": "01/05/2026 a 02/08/2026",
  "tolerancia": 0.01,
  "resumo": {
@@ -14,8 +14,8 @@
  "totais": {
   "ret": 167608.1,
   "ind": 141558.2,
-  "venda": 470038.56,
-  "val_venda": 386948549.76
+  "venda": 470037.56,
+  "val_venda": 386196430.61
  },
  "pedidos": [
   {
@@ -24,8 +24,8 @@
    "status": "DIRETA",
    "ret": 0,
    "ind": 0,
-   "venda": 490.0,
-   "venda_bruta": 490.0,
+   "venda": 489.0,
+   "venda_bruta": 489.0,
    "dev": 0,
    "mp": 0,
    "max_dif": 0.0,
@@ -33,7 +33,7 @@
    "etapas": [
     {
      "nome": "Venda",
-     "qtd": 490.0
+     "qtd": 489.0
     }
    ],
    "navios": [
@@ -44,7 +44,7 @@
      "navio": "#N/A",
      "ret": 0,
      "ind": 0,
-     "venda": 490.0
+     "venda": 489.0
     }
    ],
    "cliente": "GERDAU ACOMINAS",
@@ -66,12 +66,12 @@
      "qtd": 6.0
     },
     {
-     "nome": "MINAS TRADING (MG)",
+     "nome": "L S METAIS",
      "qtd": 3.0
     },
     {
-     "nome": "L S METAIS",
-     "qtd": 3.0
+     "nome": "MINAS TRADING (MG)",
+     "qtd": 2.0
     },
     {
      "nome": "CANTEIROPOLIS",
@@ -85,7 +85,7 @@
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 2359012.97
+   "val_venda": 1606893.82
   },
   {
    "pedido": "511",
@@ -5678,11 +5678,11 @@
     }
    ],
    "navios": [
-    "#N/A"
+    "VOTORANTIM - NACIONAL"
    ],
    "navio_detalhe": [
     {
-     "navio": "#N/A",
+     "navio": "VOTORANTIM - NACIONAL",
      "ret": 0,
      "ind": 0,
      "venda": 3893.26
@@ -6761,19 +6761,18 @@
    "navio": "#N/A",
    "ret": 0.0,
    "ind": 0.0,
-   "venda": 13613.5,
+   "venda": 9719.24,
    "pedidos": [
     "0",
     "511",
     "513",
     "8307",
-    "8372",
     "147501",
     "148901",
     "149201",
     "14780101"
    ],
-   "n_pedidos": 9,
+   "n_pedidos": 8,
    "status": "OK"
   },
   {
@@ -7083,12 +7082,13 @@
    "navio": "VOTORANTIM - NACIONAL",
    "ret": 0.0,
    "ind": 0.0,
-   "venda": 2417.36,
+   "venda": 6310.62,
    "pedidos": [
     "598",
-    "600"
+    "600",
+    "8372"
    ],
-   "n_pedidos": 2,
+   "n_pedidos": 3,
    "status": "DIRETA"
   },
   {
