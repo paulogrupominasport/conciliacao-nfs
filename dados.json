@@ -1,5 +1,5 @@
 {
- "gerado_em": "03/08/2026 07:48",
+ "gerado_em": "03/08/2026 07:58",
  "periodo": "01/05/2026 a 02/08/2026",
  "tolerancia": 0.01,
  "resumo": {
@@ -5772,11 +5772,11 @@
     }
    ],
    "navios": [
-    "#N/A"
+    "PHOENIX"
    ],
    "navio_detalhe": [
     {
-     "navio": "#N/A",
+     "navio": "PHOENIX",
      "ret": 0,
      "ind": 0,
      "venda": 3000.0
@@ -5825,13 +5825,13 @@
     }
    ],
    "navios": [
-    "#N/A"
+    "PHOENICIAN"
    ],
    "navio_detalhe": [
     {
-     "navio": "#N/A",
-     "ret": 0,
-     "ind": 0,
+     "navio": "PHOENICIAN",
+     "ret": 226.1,
+     "ind": 191.29,
      "venda": 581.99
     }
    ],
@@ -5878,13 +5878,13 @@
     }
    ],
    "navios": [
-    "#N/A"
+    "XIN HAI TONG"
    ],
    "navio_detalhe": [
     {
-     "navio": "#N/A",
-     "ret": 0,
-     "ind": 0,
+     "navio": "XIN HAI TONG",
+     "ret": 187.24,
+     "ind": 187.24,
      "venda": 847.64
     }
    ],
@@ -6569,11 +6569,11 @@
     }
    ],
    "navios": [
-    "#N/A"
+    "Normal"
    ],
    "navio_detalhe": [
     {
-     "navio": "#N/A",
+     "navio": "Normal",
      "ret": 0,
      "ind": 0,
      "venda": 5900.0
@@ -6692,11 +6692,11 @@
     }
    ],
    "navios": [
-    "#N/A"
+    "REMESSA"
    ],
    "navio_detalhe": [
     {
-     "navio": "#N/A",
+     "navio": "REMESSA",
      "ret": 0,
      "ind": 0,
      "venda": 581.99
@@ -6761,25 +6761,20 @@
    "navio": "#N/A",
    "ret": 0.0,
    "ind": 0.0,
-   "venda": 24525.12,
+   "venda": 13613.5,
    "pedidos": [
     "0",
     "511",
     "513",
     "8307",
     "8372",
-    "8374",
-    "8375",
-    "8376",
     "147501",
     "148901",
     "149201",
-    "150801",
-    "837501",
     "14780101"
    ],
-   "n_pedidos": 14,
-   "status": "DIVERGENTE"
+   "n_pedidos": 9,
+   "status": "OK"
   },
   {
    "navio": "CARVÃO R4",
@@ -6942,16 +6937,17 @@
    "navio": "Normal",
    "ret": 0.0,
    "ind": 0.0,
-   "venda": 14143.92,
+   "venda": 20043.92,
    "pedidos": [
     "597",
     "8337",
     "8365",
     "129508",
     "149501",
-    "150601"
+    "150601",
+    "150801"
    ],
-   "n_pedidos": 6,
+   "n_pedidos": 7,
    "status": "DIRETA"
   },
   {
@@ -6971,15 +6967,27 @@
   },
   {
    "navio": "PHOENICIAN",
-   "ret": 362.45,
-   "ind": 254.44,
-   "venda": 1400.15,
+   "ret": 588.55,
+   "ind": 445.73,
+   "venda": 1982.14,
    "pedidos": [
     "593",
-    "596"
+    "596",
+    "8375"
    ],
-   "n_pedidos": 2,
+   "n_pedidos": 3,
    "status": "DIVERGENTE"
+  },
+  {
+   "navio": "PHOENIX",
+   "ret": 0.0,
+   "ind": 0.0,
+   "venda": 3000.0,
+   "pedidos": [
+    "8374"
+   ],
+   "n_pedidos": 1,
+   "status": "DIRETA"
   },
   {
    "navio": "PORT VERA CRUZ",
@@ -7000,13 +7008,14 @@
    "navio": "REMESSA",
    "ret": 0.0,
    "ind": 0.0,
-   "venda": 2269.86,
+   "venda": 2851.85,
    "pedidos": [
     "118012",
     "831301",
-    "836601"
+    "836601",
+    "837501"
    ],
-   "n_pedidos": 3,
+   "n_pedidos": 4,
    "status": "DIRETA"
   },
   {
@@ -7084,9 +7093,9 @@
   },
   {
    "navio": "XIN HAI TONG",
-   "ret": 35339.96,
-   "ind": 35339.96,
-   "venda": 84445.77,
+   "ret": 35527.2,
+   "ind": 35527.2,
+   "venda": 85293.41,
    "pedidos": [
     "8323",
     "8324",
@@ -7107,9 +7116,10 @@
     "8369",
     "8370",
     "8371",
+    "8376",
     "149701"
    ],
-   "n_pedidos": 20,
+   "n_pedidos": 21,
    "status": "OK"
   }
  ]
