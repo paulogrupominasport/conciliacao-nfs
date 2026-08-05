@@ -1,21 +1,21 @@
 {
- "gerado_em": "05/08/2026 08:28",
+ "gerado_em": "05/08/2026 08:38",
  "periodo": "01/05/2026 a 04/08/2026",
  "tolerancia": 0.01,
  "resumo": {
-  "completos_ok": 48,
-  "completos_div": 7,
+  "completos_ok": 49,
+  "completos_div": 6,
   "sem_ind_ok": 6,
   "sem_ind_div": 1,
-  "venda_direta": 75,
+  "venda_direta": 76,
   "pendentes": 8,
-  "total_pedidos": 152
+  "total_pedidos": 153
  },
  "totais": {
   "ret": 179897.15,
   "ind": 153797.01,
-  "venda": 474745.17,
-  "val_venda": 390768541.1
+  "venda": 474317.17,
+  "val_venda": 390354982.1
  },
  "pedidos": [
   {
@@ -24,8 +24,8 @@
    "status": "DIRETA",
    "ret": 0,
    "ind": 0,
-   "venda": 887.38,
-   "venda_bruta": 887.38,
+   "venda": 96.75,
+   "venda_bruta": 96.75,
    "dev": 0,
    "mp": 0,
    "max_dif": 0.0,
@@ -33,7 +33,7 @@
    "etapas": [
     {
      "nome": "Venda",
-     "qtd": 887.38
+     "qtd": 96.75
     }
    ],
    "navios": [
@@ -44,27 +44,11 @@
      "navio": "#N/A",
      "ret": 0,
      "ind": 0,
-     "venda": 887.38
+     "venda": 96.75
     }
    ],
-   "cliente": "GERDAU ACOMINAS",
+   "cliente": "JEVINETWORK",
    "clientes": [
-    {
-     "nome": "GERDAU ACOMINAS",
-     "qtd": 348.0
-    },
-    {
-     "nome": "CIM. LIZ",
-     "qtd": 283.36
-    },
-    {
-     "nome": "CARBOAMERICA - MG",
-     "qtd": 79.27
-    },
-    {
-     "nome": "GERDAU",
-     "qtd": 74.0
-    },
     {
      "nome": "JEVINETWORK",
      "qtd": 54.0
@@ -72,10 +56,6 @@
     {
      "nome": "BELOCAL - MTZ",
      "qtd": 35.75
-    },
-    {
-     "nome": "GERDAU DIVINOPOLIS",
-     "qtd": 6.0
     },
     {
      "nome": "L S METAIS",
@@ -97,7 +77,7 @@
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 2080840.0
+   "val_venda": 1233009.46
   },
   {
    "pedido": "511",
@@ -5385,15 +5365,15 @@
    "status": "DIVERGENTE",
    "ret": 3422.34,
    "ind": 3422.34,
-   "venda": 3391.07,
-   "venda_bruta": 3391.07,
+   "venda": 3470.34,
+   "venda_bruta": 3470.34,
    "dev": 0,
    "mp": 0,
-   "max_dif": 31.27,
+   "max_dif": 48.0,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": 31.27,
-    "ret_venda": 31.27
+    "ind_venda": -48.0,
+    "ret_venda": -48.0
    },
    "etapas": [
     {
@@ -5406,7 +5386,7 @@
     },
     {
      "nome": "Venda",
-     "qtd": 3391.07
+     "qtd": 3470.34
     }
    ],
    "navios": [
@@ -5417,20 +5397,20 @@
      "navio": "SOLE",
      "ret": 3422.34,
      "ind": 3422.34,
-     "venda": 3391.07
+     "venda": 3470.34
     }
    ],
    "cliente": "CARBOAMERICA - MG",
    "clientes": [
     {
      "nome": "CARBOAMERICA - MG",
-     "qtd": 3391.07
+     "qtd": 3470.34
     }
    ],
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 2884545.89
+   "val_venda": 2951975.33
   },
   {
    "pedido": "8365",
@@ -5982,18 +5962,18 @@
   {
    "pedido": "8376",
    "tipo": "COMPLETO",
-   "status": "DIVERGENTE",
+   "status": "OK",
    "ret": 1729.3,
    "ind": 1729.3,
-   "venda": 1483.44,
-   "venda_bruta": 1483.44,
+   "venda": 1729.3,
+   "venda_bruta": 1729.3,
    "dev": 0,
    "mp": 0,
-   "max_dif": 245.86,
+   "max_dif": 0.0,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": 245.86,
-    "ret_venda": 245.86
+    "ind_venda": 0.0,
+    "ret_venda": 0.0
    },
    "etapas": [
     {
@@ -6006,7 +5986,7 @@
     },
     {
      "nome": "Venda",
-     "qtd": 1483.44
+     "qtd": 1729.3
     }
    ],
    "navios": [
@@ -6017,20 +5997,20 @@
      "navio": "XIN HAI TONG",
      "ret": 1729.3,
      "ind": 1729.3,
-     "venda": 1483.44
+     "venda": 1729.3
     }
    ],
    "cliente": "CIM. LIZ",
    "clientes": [
     {
      "nome": "CIM. LIZ",
-     "qtd": 1483.44
+     "qtd": 1729.3
     }
    ],
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 1919081.85
+   "val_venda": 2237143.57
   },
   {
    "pedido": "8377",
@@ -6084,6 +6064,47 @@
    "produto": "",
    "data_pedido": "",
    "val_venda": 35883.3
+  },
+  {
+   "pedido": "8386",
+   "tipo": "VENDA_DIRETA",
+   "status": "DIRETA",
+   "ret": 0,
+   "ind": 0,
+   "venda": 37.5,
+   "venda_bruta": 37.5,
+   "dev": 0,
+   "mp": 0,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Venda",
+     "qtd": 37.5
+    }
+   ],
+   "navios": [
+    "#N/A"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "#N/A",
+     "ret": 0,
+     "ind": 0,
+     "venda": 37.5
+    }
+   ],
+   "cliente": "CIM. LIZ",
+   "clientes": [
+    {
+     "nome": "CIM. LIZ",
+     "qtd": 37.5
+    }
+   ],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 48780.38
   },
   {
    "pedido": "118012",
@@ -6946,18 +6967,19 @@
    "navio": "#N/A",
    "ret": 0.0,
    "ind": 0.0,
-   "venda": 10117.62,
+   "venda": 9364.49,
    "pedidos": [
     "0",
     "511",
     "513",
     "8307",
+    "8386",
     "147501",
     "148901",
     "149201",
     "14780101"
    ],
-   "n_pedidos": 8,
+   "n_pedidos": 9,
    "status": "OK"
   },
   {
@@ -7207,7 +7229,7 @@
    "navio": "SOLE",
    "ret": 24052.91,
    "ind": 24052.91,
-   "venda": 76382.64,
+   "venda": 76461.91,
    "pedidos": [
     "8338",
     "8339",
@@ -7283,7 +7305,7 @@
    "navio": "XIN HAI TONG",
    "ret": 37437.6,
    "ind": 37387.36,
-   "venda": 84818.39,
+   "venda": 85064.25,
    "pedidos": [
     "8323",
     "8324",
