@@ -1,5 +1,5 @@
 {
- "gerado_em": "17/08/2026 21:18",
+ "gerado_em": "17/08/2026 21:28",
  "periodo": "01/05/2026 a 17/08/2026",
  "tolerancia": 0.01,
  "resumo": {
@@ -93,7 +93,7 @@
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 4934620.83
+   "val_venda": 4700258.62
   },
   {
    "pedido": "511",
@@ -902,8 +902,8 @@
    "navio_detalhe": [
     {
      "navio": "TERMICO STR- JOKER",
-     "ret": 18135.08,
-     "ind": 18135.08,
+     "ret": 18967.38,
+     "ind": 18967.38,
      "venda": 19101.93
     }
    ],
@@ -2029,8 +2029,8 @@
    "navio_detalhe": [
     {
      "navio": "PACIFIC TALENT",
-     "ret": 288.27,
-     "ind": 288.27,
+     "ret": 318.27,
+     "ind": 318.27,
      "venda": 288.27
     }
    ],
@@ -2311,7 +2311,7 @@
    "navio_detalhe": [
     {
      "navio": "PHOENICIAN",
-     "ret": 362.45,
+     "ret": 1627.78,
      "ind": 254.44,
      "venda": 1611.12
     }
@@ -2692,8 +2692,8 @@
    "navio_detalhe": [
     {
      "navio": "PACIFIC TALENT",
-     "ret": 0,
-     "ind": 0,
+     "ret": 40.0,
+     "ind": 40.0,
      "venda": 40.0
     }
    ],
@@ -4182,8 +4182,8 @@
    "navio_detalhe": [
     {
      "navio": "MV ELEPHANTA",
-     "ret": 811.21,
-     "ind": 811.21,
+     "ret": 858.82,
+     "ind": 858.72,
      "venda": 811.21
     }
    ],
@@ -5298,8 +5298,8 @@
    "navio_detalhe": [
     {
      "navio": "FENG ZE HAI",
-     "ret": 5114.63,
-     "ind": 5114.63,
+     "ret": 5760.43,
+     "ind": 5760.43,
      "venda": 5722.93
     }
    ],
@@ -6151,8 +6151,8 @@
    "navio_detalhe": [
     {
      "navio": "XIN HAI TONG",
-     "ret": 491.89,
-     "ind": 491.89,
+     "ret": 609.59,
+     "ind": 609.59,
      "venda": 696.65
     }
    ],
@@ -6260,7 +6260,7 @@
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 454033.16
+   "val_venda": 688395.37
   },
   {
    "pedido": "8374",
@@ -6339,8 +6339,8 @@
    "navio_detalhe": [
     {
      "navio": "PHOENICIAN",
-     "ret": 581.99,
-     "ind": 581.99,
+     "ret": 1187.85,
+     "ind": 1187.85,
      "venda": 1187.85
     }
    ],
@@ -6392,8 +6392,8 @@
    "navio_detalhe": [
     {
      "navio": "XIN HAI TONG",
-     "ret": 2223.82,
-     "ind": 2223.82,
+     "ret": 2408.77,
+     "ind": 2408.77,
      "venda": 2188.13
     }
    ],
@@ -6445,8 +6445,8 @@
    "navio_detalhe": [
     {
      "navio": "XIN HAI TONG",
-     "ret": 1190.71,
-     "ind": 1093.82,
+     "ret": 6478.1,
+     "ind": 6429.55,
      "venda": 6956.57
     }
    ],
@@ -6498,8 +6498,8 @@
    "navio_detalhe": [
     {
      "navio": "XIN HAI TONG",
-     "ret": 332.41,
-     "ind": 332.41,
+     "ret": 2186.11,
+     "ind": 2186.11,
      "venda": 2353.27
     }
    ],
@@ -6551,8 +6551,8 @@
    "navio_detalhe": [
     {
      "navio": "MV ELEPHANTA",
-     "ret": 0,
-     "ind": 0,
+     "ret": 283.15,
+     "ind": 283.15,
      "venda": 330.66
     }
    ],
@@ -6604,8 +6604,8 @@
    "navio_detalhe": [
     {
      "navio": "FYM CRYSTAL",
-     "ret": 0,
-     "ind": 0,
+     "ret": 5206.69,
+     "ind": 4712.24,
      "venda": 5045.71
     }
    ],
@@ -6657,8 +6657,8 @@
    "navio_detalhe": [
     {
      "navio": "XIN HAI TONG",
-     "ret": 0,
-     "ind": 0,
+     "ret": 1533.48,
+     "ind": 1422.52,
      "venda": 1311.48
     }
    ],
@@ -6711,7 +6711,7 @@
     {
      "navio": "FYM CRYSTAL",
      "ret": 0,
-     "ind": 0,
+     "ind": 148.61,
      "venda": 377.14
     }
    ],
@@ -6763,8 +6763,8 @@
    "navio_detalhe": [
     {
      "navio": "FYM CRYSTAL",
-     "ret": 0,
-     "ind": 0,
+     "ret": 2161.51,
+     "ind": 2110.46,
      "venda": 2113.88
     }
    ],
@@ -6816,8 +6816,8 @@
    "navio_detalhe": [
     {
      "navio": "FYM CRYSTAL",
-     "ret": 0,
-     "ind": 0,
+     "ret": 311.43,
+     "ind": 283.67,
      "venda": 30.06
     }
    ],
@@ -6862,8 +6862,17 @@
      "qtd": 0
     }
    ],
-   "navios": [],
-   "navio_detalhe": [],
+   "navios": [
+    "XIN HAI TONG"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "XIN HAI TONG",
+     "ret": 87.06,
+     "ind": 87.06,
+     "venda": 0
+    }
+   ],
    "cliente": "",
    "clientes": [],
    "filial": "",
@@ -6907,8 +6916,8 @@
    "navio_detalhe": [
     {
      "navio": "MV LAWIN ARROW",
-     "ret": 0,
-     "ind": 0,
+     "ret": 659.85,
+     "ind": 659.85,
      "venda": 659.85
     }
    ],
@@ -8070,8 +8079,8 @@
   },
   {
    "navio": "FENG ZE HAI",
-   "ret": 11178.27,
-   "ind": 11178.27,
+   "ret": 11824.07,
+   "ind": 11824.07,
    "venda": 11786.57,
    "pedidos": [
     "555",
@@ -8083,8 +8092,8 @@
   },
   {
    "navio": "FYM CRYSTAL",
-   "ret": 0.0,
-   "ind": 0.0,
+   "ret": 7679.63,
+   "ind": 7254.98,
    "venda": 62688.75,
    "pedidos": [
     "8348",
@@ -8178,8 +8187,8 @@
   },
   {
    "navio": "MV ELEPHANTA",
-   "ret": 23094.4,
-   "ind": 23094.4,
+   "ret": 23425.16,
+   "ind": 23425.06,
    "venda": 23425.06,
    "pedidos": [
     "8311",
@@ -8201,8 +8210,8 @@
   },
   {
    "navio": "MV LAWIN ARROW",
-   "ret": 0.0,
-   "ind": 0.0,
+   "ret": 659.85,
+   "ind": 659.85,
    "venda": 659.85,
    "pedidos": [
     "8386"
@@ -8241,8 +8250,8 @@
   },
   {
    "navio": "PACIFIC TALENT",
-   "ret": 827.54,
-   "ind": 827.54,
+   "ret": 897.54,
+   "ind": 897.54,
    "venda": 897.54,
    "pedidos": [
     "559",
@@ -8258,8 +8267,8 @@
   },
   {
    "navio": "PHOENICIAN",
-   "ret": 944.44,
-   "ind": 836.43,
+   "ret": 2815.63,
+   "ind": 1442.29,
    "venda": 3836.67,
    "pedidos": [
     "593",
@@ -8363,8 +8372,8 @@
   },
   {
    "navio": "TERMICO STR- JOKER",
-   "ret": 31381.09,
-   "ind": 29822.47,
+   "ret": 32213.39,
+   "ind": 30654.77,
    "venda": 46168.57,
    "pedidos": [
     "552",
@@ -8396,8 +8405,8 @@
   },
   {
    "navio": "XIN HAI TONG",
-   "ret": 39406.69,
-   "ind": 39309.8,
+   "ret": 48470.97,
+   "ind": 48311.46,
    "venda": 96358.77,
    "pedidos": [
     "8323",
@@ -8422,10 +8431,11 @@
     "8377",
     "8378",
     "8381",
+    "8385",
     "149701",
     "837601"
    ],
-   "n_pedidos": 24,
+   "n_pedidos": 25,
    "status": "DIVERGENTE"
   }
  ]
