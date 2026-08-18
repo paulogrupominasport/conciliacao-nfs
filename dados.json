@@ -1,5 +1,5 @@
 {
- "gerado_em": "17/08/2026 21:08",
+ "gerado_em": "17/08/2026 21:18",
  "periodo": "01/05/2026 a 17/08/2026",
  "tolerancia": 0.01,
  "resumo": {
@@ -14,8 +14,8 @@
  "totais": {
   "ret": 202924.79,
   "ind": 174778.73,
-  "venda": 540662.16,
-  "val_venda": 456143360.81
+  "venda": 540410.16,
+  "val_venda": 455534737.85
  },
  "pedidos": [
   {
@@ -24,8 +24,8 @@
    "status": "DIRETA",
    "ret": 0,
    "ind": 0,
-   "venda": 666.38,
-   "venda_bruta": 666.38,
+   "venda": 414.38,
+   "venda_bruta": 414.38,
    "dev": 0,
    "mp": 0,
    "max_dif": 0.0,
@@ -33,7 +33,7 @@
    "etapas": [
     {
      "nome": "Venda",
-     "qtd": 666.38
+     "qtd": 414.38
     }
    ],
    "navios": [
@@ -44,7 +44,7 @@
      "navio": "#N/A",
      "ret": 0,
      "ind": 0,
-     "venda": 666.38
+     "venda": 414.38
     }
    ],
    "cliente": "CIM. LIZ",
@@ -54,16 +54,8 @@
      "qtd": 283.36
     },
     {
-     "nome": "GERDAU ACOMINAS",
-     "qtd": 205.0
-    },
-    {
      "nome": "JEVINETWORK",
      "qtd": 54.0
-    },
-    {
-     "nome": "PETRORECONCAVO (RN)",
-     "qtd": 39.0
     },
     {
      "nome": "BELOCAL - MTZ",
@@ -78,23 +70,11 @@
      "qtd": 4.0
     },
     {
-     "nome": "GERDAU DIVINOPOLIS",
-     "qtd": 4.0
-    },
-    {
-     "nome": "EMBRAER S.A.",
-     "qtd": 3.0
-    },
-    {
      "nome": "L S METAIS",
      "qtd": 3.0
     },
     {
      "nome": "CANTEIROPOLIS",
-     "qtd": 1.0
-    },
-    {
-     "nome": "FLORIDA SUPPLY USA",
      "qtd": 1.0
     },
     {
@@ -113,7 +93,7 @@
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 5543243.79
+   "val_venda": 4934620.83
   },
   {
    "pedido": "511",
@@ -2789,11 +2769,11 @@
     }
    ],
    "navios": [
-    "#N/A"
+    "MAGIC CELESTE"
    ],
    "navio_detalhe": [
     {
-     "navio": "#N/A",
+     "navio": "MAGIC CELESTE",
      "ret": 0,
      "ind": 0,
      "venda": 598.36
@@ -2830,11 +2810,11 @@
     }
    ],
    "navios": [
-    "#N/A"
+    "PHOENIX"
    ],
    "navio_detalhe": [
     {
-     "navio": "#N/A",
+     "navio": "PHOENIX",
      "ret": 0,
      "ind": 0,
      "venda": 2148.7
@@ -2871,11 +2851,11 @@
     }
    ],
    "navios": [
-    "#N/A"
+    "PHOENIX"
    ],
    "navio_detalhe": [
     {
-     "navio": "#N/A",
+     "navio": "PHOENIX",
      "ret": 0,
      "ind": 0,
      "venda": 480.25
@@ -6619,11 +6599,11 @@
     }
    ],
    "navios": [
-    "#N/A"
+    "FYM CRYSTAL"
    ],
    "navio_detalhe": [
     {
-     "navio": "#N/A",
+     "navio": "FYM CRYSTAL",
      "ret": 0,
      "ind": 0,
      "venda": 5045.71
@@ -6672,11 +6652,11 @@
     }
    ],
    "navios": [
-    "#N/A"
+    "XIN HAI TONG"
    ],
    "navio_detalhe": [
     {
-     "navio": "#N/A",
+     "navio": "XIN HAI TONG",
      "ret": 0,
      "ind": 0,
      "venda": 1311.48
@@ -6725,11 +6705,11 @@
     }
    ],
    "navios": [
-    "#N/A"
+    "FYM CRYSTAL"
    ],
    "navio_detalhe": [
     {
-     "navio": "#N/A",
+     "navio": "FYM CRYSTAL",
      "ret": 0,
      "ind": 0,
      "venda": 377.14
@@ -6778,11 +6758,11 @@
     }
    ],
    "navios": [
-    "#N/A"
+    "FYM CRYSTAL"
    ],
    "navio_detalhe": [
     {
-     "navio": "#N/A",
+     "navio": "FYM CRYSTAL",
      "ret": 0,
      "ind": 0,
      "venda": 2113.88
@@ -6831,11 +6811,11 @@
     }
    ],
    "navios": [
-    "#N/A"
+    "FYM CRYSTAL"
    ],
    "navio_detalhe": [
     {
-     "navio": "#N/A",
+     "navio": "FYM CRYSTAL",
      "ret": 0,
      "ind": 0,
      "venda": 30.06
@@ -6922,11 +6902,11 @@
     }
    ],
    "navios": [
-    "#N/A"
+    "MV LAWIN ARROW"
    ],
    "navio_detalhe": [
     {
-     "navio": "#N/A",
+     "navio": "MV LAWIN ARROW",
      "ret": 0,
      "ind": 0,
      "venda": 659.85
@@ -6963,11 +6943,11 @@
     }
    ],
    "navios": [
-    "#N/A"
+    "PACIFIC TALENT"
    ],
    "navio_detalhe": [
     {
-     "navio": "#N/A",
+     "navio": "PACIFIC TALENT",
      "ret": 0,
      "ind": 0,
      "venda": 30.0
@@ -7736,11 +7716,11 @@
     }
    ],
    "navios": [
-    "#N/A"
+    "Normal"
    ],
    "navio_detalhe": [
     {
-     "navio": "#N/A",
+     "navio": "Normal",
      "ret": 0,
      "ind": 0,
      "venda": 7700.0
@@ -7982,11 +7962,11 @@
     }
    ],
    "navios": [
-    "#N/A"
+    "REMESSA"
    ],
    "navio_detalhe": [
     {
-     "navio": "#N/A",
+     "navio": "REMESSA",
      "ret": 0,
      "ind": 0,
      "venda": 377.14
@@ -8051,31 +8031,19 @@
    "navio": "#N/A",
    "ret": 0.0,
    "ind": 0.0,
-   "venda": 30769.19,
+   "venda": 9644.62,
    "pedidos": [
     "0",
     "511",
     "513",
-    "608",
-    "609",
-    "610",
     "8307",
-    "8380",
-    "8381",
-    "8382",
-    "8383",
-    "8384",
-    "8386",
-    "59001",
     "147501",
     "148901",
     "149201",
-    "150901",
-    "838201",
     "14780101"
    ],
-   "n_pedidos": 20,
-   "status": "DIVERGENTE"
+   "n_pedidos": 8,
+   "status": "OK"
   },
   {
    "navio": "CARVÃO R4",
@@ -8117,7 +8085,7 @@
    "navio": "FYM CRYSTAL",
    "ret": 0.0,
    "ind": 0.0,
-   "venda": 55121.96,
+   "venda": 62688.75,
    "pedidos": [
     "8348",
     "8349",
@@ -8126,10 +8094,14 @@
     "8353",
     "8357",
     "8358",
+    "8380",
+    "8382",
+    "8383",
+    "8384",
     "150001"
    ],
-   "n_pedidos": 8,
-   "status": "DIRETA"
+   "n_pedidos": 12,
+   "status": "DIVERGENTE"
   },
   {
    "navio": "IRVINE BAY TÉRMICO YCRT",
@@ -8167,12 +8139,13 @@
    "navio": "MAGIC CELESTE",
    "ret": 0.0,
    "ind": 0.0,
-   "venda": 9356.84,
+   "venda": 9955.2,
    "pedidos": [
     "589",
-    "602"
+    "602",
+    "608"
    ],
-   "n_pedidos": 2,
+   "n_pedidos": 3,
    "status": "DIRETA"
   },
   {
@@ -8227,6 +8200,17 @@
    "status": "DIVERGENTE"
   },
   {
+   "navio": "MV LAWIN ARROW",
+   "ret": 0.0,
+   "ind": 0.0,
+   "venda": 659.85,
+   "pedidos": [
+    "8386"
+   ],
+   "n_pedidos": 1,
+   "status": "OK"
+  },
+  {
    "navio": "NIHAT",
    "ret": 688.49,
    "ind": 688.49,
@@ -8241,7 +8225,7 @@
    "navio": "Normal",
    "ret": 0.0,
    "ind": 0.0,
-   "venda": 18328.51,
+   "venda": 26028.51,
    "pedidos": [
     "8337",
     "8364",
@@ -8249,25 +8233,27 @@
     "129508",
     "149501",
     "150601",
-    "150801"
+    "150801",
+    "150901"
    ],
-   "n_pedidos": 7,
+   "n_pedidos": 8,
    "status": "DIRETA"
   },
   {
    "navio": "PACIFIC TALENT",
    "ret": 827.54,
    "ind": 827.54,
-   "venda": 867.54,
+   "venda": 897.54,
    "pedidos": [
     "559",
     "563",
     "572",
     "590",
     "591",
-    "606"
+    "606",
+    "59001"
    ],
-   "n_pedidos": 6,
+   "n_pedidos": 7,
    "status": "DIVERGENTE"
   },
   {
@@ -8287,16 +8273,18 @@
    "navio": "PHOENIX",
    "ret": 0.0,
    "ind": 0.0,
-   "venda": 23252.73,
+   "venda": 25881.68,
    "pedidos": [
     "601",
     "603",
     "604",
     "605",
+    "609",
+    "610",
     "8374",
     "837401"
    ],
-   "n_pedidos": 6,
+   "n_pedidos": 8,
    "status": "DIRETA"
   },
   {
@@ -8318,14 +8306,15 @@
    "navio": "REMESSA",
    "ret": 0.0,
    "ind": 0.0,
-   "venda": 3457.71,
+   "venda": 3834.85,
    "pedidos": [
     "118012",
     "831301",
     "836601",
-    "837501"
+    "837501",
+    "838201"
    ],
-   "n_pedidos": 4,
+   "n_pedidos": 5,
    "status": "DIRETA"
   },
   {
@@ -8409,7 +8398,7 @@
    "navio": "XIN HAI TONG",
    "ret": 39406.69,
    "ind": 39309.8,
-   "venda": 95047.29,
+   "venda": 96358.77,
    "pedidos": [
     "8323",
     "8324",
@@ -8432,10 +8421,11 @@
     "8376",
     "8377",
     "8378",
+    "8381",
     "149701",
     "837601"
    ],
-   "n_pedidos": 23,
+   "n_pedidos": 24,
    "status": "DIVERGENTE"
   }
  ]
