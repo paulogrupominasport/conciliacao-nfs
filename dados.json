@@ -1,5 +1,5 @@
 {
- "gerado_em": "14/09/2026 10:08",
+ "gerado_em": "14/09/2026 10:18",
  "periodo": "01/05/2026 a 17/08/2026",
  "tolerancia": 0.01,
  "resumo": {
@@ -14,8 +14,8 @@
  "totais": {
   "ret": 202924.79,
   "ind": 174778.73,
-  "venda": 540410.16,
-  "val_venda": 455534737.85
+  "venda": 539923.02,
+  "val_venda": 455174692.66
  },
  "pedidos": [
   {
@@ -6574,15 +6574,15 @@
    "status": "DIVERGENTE",
    "ret": 5206.69,
    "ind": 4712.24,
-   "venda": 5045.71,
-   "venda_bruta": 5045.71,
+   "venda": 4558.57,
+   "venda_bruta": 4558.57,
    "dev": 0,
    "mp": 0,
-   "max_dif": 494.45,
+   "max_dif": 648.12,
    "difs": {
     "ret_ind": 494.45,
-    "ind_venda": -333.47,
-    "ret_venda": 160.98
+    "ind_venda": 153.67,
+    "ret_venda": 648.12
    },
    "etapas": [
     {
@@ -6595,7 +6595,7 @@
     },
     {
      "nome": "Venda",
-     "qtd": 5045.71
+     "qtd": 4558.57
     }
    ],
    "navios": [
@@ -6606,20 +6606,20 @@
      "navio": "FYM CRYSTAL",
      "ret": 5206.69,
      "ind": 4712.24,
-     "venda": 5045.71
+     "venda": 4558.57
     }
    ],
    "cliente": "CARBOAMERICA - MG",
    "clientes": [
     {
      "nome": "CARBOAMERICA - MG",
-     "qtd": 5045.71
+     "qtd": 4558.57
     }
    ],
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 3729284.27
+   "val_venda": 3369239.08
   },
   {
    "pedido": "8381",
@@ -8094,7 +8094,7 @@
    "navio": "FYM CRYSTAL",
    "ret": 7679.63,
    "ind": 7254.98,
-   "venda": 62688.75,
+   "venda": 62201.61,
    "pedidos": [
     "8348",
     "8349",
