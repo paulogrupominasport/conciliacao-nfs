@@ -1,5 +1,5 @@
 {
- "gerado_em": "14/09/2026 12:08",
+ "gerado_em": "14/09/2026 12:18",
  "periodo": "01/05/2026 a 14/09/2026",
  "tolerancia": 0.01,
  "resumo": {
@@ -94,11 +94,11 @@
      "qtd": 1.0
     },
     {
-     "nome": "INTERCEMENT-MS",
+     "nome": "MINAS TRADING",
      "qtd": 0.0
     },
     {
-     "nome": "MINAS TRADING",
+     "nome": "INTERCEMENT-MS",
      "qtd": 0.0
     }
    ],
@@ -4954,8 +4954,17 @@
      "qtd": 0
     }
    ],
-   "navios": [],
-   "navio_detalhe": [],
+   "navios": [
+    "PETCOKE"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "PETCOKE",
+     "ret": 0,
+     "ind": 0,
+     "venda": 0
+    }
+   ],
    "cliente": "",
    "clientes": [],
    "filial": "",
@@ -4989,8 +4998,17 @@
      "qtd": 0
     }
    ],
-   "navios": [],
-   "navio_detalhe": [],
+   "navios": [
+    "MV XIN HAI TONG"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "MV XIN HAI TONG",
+     "ret": 0,
+     "ind": 0,
+     "venda": 0
+    }
+   ],
    "cliente": "",
    "clientes": [],
    "filial": "",
@@ -5024,8 +5042,17 @@
      "qtd": 0
     }
    ],
-   "navios": [],
-   "navio_detalhe": [],
+   "navios": [
+    "MV XIN HAI TONG"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "MV XIN HAI TONG",
+     "ret": 0,
+     "ind": 0,
+     "venda": 0
+    }
+   ],
    "cliente": "",
    "clientes": [],
    "filial": "",
@@ -5059,8 +5086,17 @@
      "qtd": 0
     }
    ],
-   "navios": [],
-   "navio_detalhe": [],
+   "navios": [
+    "MV XIN HAI TONG"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "MV XIN HAI TONG",
+     "ret": 0,
+     "ind": 0,
+     "venda": 0
+    }
+   ],
    "cliente": "",
    "clientes": [],
    "filial": "",
@@ -5094,8 +5130,17 @@
      "qtd": 0
     }
    ],
-   "navios": [],
-   "navio_detalhe": [],
+   "navios": [
+    "MV XIN HAI TONG"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "MV XIN HAI TONG",
+     "ret": 0,
+     "ind": 0,
+     "venda": 0
+    }
+   ],
    "cliente": "",
    "clientes": [],
    "filial": "",
@@ -5129,8 +5174,17 @@
      "qtd": 0
     }
    ],
-   "navios": [],
-   "navio_detalhe": [],
+   "navios": [
+    "PETCOKE"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "PETCOKE",
+     "ret": 0,
+     "ind": 0,
+     "venda": 0
+    }
+   ],
    "cliente": "",
    "clientes": [],
    "filial": "",
@@ -5164,8 +5218,17 @@
      "qtd": 0
     }
    ],
-   "navios": [],
-   "navio_detalhe": [],
+   "navios": [
+    "PETCOKE"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "PETCOKE",
+     "ret": 0,
+     "ind": 0,
+     "venda": 0
+    }
+   ],
    "cliente": "",
    "clientes": [],
    "filial": "",
@@ -5199,8 +5262,17 @@
      "qtd": 0
     }
    ],
-   "navios": [],
-   "navio_detalhe": [],
+   "navios": [
+    "MV XIN HAI TONG"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "MV XIN HAI TONG",
+     "ret": 0,
+     "ind": 0,
+     "venda": 0
+    }
+   ],
    "cliente": "",
    "clientes": [],
    "filial": "",
@@ -5234,8 +5306,17 @@
      "qtd": 0
     }
    ],
-   "navios": [],
-   "navio_detalhe": [],
+   "navios": [
+    "MV FYM CRYSTAL"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "MV FYM CRYSTAL",
+     "ret": 0,
+     "ind": 0,
+     "venda": 0
+    }
+   ],
    "cliente": "",
    "clientes": [],
    "filial": "",
@@ -5269,8 +5350,17 @@
      "qtd": 0
     }
    ],
-   "navios": [],
-   "navio_detalhe": [],
+   "navios": [
+    "MV FYM CRYSTAL"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "MV FYM CRYSTAL",
+     "ret": 0,
+     "ind": 0,
+     "venda": 0
+    }
+   ],
    "cliente": "",
    "clientes": [],
    "filial": "",
@@ -5304,8 +5394,17 @@
      "qtd": 0
     }
    ],
-   "navios": [],
-   "navio_detalhe": [],
+   "navios": [
+    "MV FYM CRYSTAL"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "MV FYM CRYSTAL",
+     "ret": 0,
+     "ind": 0,
+     "venda": 0
+    }
+   ],
    "cliente": "",
    "clientes": [],
    "filial": "",
@@ -5339,8 +5438,17 @@
      "qtd": 0
     }
    ],
-   "navios": [],
-   "navio_detalhe": [],
+   "navios": [
+    "MV FYM CRYSTAL"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "MV FYM CRYSTAL",
+     "ret": 0,
+     "ind": 0,
+     "venda": 0
+    }
+   ],
    "cliente": "",
    "clientes": [],
    "filial": "",
@@ -5374,8 +5482,17 @@
      "qtd": 0
     }
    ],
-   "navios": [],
-   "navio_detalhe": [],
+   "navios": [
+    "MV FYM CRYSTAL"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "MV FYM CRYSTAL",
+     "ret": 0,
+     "ind": 0,
+     "venda": 0
+    }
+   ],
    "cliente": "",
    "clientes": [],
    "filial": "",
@@ -5409,8 +5526,17 @@
      "qtd": 0
     }
    ],
-   "navios": [],
-   "navio_detalhe": [],
+   "navios": [
+    "MV LAWIN ARROW"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "MV LAWIN ARROW",
+     "ret": 0,
+     "ind": 0,
+     "venda": 0
+    }
+   ],
    "cliente": "",
    "clientes": [],
    "filial": "",
@@ -5444,8 +5570,17 @@
      "qtd": 0
     }
    ],
-   "navios": [],
-   "navio_detalhe": [],
+   "navios": [
+    "LETO"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "LETO",
+     "ret": 0,
+     "ind": 0,
+     "venda": 0
+    }
+   ],
    "cliente": "",
    "clientes": [],
    "filial": "",
@@ -5479,8 +5614,17 @@
      "qtd": 0
     }
    ],
-   "navios": [],
-   "navio_detalhe": [],
+   "navios": [
+    "LETO"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "LETO",
+     "ret": 0,
+     "ind": 0,
+     "venda": 0
+    }
+   ],
    "cliente": "",
    "clientes": [],
    "filial": "",
@@ -5514,8 +5658,17 @@
      "qtd": 0
     }
    ],
-   "navios": [],
-   "navio_detalhe": [],
+   "navios": [
+    "LETO"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "LETO",
+     "ret": 0,
+     "ind": 0,
+     "venda": 0
+    }
+   ],
    "cliente": "",
    "clientes": [],
    "filial": "",
@@ -5549,8 +5702,17 @@
      "qtd": 0
     }
    ],
-   "navios": [],
-   "navio_detalhe": [],
+   "navios": [
+    "LETO"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "LETO",
+     "ret": 0,
+     "ind": 0,
+     "venda": 0
+    }
+   ],
    "cliente": "",
    "clientes": [],
    "filial": "",
@@ -5584,8 +5746,17 @@
      "qtd": 0
     }
    ],
-   "navios": [],
-   "navio_detalhe": [],
+   "navios": [
+    "LETO"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "LETO",
+     "ret": 0,
+     "ind": 0,
+     "venda": 0
+    }
+   ],
    "cliente": "",
    "clientes": [],
    "filial": "",
@@ -5619,8 +5790,17 @@
      "qtd": 0
     }
    ],
-   "navios": [],
-   "navio_detalhe": [],
+   "navios": [
+    "LETO"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "LETO",
+     "ret": 0,
+     "ind": 0,
+     "venda": 0
+    }
+   ],
    "cliente": "",
    "clientes": [],
    "filial": "",
@@ -5654,8 +5834,17 @@
      "qtd": 0
     }
    ],
-   "navios": [],
-   "navio_detalhe": [],
+   "navios": [
+    "LETO"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "LETO",
+     "ret": 0,
+     "ind": 0,
+     "venda": 0
+    }
+   ],
    "cliente": "",
    "clientes": [],
    "filial": "",
@@ -5689,8 +5878,17 @@
      "qtd": 0
     }
    ],
-   "navios": [],
-   "navio_detalhe": [],
+   "navios": [
+    "LETO"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "LETO",
+     "ret": 0,
+     "ind": 0,
+     "venda": 0
+    }
+   ],
    "cliente": "",
    "clientes": [],
    "filial": "",
@@ -5724,8 +5922,17 @@
      "qtd": 0
     }
    ],
-   "navios": [],
-   "navio_detalhe": [],
+   "navios": [
+    "LETO"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "LETO",
+     "ret": 0,
+     "ind": 0,
+     "venda": 0
+    }
+   ],
    "cliente": "",
    "clientes": [],
    "filial": "",
@@ -5759,8 +5966,17 @@
      "qtd": 0
     }
    ],
-   "navios": [],
-   "navio_detalhe": [],
+   "navios": [
+    "LETO"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "LETO",
+     "ret": 0,
+     "ind": 0,
+     "venda": 0
+    }
+   ],
    "cliente": "",
    "clientes": [],
    "filial": "",
@@ -5794,8 +6010,17 @@
      "qtd": 0
     }
    ],
-   "navios": [],
-   "navio_detalhe": [],
+   "navios": [
+    "LETO"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "LETO",
+     "ret": 0,
+     "ind": 0,
+     "venda": 0
+    }
+   ],
    "cliente": "",
    "clientes": [],
    "filial": "",
@@ -5829,8 +6054,17 @@
      "qtd": 0
     }
    ],
-   "navios": [],
-   "navio_detalhe": [],
+   "navios": [
+    "MV LAWIN ARROW"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "MV LAWIN ARROW",
+     "ret": 0,
+     "ind": 0,
+     "venda": 0
+    }
+   ],
    "cliente": "",
    "clientes": [],
    "filial": "",
@@ -5864,8 +6098,17 @@
      "qtd": 0
     }
    ],
-   "navios": [],
-   "navio_detalhe": [],
+   "navios": [
+    "MV LAWIN ARROW"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "MV LAWIN ARROW",
+     "ret": 0,
+     "ind": 0,
+     "venda": 0
+    }
+   ],
    "cliente": "",
    "clientes": [],
    "filial": "",
@@ -5899,8 +6142,17 @@
      "qtd": 0
     }
    ],
-   "navios": [],
-   "navio_detalhe": [],
+   "navios": [
+    "MV LAWIN ARROW"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "MV LAWIN ARROW",
+     "ret": 0,
+     "ind": 0,
+     "venda": 0
+    }
+   ],
    "cliente": "",
    "clientes": [],
    "filial": "",
@@ -12127,9 +12379,20 @@
     "37",
     "38",
     "39",
-    "41"
+    "41",
+    "3301",
+    "3302",
+    "3401",
+    "3402",
+    "3501",
+    "3502",
+    "3601",
+    "3701",
+    "3801",
+    "3902",
+    "4102"
    ],
-   "n_pedidos": 8,
+   "n_pedidos": 19,
    "status": "DIRETA"
   },
   {
@@ -12222,9 +12485,14 @@
     "30",
     "31",
     "172",
-    "173"
+    "173",
+    "2701",
+    "2801",
+    "2901",
+    "3001",
+    "3101"
    ],
-   "n_pedidos": 7,
+   "n_pedidos": 12,
    "status": "DIRETA"
   },
   {
@@ -12243,6 +12511,10 @@
     "177",
     "178",
     "179",
+    "3202",
+    "4201",
+    "4301",
+    "4401",
     "8386",
     "8393",
     "8402",
@@ -12252,7 +12524,7 @@
     "17801",
     "17901"
    ],
-   "n_pedidos": 18,
+   "n_pedidos": 22,
    "status": "OK"
   },
   {
@@ -12281,9 +12553,14 @@
     "24",
     "26",
     "170",
-    "171"
+    "171",
+    "2101",
+    "2201",
+    "2301",
+    "2401",
+    "2601"
    ],
-   "n_pedidos": 7,
+   "n_pedidos": 12,
    "status": "DIRETA"
   },
   {
@@ -12342,9 +12619,12 @@
    "venda": 3790.83,
    "pedidos": [
     "20",
-    "25"
+    "25",
+    "2001",
+    "2501",
+    "2502"
    ],
-   "n_pedidos": 2,
+   "n_pedidos": 5,
    "status": "DIRETA"
   },
   {
