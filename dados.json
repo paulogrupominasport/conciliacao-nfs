@@ -1,5 +1,5 @@
 {
- "gerado_em": "23/09/2026 09:28",
+ "gerado_em": "23/09/2026 09:38",
  "periodo": "01/05/2026 a 22/09/2026",
  "tolerancia": 0.01,
  "resumo": {
@@ -9,7 +9,7 @@
   "sem_ind_div": 1,
   "venda_direta": 145,
   "pendentes": 15,
-  "total_pedidos": 285
+  "total_pedidos": 289
  },
  "totais": {
   "ret": 290688.3,
@@ -1469,7 +1469,7 @@
    "venda": 545.34,
    "venda_bruta": 545.34,
    "dev": 0,
-   "mp": 0,
+   "mp": 1167.14,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
@@ -1510,7 +1510,7 @@
    "venda": 2756.89,
    "venda_bruta": 2756.89,
    "dev": 0,
-   "mp": 0,
+   "mp": 545.83,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
@@ -5723,7 +5723,7 @@
    "venda": 0,
    "venda_bruta": 0,
    "dev": 0,
-   "mp": 1700.33,
+   "mp": 2236.73,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
@@ -5767,7 +5767,7 @@
    "venda": 0,
    "venda_bruta": 0,
    "dev": 0,
-   "mp": 10716.12,
+   "mp": 10994.96,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
@@ -5811,7 +5811,7 @@
    "venda": 0,
    "venda_bruta": 0,
    "dev": 0,
-   "mp": 263.62,
+   "mp": 329.24,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
@@ -5899,7 +5899,7 @@
    "venda": 0,
    "venda_bruta": 0,
    "dev": 0,
-   "mp": 2988.2,
+   "mp": 4501.46,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
@@ -6119,7 +6119,7 @@
    "venda": 0,
    "venda_bruta": 0,
    "dev": 0,
-   "mp": 903.19,
+   "mp": 2067.08,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
@@ -6163,7 +6163,51 @@
    "venda": 0,
    "venda_bruta": 0,
    "dev": 0,
-   "mp": 257.38,
+   "mp": 2098.45,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 0
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 0
+    },
+    {
+     "nome": "Venda",
+     "qtd": 0
+    }
+   ],
+   "navios": [
+    "LETO"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "LETO",
+     "ret": 0,
+     "ind": 0,
+     "venda": 0
+    }
+   ],
+   "cliente": "",
+   "clientes": [],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 0
+  },
+  {
+   "pedido": "4001",
+   "tipo": "OUTRO",
+   "status": "OK",
+   "ret": 0,
+   "ind": 0,
+   "venda": 0,
+   "venda_bruta": 0,
+   "dev": 0,
+   "mp": 1802.84,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
@@ -6251,7 +6295,7 @@
    "venda": 0,
    "venda_bruta": 0,
    "dev": 0,
-   "mp": 1722.79,
+   "mp": 2061.66,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
@@ -6295,7 +6339,7 @@
    "venda": 0,
    "venda_bruta": 0,
    "dev": 0,
-   "mp": 538.51,
+   "mp": 648.7,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
@@ -6339,7 +6383,7 @@
    "venda": 0,
    "venda_bruta": 0,
    "dev": 0,
-   "mp": 530.97,
+   "mp": 2549.39,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
@@ -6362,6 +6406,138 @@
    "navio_detalhe": [
     {
      "navio": "MV LAWIN ARROW",
+     "ret": 0,
+     "ind": 0,
+     "venda": 0
+    }
+   ],
+   "cliente": "",
+   "clientes": [],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 0
+  },
+  {
+   "pedido": "4501",
+   "tipo": "OUTRO",
+   "status": "OK",
+   "ret": 0,
+   "ind": 0,
+   "venda": 0,
+   "venda_bruta": 0,
+   "dev": 0,
+   "mp": 2089.14,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 0
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 0
+    },
+    {
+     "nome": "Venda",
+     "qtd": 0
+    }
+   ],
+   "navios": [
+    "LETO"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "LETO",
+     "ret": 0,
+     "ind": 0,
+     "venda": 0
+    }
+   ],
+   "cliente": "",
+   "clientes": [],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 0
+  },
+  {
+   "pedido": "4601",
+   "tipo": "OUTRO",
+   "status": "OK",
+   "ret": 0,
+   "ind": 0,
+   "venda": 0,
+   "venda_bruta": 0,
+   "dev": 0,
+   "mp": 1737.26,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 0
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 0
+    },
+    {
+     "nome": "Venda",
+     "qtd": 0
+    }
+   ],
+   "navios": [
+    "LETO"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "LETO",
+     "ret": 0,
+     "ind": 0,
+     "venda": 0
+    }
+   ],
+   "cliente": "",
+   "clientes": [],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 0
+  },
+  {
+   "pedido": "4701",
+   "tipo": "OUTRO",
+   "status": "OK",
+   "ret": 0,
+   "ind": 0,
+   "venda": 0,
+   "venda_bruta": 0,
+   "dev": 0,
+   "mp": 4798.12,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 0
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 0
+    },
+    {
+     "nome": "Venda",
+     "qtd": 0
+    }
+   ],
+   "navios": [
+    "LETO"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "LETO",
      "ret": 0,
      "ind": 0,
      "venda": 0
@@ -12954,9 +13130,13 @@
     "3701",
     "3801",
     "3902",
-    "4102"
+    "4001",
+    "4102",
+    "4501",
+    "4601",
+    "4701"
    ],
-   "n_pedidos": 19,
+   "n_pedidos": 23,
    "status": "DIRETA"
   },
   {
