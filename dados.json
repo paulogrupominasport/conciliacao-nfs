@@ -1,5 +1,5 @@
 {
- "gerado_em": "23/09/2026 13:38",
+ "gerado_em": "23/09/2026 13:48",
  "periodo": "01/05/2026 a 22/09/2026",
  "tolerancia": 0.01,
  "resumo": {
@@ -14,8 +14,8 @@
  "totais": {
   "ret": 290688.3,
   "ind": 256171.25,
-  "venda": 828603.09,
-  "val_venda": 731263048.08
+  "venda": 828586.26,
+  "val_venda": 731236775.27
  },
  "pedidos": [
   {
@@ -3904,15 +3904,15 @@
    "status": "DIVERGENTE",
    "ret": 5003.41,
    "ind": 254.44,
-   "venda": 5020.24,
-   "venda_bruta": 5020.24,
+   "venda": 5003.41,
+   "venda_bruta": 5003.41,
    "dev": 0,
    "mp": 33.66,
-   "max_dif": 4765.8,
+   "max_dif": 4748.97,
    "difs": {
     "ret_ind": 4748.97,
-    "ind_venda": -4765.8,
-    "ret_venda": -16.83
+    "ind_venda": -4748.97,
+    "ret_venda": 0.0
    },
    "etapas": [
     {
@@ -3925,7 +3925,7 @@
     },
     {
      "nome": "Venda",
-     "qtd": 5020.24
+     "qtd": 5003.41
     }
    ],
    "navios": [
@@ -3936,20 +3936,20 @@
      "navio": "PHOENICIAN",
      "ret": 5003.41,
      "ind": 254.44,
-     "venda": 5020.24
+     "venda": 5003.41
     }
    ],
    "cliente": "CARBOBRÁS",
    "clientes": [
     {
      "nome": "CARBOBRÁS",
-     "qtd": 5020.24
+     "qtd": 5003.41
     }
    ],
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 7836946.15
+   "val_venda": 7810673.34
   },
   {
    "pedido": "597",
@@ -13806,7 +13806,7 @@
    "navio": "PHOENICIAN",
    "ret": 11372.44,
    "ind": 6623.47,
-   "venda": 15140.81,
+   "venda": 15123.98,
    "pedidos": [
     "593",
     "596",
