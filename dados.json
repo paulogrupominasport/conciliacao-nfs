@@ -1,5 +1,5 @@
 {
- "gerado_em": "23/09/2026 11:09",
+ "gerado_em": "23/09/2026 11:18",
  "periodo": "01/05/2026 a 22/09/2026",
  "tolerancia": 0.01,
  "resumo": {
@@ -12,7 +12,7 @@
   "total_pedidos": 298
  },
  "totais": {
-  "ret": 295329.26,
+  "ret": 290688.3,
   "ind": 256171.25,
   "venda": 828603.09,
   "val_venda": 731263048.08
@@ -3902,22 +3902,22 @@
    "pedido": "596",
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
-   "ret": 9644.37,
+   "ret": 5003.41,
    "ind": 254.44,
    "venda": 5020.24,
    "venda_bruta": 5020.24,
    "dev": 0,
    "mp": 33.66,
-   "max_dif": 9389.93,
+   "max_dif": 4765.8,
    "difs": {
-    "ret_ind": 9389.93,
+    "ret_ind": 4748.97,
     "ind_venda": -4765.8,
-    "ret_venda": 4624.13
+    "ret_venda": -16.83
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 9644.37
+     "qtd": 5003.41
     },
     {
      "nome": "Industrializacao",
@@ -3934,7 +3934,7 @@
    "navio_detalhe": [
     {
      "navio": "PHOENICIAN",
-     "ret": 9644.37,
+     "ret": 5003.41,
      "ind": 254.44,
      "venda": 5020.24
     }
@@ -13804,7 +13804,7 @@
   },
   {
    "navio": "PHOENICIAN",
-   "ret": 16013.4,
+   "ret": 11372.44,
    "ind": 6623.47,
    "venda": 15140.81,
    "pedidos": [
