@@ -1,19 +1,19 @@
 {
- "gerado_em": "06/10/2026 10:08",
- "periodo": "01/05/2026 a 22/09/2026",
+ "gerado_em": "06/10/2026 10:18",
+ "periodo": "01/05/2026 a 05/10/2026",
  "tolerancia": 0.01,
  "resumo": {
-  "completos_ok": 53,
-  "completos_div": 30,
+  "completos_ok": 52,
+  "completos_div": 33,
   "sem_ind_ok": 6,
   "sem_ind_div": 1,
-  "venda_direta": 155,
-  "pendentes": 11,
-  "total_pedidos": 298
+  "venda_direta": 154,
+  "pendentes": 19,
+  "total_pedidos": 308
  },
  "totais": {
-  "ret": 282583.56,
-  "ind": 253139.07,
+  "ret": 317430.41,
+  "ind": 287352.68,
   "venda": 828586.26,
   "val_venda": 731236775.27
  },
@@ -2493,26 +2493,26 @@
    "pedido": "565",
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
-   "ret": 26241.55,
-   "ind": 26205.88,
+   "ret": 28727.2,
+   "ind": 28657.69,
    "venda": 21997.66,
    "venda_bruta": 21997.66,
    "dev": 0,
    "mp": 0,
-   "max_dif": 4243.89,
+   "max_dif": 6729.54,
    "difs": {
-    "ret_ind": 35.67,
-    "ind_venda": 4208.22,
-    "ret_venda": 4243.89
+    "ret_ind": 69.51,
+    "ind_venda": 6660.03,
+    "ret_venda": 6729.54
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 26241.55
+     "qtd": 28727.2
     },
     {
      "nome": "Industrializacao",
-     "qtd": 26205.88
+     "qtd": 28657.69
     },
     {
      "nome": "Venda",
@@ -2525,8 +2525,8 @@
    "navio_detalhe": [
     {
      "navio": "TERMICO STR- JOKER",
-     "ret": 26241.55,
-     "ind": 26205.88,
+     "ret": 26440.99,
+     "ind": 26405.32,
      "venda": 21997.66
     }
    ],
@@ -3900,20 +3900,24 @@
   },
   {
    "pedido": "596",
-   "tipo": "OUTRO",
-   "status": "OK",
-   "ret": 0,
+   "tipo": "COMPLETO",
+   "status": "DIVERGENTE",
+   "ret": 522.71,
    "ind": 254.44,
    "venda": 5003.41,
    "venda_bruta": 5003.41,
    "dev": 0,
    "mp": 33.66,
-   "max_dif": 0.0,
-   "difs": {},
+   "max_dif": 4748.97,
+   "difs": {
+    "ret_ind": 268.27,
+    "ind_venda": -4748.97,
+    "ret_venda": -4480.7
+   },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 0
+     "qtd": 522.71
     },
     {
      "nome": "Industrializacao",
@@ -4671,27 +4675,27 @@
   {
    "pedido": "615",
    "tipo": "COMPLETO",
-   "status": "OK",
-   "ret": 52.0,
-   "ind": 52.0,
+   "status": "DIVERGENTE",
+   "ret": 79.0,
+   "ind": 79.0,
    "venda": 52.0,
    "venda_bruta": 52.0,
    "dev": 0,
    "mp": 0,
-   "max_dif": 0.0,
+   "max_dif": 27.0,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": 0.0,
-    "ret_venda": 0.0
+    "ind_venda": 27.0,
+    "ret_venda": 27.0
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 52.0
+     "qtd": 79.0
     },
     {
      "nome": "Industrializacao",
-     "qtd": 52.0
+     "qtd": 79.0
     },
     {
      "nome": "Venda",
@@ -4887,17 +4891,29 @@
   },
   {
    "pedido": "620",
-   "tipo": "VENDA_DIRETA",
-   "status": "DIRETA",
-   "ret": 0,
-   "ind": 0,
+   "tipo": "COMPLETO",
+   "status": "DIVERGENTE",
+   "ret": 1309.96,
+   "ind": 1309.96,
    "venda": 69.15,
    "venda_bruta": 69.15,
    "dev": 0,
    "mp": 0,
-   "max_dif": 0.0,
-   "difs": {},
+   "max_dif": 1240.81,
+   "difs": {
+    "ret_ind": 0.0,
+    "ind_venda": 1240.81,
+    "ret_venda": 1240.81
+   },
    "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 1309.96
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 1309.96
+    },
     {
      "nome": "Venda",
      "qtd": 69.15
@@ -4909,8 +4925,8 @@
    "navio_detalhe": [
     {
      "navio": "PACIFIC TALENT",
-     "ret": 0,
-     "ind": 0,
+     "ret": 69.15,
+     "ind": 69.15,
      "venda": 69.15
     }
    ],
@@ -5132,6 +5148,44 @@
     {
      "nome": "Retorno",
      "qtd": 199.87
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 0
+    },
+    {
+     "nome": "Venda",
+     "qtd": 0
+    }
+   ],
+   "navios": [],
+   "navio_detalhe": [],
+   "cliente": "",
+   "clientes": [],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 0
+  },
+  {
+   "pedido": "1488",
+   "tipo": "PENDENTE",
+   "status": "PENDENTE",
+   "ret": 27.67,
+   "ind": 0,
+   "venda": 0,
+   "venda_bruta": 0,
+   "dev": 0,
+   "mp": 0,
+   "max_dif": 27.67,
+   "difs": {
+    "ret_ind": 27.67,
+    "ind_venda": 0
+   },
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 27.67
     },
     {
      "nome": "Industrializacao",
@@ -5417,7 +5471,7 @@
    "venda": 0,
    "venda_bruta": 0,
    "dev": 0,
-   "mp": 2704.95,
+   "mp": 5373.12,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
@@ -5452,7 +5506,77 @@
    "venda": 0,
    "venda_bruta": 0,
    "dev": 0,
-   "mp": 110.66,
+   "mp": 712.32,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 0
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 0
+    },
+    {
+     "nome": "Venda",
+     "qtd": 0
+    }
+   ],
+   "navios": [],
+   "navio_detalhe": [],
+   "cliente": "",
+   "clientes": [],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 0
+  },
+  {
+   "pedido": "1515",
+   "tipo": "OUTRO",
+   "status": "OK",
+   "ret": 0,
+   "ind": 0,
+   "venda": 0,
+   "venda_bruta": 0,
+   "dev": 0,
+   "mp": 204.34,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 0
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 0
+    },
+    {
+     "nome": "Venda",
+     "qtd": 0
+    }
+   ],
+   "navios": [],
+   "navio_detalhe": [],
+   "cliente": "",
+   "clientes": [],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 0
+  },
+  {
+   "pedido": "1516",
+   "tipo": "OUTRO",
+   "status": "OK",
+   "ret": 0,
+   "ind": 0,
+   "venda": 0,
+   "venda_bruta": 0,
+   "dev": 0,
+   "mp": 338.64,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
@@ -10058,26 +10182,26 @@
    "pedido": "8377",
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
-   "ret": 6478.1,
-   "ind": 6478.1,
+   "ret": 6479.07,
+   "ind": 6479.07,
    "venda": 6956.57,
    "venda_bruta": 6956.57,
    "dev": 0,
    "mp": 0,
-   "max_dif": 478.47,
+   "max_dif": 477.5,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": -478.47,
-    "ret_venda": -478.47
+    "ind_venda": -477.5,
+    "ret_venda": -477.5
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 6478.1
+     "qtd": 6479.07
     },
     {
      "nome": "Industrializacao",
-     "qtd": 6478.1
+     "qtd": 6479.07
     },
     {
      "nome": "Venda",
@@ -10906,26 +11030,26 @@
    "pedido": "8393",
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
-   "ret": 2236.73,
-   "ind": 2236.73,
+   "ret": 4963.74,
+   "ind": 4963.74,
    "venda": 2189.68,
    "venda_bruta": 2189.68,
    "dev": 0,
    "mp": 0,
-   "max_dif": 47.05,
+   "max_dif": 2774.06,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": 47.05,
-    "ret_venda": 47.05
+    "ind_venda": 2774.06,
+    "ret_venda": 2774.06
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 2236.73
+     "qtd": 4963.74
     },
     {
      "nome": "Industrializacao",
-     "qtd": 2236.73
+     "qtd": 4963.74
     },
     {
      "nome": "Venda",
@@ -11000,26 +11124,26 @@
    "pedido": "8395",
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
-   "ret": 3777.7,
-   "ind": 3777.7,
+   "ret": 5339.3,
+   "ind": 5339.3,
    "venda": 4082.93,
    "venda_bruta": 4082.93,
    "dev": 0,
    "mp": 0,
-   "max_dif": 305.23,
+   "max_dif": 1256.37,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": -305.23,
-    "ret_venda": -305.23
+    "ind_venda": 1256.37,
+    "ret_venda": 1256.37
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 3777.7
+     "qtd": 5339.3
     },
     {
      "nome": "Industrializacao",
-     "qtd": 3777.7
+     "qtd": 5339.3
     },
     {
      "nome": "Venda",
@@ -11032,8 +11156,8 @@
    "navio_detalhe": [
     {
      "navio": "PHOENICIAN",
-     "ret": 3777.7,
-     "ind": 3777.7,
+     "ret": 4122.27,
+     "ind": 4122.27,
      "venda": 4082.93
     }
    ],
@@ -11053,26 +11177,26 @@
    "pedido": "8396",
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
-   "ret": 4281.27,
-   "ind": 4281.27,
+   "ret": 5389.82,
+   "ind": 5389.82,
    "venda": 4232.1,
    "venda_bruta": 4232.1,
    "dev": 0,
    "mp": 0,
-   "max_dif": 49.17,
+   "max_dif": 1157.72,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": 49.17,
-    "ret_venda": 49.17
+    "ind_venda": 1157.72,
+    "ret_venda": 1157.72
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 4281.27
+     "qtd": 5389.82
     },
     {
      "nome": "Industrializacao",
-     "qtd": 4281.27
+     "qtd": 5389.82
     },
     {
      "nome": "Venda",
@@ -11147,26 +11271,26 @@
    "pedido": "8398",
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
-   "ret": 11463.03,
-   "ind": 11378.84,
+   "ret": 14650.7,
+   "ind": 14566.51,
    "venda": 12211.91,
    "venda_bruta": 12211.91,
    "dev": 0,
    "mp": 0,
-   "max_dif": 833.07,
+   "max_dif": 2438.79,
    "difs": {
     "ret_ind": 84.19,
-    "ind_venda": -833.07,
-    "ret_venda": -748.88
+    "ind_venda": 2354.6,
+    "ret_venda": 2438.79
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 11463.03
+     "qtd": 14650.7
     },
     {
      "nome": "Industrializacao",
-     "qtd": 11378.84
+     "qtd": 14566.51
     },
     {
      "nome": "Venda",
@@ -11179,8 +11303,8 @@
    "navio_detalhe": [
     {
      "navio": "MV LETO",
-     "ret": 11463.03,
-     "ind": 11378.84,
+     "ret": 12898.76,
+     "ind": 12814.57,
      "venda": 12211.91
     }
    ],
@@ -11200,26 +11324,26 @@
    "pedido": "8399",
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
-   "ret": 1647.25,
-   "ind": 1647.25,
+   "ret": 2048.77,
+   "ind": 2048.77,
    "venda": 1931.83,
    "venda_bruta": 1931.83,
    "dev": 0,
    "mp": 0,
-   "max_dif": 284.58,
+   "max_dif": 116.94,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": -284.58,
-    "ret_venda": -284.58
+    "ind_venda": 116.94,
+    "ret_venda": 116.94
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 1647.25
+     "qtd": 2048.77
     },
     {
      "nome": "Industrializacao",
-     "qtd": 1647.25
+     "qtd": 2048.77
     },
     {
      "nome": "Venda",
@@ -11232,8 +11356,8 @@
    "navio_detalhe": [
     {
      "navio": "MV LETO",
-     "ret": 1647.25,
-     "ind": 1647.25,
+     "ret": 1931.83,
+     "ind": 1931.83,
      "venda": 1931.83
     }
    ],
@@ -11347,26 +11471,26 @@
    "pedido": "8402",
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
-   "ret": 1685.11,
-   "ind": 1685.11,
+   "ret": 2996.57,
+   "ind": 2996.57,
    "venda": 1926.06,
    "venda_bruta": 1926.06,
    "dev": 0,
    "mp": 0,
-   "max_dif": 240.95,
+   "max_dif": 1070.51,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": -240.95,
-    "ret_venda": -240.95
+    "ind_venda": 1070.51,
+    "ret_venda": 1070.51
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 1685.11
+     "qtd": 2996.57
     },
     {
      "nome": "Industrializacao",
-     "qtd": 1685.11
+     "qtd": 2996.57
     },
     {
      "nome": "Venda",
@@ -11379,8 +11503,8 @@
    "navio_detalhe": [
     {
      "navio": "MV LAWIN ARROW",
-     "ret": 1685.11,
-     "ind": 1685.11,
+     "ret": 1960.78,
+     "ind": 1960.78,
      "venda": 1926.06
     }
    ],
@@ -11400,26 +11524,26 @@
    "pedido": "8403",
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
-   "ret": 4727.88,
-   "ind": 4729.88,
+   "ret": 16017.97,
+   "ind": 16057.35,
    "venda": 5224.37,
    "venda_bruta": 5224.37,
    "dev": 0,
    "mp": 0,
-   "max_dif": 496.49,
+   "max_dif": 10832.98,
    "difs": {
-    "ret_ind": -2.0,
-    "ind_venda": -494.49,
-    "ret_venda": -496.49
+    "ret_ind": -39.38,
+    "ind_venda": 10832.98,
+    "ret_venda": 10793.6
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 4727.88
+     "qtd": 16017.97
     },
     {
      "nome": "Industrializacao",
-     "qtd": 4729.88
+     "qtd": 16057.35
     },
     {
      "nome": "Venda",
@@ -11432,8 +11556,8 @@
    "navio_detalhe": [
     {
      "navio": "MV LAWIN ARROW",
-     "ret": 4727.88,
-     "ind": 4729.88,
+     "ret": 5257.75,
+     "ind": 5259.75,
      "venda": 5224.37
     }
    ],
@@ -11450,29 +11574,67 @@
    "val_venda": 2967807.89
   },
   {
-   "pedido": "8406",
-   "tipo": "COMPLETO",
-   "status": "DIVERGENTE",
-   "ret": 1819.54,
-   "ind": 1819.54,
-   "venda": 1749.02,
-   "venda_bruta": 1749.02,
+   "pedido": "8404",
+   "tipo": "PENDENTE",
+   "status": "PENDENTE",
+   "ret": 4777.6,
+   "ind": 4740.22,
+   "venda": 0,
+   "venda_bruta": 0,
    "dev": 0,
    "mp": 0,
-   "max_dif": 70.52,
+   "max_dif": 4740.22,
    "difs": {
-    "ret_ind": 0.0,
-    "ind_venda": 70.52,
-    "ret_venda": 70.52
+    "ret_ind": 37.38,
+    "ind_venda": 4740.22
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 1819.54
+     "qtd": 4777.6
     },
     {
      "nome": "Industrializacao",
-     "qtd": 1819.54
+     "qtd": 4740.22
+    },
+    {
+     "nome": "Venda",
+     "qtd": 0
+    }
+   ],
+   "navios": [],
+   "navio_detalhe": [],
+   "cliente": "",
+   "clientes": [],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 0
+  },
+  {
+   "pedido": "8406",
+   "tipo": "COMPLETO",
+   "status": "DIVERGENTE",
+   "ret": 2681.75,
+   "ind": 2632.73,
+   "venda": 1749.02,
+   "venda_bruta": 1749.02,
+   "dev": 0,
+   "mp": 0,
+   "max_dif": 932.73,
+   "difs": {
+    "ret_ind": 49.02,
+    "ind_venda": 883.71,
+    "ret_venda": 932.73
+   },
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 2681.75
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 2632.73
     },
     {
      "nome": "Venda",
@@ -11544,6 +11706,44 @@
    "val_venda": 14823192.03
   },
   {
+   "pedido": "8408",
+   "tipo": "PENDENTE",
+   "status": "PENDENTE",
+   "ret": 200.92,
+   "ind": 200.92,
+   "venda": 0,
+   "venda_bruta": 0,
+   "dev": 0,
+   "mp": 0,
+   "max_dif": 200.92,
+   "difs": {
+    "ret_ind": 0.0,
+    "ind_venda": 200.92
+   },
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 200.92
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 200.92
+    },
+    {
+     "nome": "Venda",
+     "qtd": 0
+    }
+   ],
+   "navios": [],
+   "navio_detalhe": [],
+   "cliente": "",
+   "clientes": [],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 0
+  },
+  {
    "pedido": "8410",
    "tipo": "COMPLETO",
    "status": "OK",
@@ -11600,26 +11800,26 @@
    "pedido": "8411",
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
-   "ret": 1473.06,
-   "ind": 1511.79,
+   "ret": 2106.02,
+   "ind": 2144.75,
    "venda": 1674.24,
    "venda_bruta": 1674.24,
    "dev": 0,
    "mp": 0,
-   "max_dif": 201.18,
+   "max_dif": 470.51,
    "difs": {
     "ret_ind": -38.73,
-    "ind_venda": -162.45,
-    "ret_venda": -201.18
+    "ind_venda": 470.51,
+    "ret_venda": 431.78
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 1473.06
+     "qtd": 2106.02
     },
     {
      "nome": "Industrializacao",
-     "qtd": 1511.79
+     "qtd": 2144.75
     },
     {
      "nome": "Venda",
@@ -11632,8 +11832,8 @@
    "navio_detalhe": [
     {
      "navio": "MV LETO",
-     "ret": 1473.06,
-     "ind": 1511.79,
+     "ret": 1706.95,
+     "ind": 1745.68,
      "venda": 1674.24
     }
    ],
@@ -11648,6 +11848,196 @@
    "produto": "",
    "data_pedido": "",
    "val_venda": 1269604.05
+  },
+  {
+   "pedido": "8413",
+   "tipo": "PENDENTE",
+   "status": "PENDENTE",
+   "ret": 424.8,
+   "ind": 424.8,
+   "venda": 0,
+   "venda_bruta": 0,
+   "dev": 0,
+   "mp": 0,
+   "max_dif": 424.8,
+   "difs": {
+    "ret_ind": 0.0,
+    "ind_venda": 424.8
+   },
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 424.8
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 424.8
+    },
+    {
+     "nome": "Venda",
+     "qtd": 0
+    }
+   ],
+   "navios": [],
+   "navio_detalhe": [],
+   "cliente": "",
+   "clientes": [],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 0
+  },
+  {
+   "pedido": "8414",
+   "tipo": "PENDENTE",
+   "status": "PENDENTE",
+   "ret": 1056.81,
+   "ind": 1056.81,
+   "venda": 0,
+   "venda_bruta": 0,
+   "dev": 0,
+   "mp": 0,
+   "max_dif": 1056.81,
+   "difs": {
+    "ret_ind": 0.0,
+    "ind_venda": 1056.81
+   },
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 1056.81
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 1056.81
+    },
+    {
+     "nome": "Venda",
+     "qtd": 0
+    }
+   ],
+   "navios": [],
+   "navio_detalhe": [],
+   "cliente": "",
+   "clientes": [],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 0
+  },
+  {
+   "pedido": "8416",
+   "tipo": "PENDENTE",
+   "status": "PENDENTE",
+   "ret": 98.15,
+   "ind": 98.15,
+   "venda": 0,
+   "venda_bruta": 0,
+   "dev": 0,
+   "mp": 0,
+   "max_dif": 98.15,
+   "difs": {
+    "ret_ind": 0.0,
+    "ind_venda": 98.15
+   },
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 98.15
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 98.15
+    },
+    {
+     "nome": "Venda",
+     "qtd": 0
+    }
+   ],
+   "navios": [],
+   "navio_detalhe": [],
+   "cliente": "",
+   "clientes": [],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 0
+  },
+  {
+   "pedido": "8417",
+   "tipo": "PENDENTE",
+   "status": "PENDENTE",
+   "ret": 519.16,
+   "ind": 519.16,
+   "venda": 0,
+   "venda_bruta": 0,
+   "dev": 0,
+   "mp": 0,
+   "max_dif": 519.16,
+   "difs": {
+    "ret_ind": 0.0,
+    "ind_venda": 519.16
+   },
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 519.16
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 519.16
+    },
+    {
+     "nome": "Venda",
+     "qtd": 0
+    }
+   ],
+   "navios": [],
+   "navio_detalhe": [],
+   "cliente": "",
+   "clientes": [],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 0
+  },
+  {
+   "pedido": "8418",
+   "tipo": "PENDENTE",
+   "status": "PENDENTE",
+   "ret": 312.38,
+   "ind": 312.38,
+   "venda": 0,
+   "venda_bruta": 0,
+   "dev": 0,
+   "mp": 0,
+   "max_dif": 312.38,
+   "difs": {
+    "ret_ind": 0.0,
+    "ind_venda": 312.38
+   },
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 312.38
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 312.38
+    },
+    {
+     "nome": "Venda",
+     "qtd": 0
+    }
+   ],
+   "navios": [],
+   "navio_detalhe": [],
+   "cliente": "",
+   "clientes": [],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 0
   },
   {
    "pedido": "17501",
@@ -13645,8 +14035,8 @@
   },
   {
    "navio": "MV LAWIN ARROW",
-   "ret": 9311.57,
-   "ind": 9311.57,
+   "ret": 10117.11,
+   "ind": 10117.11,
    "venda": 33768.66,
    "pedidos": [
     "32",
@@ -13677,8 +14067,8 @@
   },
   {
    "navio": "MV LETO",
-   "ret": 14583.34,
-   "ind": 14537.88,
+   "ret": 16537.54,
+   "ind": 16492.08,
    "venda": 39412.04,
    "pedidos": [
     "8397",
@@ -13759,8 +14149,8 @@
   },
   {
    "navio": "PACIFIC TALENT",
-   "ret": 1064.54,
-   "ind": 1064.54,
+   "ret": 1133.69,
+   "ind": 1133.69,
    "venda": 1133.69,
    "pedidos": [
     "559",
@@ -13794,8 +14184,8 @@
   },
   {
    "navio": "PHOENICIAN",
-   "ret": 6024.46,
-   "ind": 6278.9,
+   "ret": 6369.03,
+   "ind": 6623.47,
    "venda": 15123.98,
    "pedidos": [
     "593",
@@ -13908,8 +14298,8 @@
   },
   {
    "navio": "TERMICO STR- JOKER",
-   "ret": 39737.56,
-   "ind": 38178.94,
+   "ret": 39937.0,
+   "ind": 38378.38,
    "venda": 53369.38,
    "pedidos": [
     "552",
