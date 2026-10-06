@@ -1,5 +1,5 @@
 {
- "gerado_em": "06/10/2026 10:18",
+ "gerado_em": "06/10/2026 10:28",
  "periodo": "01/05/2026 a 05/10/2026",
  "tolerancia": 0.01,
  "resumo": {
@@ -2525,8 +2525,8 @@
    "navio_detalhe": [
     {
      "navio": "TERMICO STR- JOKER",
-     "ret": 26440.99,
-     "ind": 26405.32,
+     "ret": 28727.2,
+     "ind": 28657.69,
      "venda": 21997.66
     }
    ],
@@ -3934,7 +3934,7 @@
    "navio_detalhe": [
     {
      "navio": "PHOENICIAN",
-     "ret": 0,
+     "ret": 522.71,
      "ind": 254.44,
      "venda": 5003.41
     }
@@ -4708,8 +4708,8 @@
    "navio_detalhe": [
     {
      "navio": "PACIFIC TALENT",
-     "ret": 52.0,
-     "ind": 52.0,
+     "ret": 79.0,
+     "ind": 79.0,
      "venda": 52.0
     }
    ],
@@ -4925,8 +4925,8 @@
    "navio_detalhe": [
     {
      "navio": "PACIFIC TALENT",
-     "ret": 69.15,
-     "ind": 69.15,
+     "ret": 1309.96,
+     "ind": 1309.96,
      "venda": 69.15
     }
    ],
@@ -10214,8 +10214,8 @@
    "navio_detalhe": [
     {
      "navio": "XIN HAI TONG",
-     "ret": 6478.1,
-     "ind": 6478.1,
+     "ret": 6479.07,
+     "ind": 6479.07,
      "venda": 6956.57
     }
    ],
@@ -11062,8 +11062,8 @@
    "navio_detalhe": [
     {
      "navio": "MV LAWIN ARROW",
-     "ret": 2236.73,
-     "ind": 2236.73,
+     "ret": 4963.74,
+     "ind": 4963.74,
      "venda": 2189.68
     }
    ],
@@ -11156,8 +11156,8 @@
    "navio_detalhe": [
     {
      "navio": "PHOENICIAN",
-     "ret": 4122.27,
-     "ind": 4122.27,
+     "ret": 5339.3,
+     "ind": 5339.3,
      "venda": 4082.93
     }
    ],
@@ -11209,8 +11209,8 @@
    "navio_detalhe": [
     {
      "navio": "LILA MUNDRA",
-     "ret": 4281.27,
-     "ind": 4281.27,
+     "ret": 5389.82,
+     "ind": 5389.82,
      "venda": 4232.1
     }
    ],
@@ -11303,8 +11303,8 @@
    "navio_detalhe": [
     {
      "navio": "MV LETO",
-     "ret": 12898.76,
-     "ind": 12814.57,
+     "ret": 14650.7,
+     "ind": 14566.51,
      "venda": 12211.91
     }
    ],
@@ -11356,8 +11356,8 @@
    "navio_detalhe": [
     {
      "navio": "MV LETO",
-     "ret": 1931.83,
-     "ind": 1931.83,
+     "ret": 2048.77,
+     "ind": 2048.77,
      "venda": 1931.83
     }
    ],
@@ -11503,8 +11503,8 @@
    "navio_detalhe": [
     {
      "navio": "MV LAWIN ARROW",
-     "ret": 1960.78,
-     "ind": 1960.78,
+     "ret": 2996.57,
+     "ind": 2996.57,
      "venda": 1926.06
     }
    ],
@@ -11556,8 +11556,8 @@
    "navio_detalhe": [
     {
      "navio": "MV LAWIN ARROW",
-     "ret": 5257.75,
-     "ind": 5259.75,
+     "ret": 16017.97,
+     "ind": 16057.35,
      "venda": 5224.37
     }
    ],
@@ -11602,8 +11602,17 @@
      "qtd": 0
     }
    ],
-   "navios": [],
-   "navio_detalhe": [],
+   "navios": [
+    "MV LAWIN ARROW"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "MV LAWIN ARROW",
+     "ret": 4777.6,
+     "ind": 4740.22,
+     "venda": 0
+    }
+   ],
    "cliente": "",
    "clientes": [],
    "filial": "",
@@ -11647,8 +11656,8 @@
    "navio_detalhe": [
     {
      "navio": "50 MV FYM CRYSTAL / 50 MV LETO",
-     "ret": 1819.54,
-     "ind": 1819.54,
+     "ret": 2681.75,
+     "ind": 2632.73,
      "venda": 1749.02
     }
    ],
@@ -11734,8 +11743,17 @@
      "qtd": 0
     }
    ],
-   "navios": [],
-   "navio_detalhe": [],
+   "navios": [
+    "50 MV FYM CRYSTAL / 50 MV LETO"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "50 MV FYM CRYSTAL / 50 MV LETO",
+     "ret": 200.92,
+     "ind": 200.92,
+     "venda": 0
+    }
+   ],
    "cliente": "",
    "clientes": [],
    "filial": "",
@@ -11832,8 +11850,8 @@
    "navio_detalhe": [
     {
      "navio": "MV LETO",
-     "ret": 1706.95,
-     "ind": 1745.68,
+     "ret": 2106.02,
+     "ind": 2144.75,
      "venda": 1674.24
     }
    ],
@@ -11878,8 +11896,17 @@
      "qtd": 0
     }
    ],
-   "navios": [],
-   "navio_detalhe": [],
+   "navios": [
+    "LILA MUNDRA"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "LILA MUNDRA",
+     "ret": 424.8,
+     "ind": 424.8,
+     "venda": 0
+    }
+   ],
    "cliente": "",
    "clientes": [],
    "filial": "",
@@ -13778,14 +13805,15 @@
   },
   {
    "navio": "50 MV FYM CRYSTAL / 50 MV LETO",
-   "ret": 2003.07,
-   "ind": 2003.07,
+   "ret": 3066.2,
+   "ind": 3017.18,
    "venda": 1932.55,
    "pedidos": [
     "8406",
+    "8408",
     "8410"
    ],
-   "n_pedidos": 2,
+   "n_pedidos": 3,
    "status": "DIVERGENTE"
   },
   {
@@ -13935,15 +13963,16 @@
   },
   {
    "navio": "LILA MUNDRA",
-   "ret": 4281.27,
-   "ind": 4281.27,
+   "ret": 5814.62,
+   "ind": 5814.62,
    "venda": 59570.0,
    "pedidos": [
     "8315",
     "8396",
+    "8413",
     "149601"
    ],
-   "n_pedidos": 3,
+   "n_pedidos": 4,
    "status": "DIVERGENTE"
   },
   {
@@ -14035,8 +14064,8 @@
   },
   {
    "navio": "MV LAWIN ARROW",
-   "ret": 10117.11,
-   "ind": 10117.11,
+   "ret": 29417.73,
+   "ind": 29417.73,
    "venda": 33768.66,
    "pedidos": [
     "32",
@@ -14057,18 +14086,19 @@
     "8393",
     "8402",
     "8403",
+    "8404",
     "17501",
     "17701",
     "17801",
     "17901"
    ],
-   "n_pedidos": 22,
+   "n_pedidos": 23,
    "status": "DIVERGENTE"
   },
   {
    "navio": "MV LETO",
-   "ret": 16537.54,
-   "ind": 16492.08,
+   "ret": 18805.49,
+   "ind": 18760.03,
    "venda": 39412.04,
    "pedidos": [
     "8397",
@@ -14149,8 +14179,8 @@
   },
   {
    "navio": "PACIFIC TALENT",
-   "ret": 1133.69,
-   "ind": 1133.69,
+   "ret": 2401.5,
+   "ind": 2401.5,
    "venda": 1133.69,
    "pedidos": [
     "559",
@@ -14184,8 +14214,8 @@
   },
   {
    "navio": "PHOENICIAN",
-   "ret": 6369.03,
-   "ind": 6623.47,
+   "ret": 8108.77,
+   "ind": 7840.5,
    "venda": 15123.98,
    "pedidos": [
     "593",
@@ -14298,8 +14328,8 @@
   },
   {
    "navio": "TERMICO STR- JOKER",
-   "ret": 39937.0,
-   "ind": 38378.38,
+   "ret": 42223.21,
+   "ind": 40630.75,
    "venda": 53369.38,
    "pedidos": [
     "552",
@@ -14333,8 +14363,8 @@
   },
   {
    "navio": "XIN HAI TONG",
-   "ret": 50662.32,
-   "ind": 50613.48,
+   "ret": 50663.29,
+   "ind": 50614.45,
    "venda": 98801.98,
    "pedidos": [
     "8323",
