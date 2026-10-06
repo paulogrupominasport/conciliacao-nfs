@@ -1,19 +1,19 @@
 {
- "gerado_em": "06/10/2026 09:58",
+ "gerado_em": "06/10/2026 10:08",
  "periodo": "01/05/2026 a 22/09/2026",
  "tolerancia": 0.01,
  "resumo": {
-  "completos_ok": 54,
+  "completos_ok": 53,
   "completos_div": 30,
-  "sem_ind_ok": 7,
+  "sem_ind_ok": 6,
   "sem_ind_div": 1,
-  "venda_direta": 154,
+  "venda_direta": 155,
   "pendentes": 11,
   "total_pedidos": 298
  },
  "totais": {
-  "ret": 290688.3,
-  "ind": 256171.25,
+  "ret": 282583.56,
+  "ind": 253139.07,
   "venda": 828586.26,
   "val_venda": 731236775.27
  },
@@ -1565,11 +1565,11 @@
     }
    ],
    "navios": [
-    "PHOENICIAN"
+    "MV LAWIN ARROW"
    ],
    "navio_detalhe": [
     {
-     "navio": "PHOENICIAN",
+     "navio": "MV LAWIN ARROW",
      "ret": 0,
      "ind": 0,
      "venda": 2658.69
@@ -1637,7 +1637,7 @@
    "venda": 1676.69,
    "venda_bruta": 1676.69,
    "dev": 0,
-   "mp": 1167.14,
+   "mp": 1038.4,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
@@ -1682,7 +1682,7 @@
    "venda": 3299.78,
    "venda_bruta": 3299.78,
    "dev": 0,
-   "mp": 545.83,
+   "mp": 512.12,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
@@ -2493,26 +2493,26 @@
    "pedido": "565",
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
-   "ret": 26440.99,
-   "ind": 26405.32,
+   "ret": 26241.55,
+   "ind": 26205.88,
    "venda": 21997.66,
    "venda_bruta": 21997.66,
    "dev": 0,
    "mp": 0,
-   "max_dif": 4443.33,
+   "max_dif": 4243.89,
    "difs": {
     "ret_ind": 35.67,
-    "ind_venda": 4407.66,
-    "ret_venda": 4443.33
+    "ind_venda": 4208.22,
+    "ret_venda": 4243.89
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 26440.99
+     "qtd": 26241.55
     },
     {
      "nome": "Industrializacao",
-     "qtd": 26405.32
+     "qtd": 26205.88
     },
     {
      "nome": "Venda",
@@ -2525,8 +2525,8 @@
    "navio_detalhe": [
     {
      "navio": "TERMICO STR- JOKER",
-     "ret": 26440.99,
-     "ind": 26405.32,
+     "ret": 26241.55,
+     "ind": 26205.88,
      "venda": 21997.66
     }
    ],
@@ -3900,24 +3900,20 @@
   },
   {
    "pedido": "596",
-   "tipo": "COMPLETO",
-   "status": "DIVERGENTE",
-   "ret": 5003.41,
+   "tipo": "OUTRO",
+   "status": "OK",
+   "ret": 0,
    "ind": 254.44,
    "venda": 5003.41,
    "venda_bruta": 5003.41,
    "dev": 0,
    "mp": 33.66,
-   "max_dif": 4748.97,
-   "difs": {
-    "ret_ind": 4748.97,
-    "ind_venda": -4748.97,
-    "ret_venda": 0.0
-   },
+   "max_dif": 0.0,
+   "difs": {},
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 5003.41
+     "qtd": 0
     },
     {
      "nome": "Industrializacao",
@@ -3934,7 +3930,7 @@
    "navio_detalhe": [
     {
      "navio": "PHOENICIAN",
-     "ret": 5003.41,
+     "ret": 0,
      "ind": 254.44,
      "venda": 5003.41
     }
@@ -4891,23 +4887,17 @@
   },
   {
    "pedido": "620",
-   "tipo": "SEM_IND",
-   "status": "OK",
-   "ret": 69.15,
+   "tipo": "VENDA_DIRETA",
+   "status": "DIRETA",
+   "ret": 0,
    "ind": 0,
    "venda": 69.15,
    "venda_bruta": 69.15,
    "dev": 0,
    "mp": 0,
    "max_dif": 0.0,
-   "difs": {
-    "ret_venda": 0.0
-   },
+   "difs": {},
    "etapas": [
-    {
-     "nome": "Retorno",
-     "qtd": 69.15
-    },
     {
      "nome": "Venda",
      "qtd": 69.15
@@ -4919,7 +4909,7 @@
    "navio_detalhe": [
     {
      "navio": "PACIFIC TALENT",
-     "ret": 69.15,
+     "ret": 0,
      "ind": 0,
      "venda": 69.15
     }
@@ -5427,7 +5417,7 @@
    "venda": 0,
    "venda_bruta": 0,
    "dev": 0,
-   "mp": 3052.38,
+   "mp": 2704.95,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
@@ -5462,7 +5452,7 @@
    "venda": 0,
    "venda_bruta": 0,
    "dev": 0,
-   "mp": 308.36,
+   "mp": 110.66,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
@@ -6509,7 +6499,7 @@
    "venda": 0,
    "venda_bruta": 0,
    "dev": 0,
-   "mp": 2098.45,
+   "mp": 1849.22,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
@@ -6553,7 +6543,7 @@
    "venda": 0,
    "venda_bruta": 0,
    "dev": 0,
-   "mp": 1802.84,
+   "mp": 1518.26,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
@@ -6685,7 +6675,7 @@
    "venda": 0,
    "venda_bruta": 0,
    "dev": 0,
-   "mp": 648.7,
+   "mp": 613.82,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
@@ -6729,7 +6719,7 @@
    "venda": 0,
    "venda_bruta": 0,
    "dev": 0,
-   "mp": 2549.39,
+   "mp": 2102.6,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
@@ -6773,7 +6763,7 @@
    "venda": 0,
    "venda_bruta": 0,
    "dev": 0,
-   "mp": 2089.14,
+   "mp": 1883.6,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
@@ -6817,7 +6807,7 @@
    "venda": 0,
    "venda_bruta": 0,
    "dev": 0,
-   "mp": 1737.26,
+   "mp": 1591.03,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
@@ -6861,7 +6851,7 @@
    "venda": 0,
    "venda_bruta": 0,
    "dev": 0,
-   "mp": 4798.12,
+   "mp": 4154.31,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
@@ -11010,26 +11000,26 @@
    "pedido": "8395",
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
-   "ret": 4122.27,
-   "ind": 4122.27,
+   "ret": 3777.7,
+   "ind": 3777.7,
    "venda": 4082.93,
    "venda_bruta": 4082.93,
    "dev": 0,
    "mp": 0,
-   "max_dif": 39.34,
+   "max_dif": 305.23,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": 39.34,
-    "ret_venda": 39.34
+    "ind_venda": -305.23,
+    "ret_venda": -305.23
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 4122.27
+     "qtd": 3777.7
     },
     {
      "nome": "Industrializacao",
-     "qtd": 4122.27
+     "qtd": 3777.7
     },
     {
      "nome": "Venda",
@@ -11042,8 +11032,8 @@
    "navio_detalhe": [
     {
      "navio": "PHOENICIAN",
-     "ret": 4122.27,
-     "ind": 4122.27,
+     "ret": 3777.7,
+     "ind": 3777.7,
      "venda": 4082.93
     }
    ],
@@ -11157,26 +11147,26 @@
    "pedido": "8398",
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
-   "ret": 12659.9,
-   "ind": 12575.71,
+   "ret": 11463.03,
+   "ind": 11378.84,
    "venda": 12211.91,
    "venda_bruta": 12211.91,
    "dev": 0,
    "mp": 0,
-   "max_dif": 447.99,
+   "max_dif": 833.07,
    "difs": {
     "ret_ind": 84.19,
-    "ind_venda": 363.8,
-    "ret_venda": 447.99
+    "ind_venda": -833.07,
+    "ret_venda": -748.88
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 12659.9
+     "qtd": 11463.03
     },
     {
      "nome": "Industrializacao",
-     "qtd": 12575.71
+     "qtd": 11378.84
     },
     {
      "nome": "Venda",
@@ -11189,8 +11179,8 @@
    "navio_detalhe": [
     {
      "navio": "MV LETO",
-     "ret": 12659.9,
-     "ind": 12575.71,
+     "ret": 11463.03,
+     "ind": 11378.84,
      "venda": 12211.91
     }
    ],
@@ -11209,27 +11199,27 @@
   {
    "pedido": "8399",
    "tipo": "COMPLETO",
-   "status": "OK",
-   "ret": 1931.83,
-   "ind": 1931.83,
+   "status": "DIVERGENTE",
+   "ret": 1647.25,
+   "ind": 1647.25,
    "venda": 1931.83,
    "venda_bruta": 1931.83,
    "dev": 0,
    "mp": 0,
-   "max_dif": 0.0,
+   "max_dif": 284.58,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": 0.0,
-    "ret_venda": 0.0
+    "ind_venda": -284.58,
+    "ret_venda": -284.58
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 1931.83
+     "qtd": 1647.25
     },
     {
      "nome": "Industrializacao",
-     "qtd": 1931.83
+     "qtd": 1647.25
     },
     {
      "nome": "Venda",
@@ -11242,8 +11232,8 @@
    "navio_detalhe": [
     {
      "navio": "MV LETO",
-     "ret": 1931.83,
-     "ind": 1931.83,
+     "ret": 1647.25,
+     "ind": 1647.25,
      "venda": 1931.83
     }
    ],
@@ -11357,26 +11347,26 @@
    "pedido": "8402",
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
-   "ret": 1960.78,
-   "ind": 1960.78,
+   "ret": 1685.11,
+   "ind": 1685.11,
    "venda": 1926.06,
    "venda_bruta": 1926.06,
    "dev": 0,
    "mp": 0,
-   "max_dif": 34.72,
+   "max_dif": 240.95,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": 34.72,
-    "ret_venda": 34.72
+    "ind_venda": -240.95,
+    "ret_venda": -240.95
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 1960.78
+     "qtd": 1685.11
     },
     {
      "nome": "Industrializacao",
-     "qtd": 1960.78
+     "qtd": 1685.11
     },
     {
      "nome": "Venda",
@@ -11389,8 +11379,8 @@
    "navio_detalhe": [
     {
      "navio": "MV LAWIN ARROW",
-     "ret": 1960.78,
-     "ind": 1960.78,
+     "ret": 1685.11,
+     "ind": 1685.11,
      "venda": 1926.06
     }
    ],
@@ -11410,26 +11400,26 @@
    "pedido": "8403",
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
-   "ret": 5257.75,
-   "ind": 5259.75,
+   "ret": 4727.88,
+   "ind": 4729.88,
    "venda": 5224.37,
    "venda_bruta": 5224.37,
    "dev": 0,
    "mp": 0,
-   "max_dif": 35.38,
+   "max_dif": 496.49,
    "difs": {
     "ret_ind": -2.0,
-    "ind_venda": 35.38,
-    "ret_venda": 33.38
+    "ind_venda": -494.49,
+    "ret_venda": -496.49
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 5257.75
+     "qtd": 4727.88
     },
     {
      "nome": "Industrializacao",
-     "qtd": 5259.75
+     "qtd": 4729.88
     },
     {
      "nome": "Venda",
@@ -11442,8 +11432,8 @@
    "navio_detalhe": [
     {
      "navio": "MV LAWIN ARROW",
-     "ret": 5257.75,
-     "ind": 5259.75,
+     "ret": 4727.88,
+     "ind": 4729.88,
      "venda": 5224.37
     }
    ],
@@ -11610,26 +11600,26 @@
    "pedido": "8411",
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
-   "ret": 1674.24,
-   "ind": 1712.97,
+   "ret": 1473.06,
+   "ind": 1511.79,
    "venda": 1674.24,
    "venda_bruta": 1674.24,
    "dev": 0,
    "mp": 0,
-   "max_dif": 38.73,
+   "max_dif": 201.18,
    "difs": {
     "ret_ind": -38.73,
-    "ind_venda": 38.73,
-    "ret_venda": 0.0
+    "ind_venda": -162.45,
+    "ret_venda": -201.18
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 1674.24
+     "qtd": 1473.06
     },
     {
      "nome": "Industrializacao",
-     "qtd": 1712.97
+     "qtd": 1511.79
     },
     {
      "nome": "Venda",
@@ -11642,8 +11632,8 @@
    "navio_detalhe": [
     {
      "navio": "MV LETO",
-     "ret": 1674.24,
-     "ind": 1712.97,
+     "ret": 1473.06,
+     "ind": 1511.79,
      "venda": 1674.24
     }
    ],
@@ -13655,9 +13645,9 @@
   },
   {
    "navio": "MV LAWIN ARROW",
-   "ret": 10117.11,
-   "ind": 10117.11,
-   "venda": 31109.97,
+   "ret": 9311.57,
+   "ind": 9311.57,
+   "venda": 33768.66,
    "pedidos": [
     "32",
     "42",
@@ -13665,6 +13655,7 @@
     "44",
     "174",
     "175",
+    "176",
     "177",
     "178",
     "179",
@@ -13681,13 +13672,13 @@
     "17801",
     "17901"
    ],
-   "n_pedidos": 21,
+   "n_pedidos": 22,
    "status": "DIVERGENTE"
   },
   {
    "navio": "MV LETO",
-   "ret": 16265.97,
-   "ind": 16220.51,
+   "ret": 14583.34,
+   "ind": 14537.88,
    "venda": 39412.04,
    "pedidos": [
     "8397",
@@ -13768,7 +13759,7 @@
   },
   {
    "navio": "PACIFIC TALENT",
-   "ret": 1133.69,
+   "ret": 1064.54,
    "ind": 1064.54,
    "venda": 1133.69,
    "pedidos": [
@@ -13803,18 +13794,17 @@
   },
   {
    "navio": "PHOENICIAN",
-   "ret": 11372.44,
-   "ind": 6623.47,
-   "venda": 17782.67,
+   "ret": 6024.46,
+   "ind": 6278.9,
+   "venda": 15123.98,
    "pedidos": [
-    "176",
     "593",
     "596",
     "8375",
     "8395",
     "17601"
    ],
-   "n_pedidos": 6,
+   "n_pedidos": 5,
    "status": "DIVERGENTE"
   },
   {
@@ -13918,8 +13908,8 @@
   },
   {
    "navio": "TERMICO STR- JOKER",
-   "ret": 39937.0,
-   "ind": 38378.38,
+   "ret": 39737.56,
+   "ind": 38178.94,
    "venda": 53369.38,
    "pedidos": [
     "552",
