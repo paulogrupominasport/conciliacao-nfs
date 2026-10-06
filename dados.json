@@ -1,5 +1,5 @@
 {
- "gerado_em": "06/10/2026 11:38",
+ "gerado_em": "06/10/2026 11:48",
  "periodo": "01/05/2026 a 05/10/2026",
  "tolerancia": 0.01,
  "resumo": {
@@ -9,7 +9,7 @@
   "sem_ind_div": 1,
   "venda_direta": 154,
   "pendentes": 19,
-  "total_pedidos": 308
+  "total_pedidos": 319
  },
  "totais": {
   "ret": 317430.41,
@@ -103,6 +103,30 @@
     },
     {
      "nome": "CARBOAMERICA-RJ",
+     "qtd": 0.0
+    },
+    {
+     "nome": "GERDAU",
+     "qtd": 0.0
+    },
+    {
+     "nome": "GERDAU DIVINOPOLIS",
+     "qtd": 0.0
+    },
+    {
+     "nome": "GERDAU S.A.",
+     "qtd": 0.0
+    },
+    {
+     "nome": "TECNOGERA - LOCACAO",
+     "qtd": 0.0
+    },
+    {
+     "nome": "LUCDAN COMERCIO DE A",
+     "qtd": 0.0
+    },
+    {
+     "nome": "PETRORECONCAVO (RN)",
      "qtd": 0.0
     }
    ],
@@ -4941,6 +4965,86 @@
    "produto": "",
    "data_pedido": "",
    "val_venda": 67749.71
+  },
+  {
+   "pedido": "621",
+   "tipo": "OUTRO",
+   "status": "OK",
+   "ret": 0,
+   "ind": 0,
+   "venda": 0.0,
+   "venda_bruta": 0.0,
+   "dev": 0,
+   "mp": 0,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 0
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 0
+    },
+    {
+     "nome": "Venda",
+     "qtd": 0.0
+    }
+   ],
+   "navios": [],
+   "navio_detalhe": [],
+   "cliente": "CARBOAMERICA - MG",
+   "clientes": [
+    {
+     "nome": "CARBOAMERICA - MG",
+     "qtd": 0.0
+    }
+   ],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 0.0
+  },
+  {
+   "pedido": "622",
+   "tipo": "OUTRO",
+   "status": "OK",
+   "ret": 0,
+   "ind": 0,
+   "venda": 0.0,
+   "venda_bruta": 0.0,
+   "dev": 0,
+   "mp": 0,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 0
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 0
+    },
+    {
+     "nome": "Venda",
+     "qtd": 0.0
+    }
+   ],
+   "navios": [],
+   "navio_detalhe": [],
+   "cliente": "BELLUNO",
+   "clientes": [
+    {
+     "nome": "BELLUNO",
+     "qtd": 0.0
+    }
+   ],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 0.0
   },
   {
    "pedido": "1180",
@@ -11579,8 +11683,8 @@
    "status": "PENDENTE",
    "ret": 4777.6,
    "ind": 4740.22,
-   "venda": 0,
-   "venda_bruta": 0,
+   "venda": 0.0,
+   "venda_bruta": 0.0,
    "dev": 0,
    "mp": 0,
    "max_dif": 4740.22,
@@ -11599,7 +11703,7 @@
     },
     {
      "nome": "Venda",
-     "qtd": 0
+     "qtd": 0.0
     }
    ],
    "navios": [
@@ -11613,12 +11717,17 @@
      "venda": 0
     }
    ],
-   "cliente": "",
-   "clientes": [],
+   "cliente": "CARBOAMERICA-RJ",
+   "clientes": [
+    {
+     "nome": "CARBOAMERICA-RJ",
+     "qtd": 0.0
+    }
+   ],
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 0
+   "val_venda": 0.0
   },
   {
    "pedido": "8406",
@@ -11720,8 +11829,8 @@
    "status": "PENDENTE",
    "ret": 200.92,
    "ind": 200.92,
-   "venda": 0,
-   "venda_bruta": 0,
+   "venda": 0.0,
+   "venda_bruta": 0.0,
    "dev": 0,
    "mp": 0,
    "max_dif": 200.92,
@@ -11740,7 +11849,7 @@
     },
     {
      "nome": "Venda",
-     "qtd": 0
+     "qtd": 0.0
     }
    ],
    "navios": [
@@ -11754,12 +11863,17 @@
      "venda": 0
     }
    ],
-   "cliente": "",
-   "clientes": [],
+   "cliente": "BELOCAL - MTZ",
+   "clientes": [
+    {
+     "nome": "BELOCAL - MTZ",
+     "qtd": 0.0
+    }
+   ],
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 0
+   "val_venda": 0.0
   },
   {
    "pedido": "8410",
@@ -11873,8 +11987,8 @@
    "status": "PENDENTE",
    "ret": 424.8,
    "ind": 424.8,
-   "venda": 0,
-   "venda_bruta": 0,
+   "venda": 0.0,
+   "venda_bruta": 0.0,
    "dev": 0,
    "mp": 0,
    "max_dif": 424.8,
@@ -11893,7 +12007,7 @@
     },
     {
      "nome": "Venda",
-     "qtd": 0
+     "qtd": 0.0
     }
    ],
    "navios": [
@@ -11907,12 +12021,17 @@
      "venda": 0
     }
    ],
-   "cliente": "",
-   "clientes": [],
+   "cliente": "NACIONAL - CTG",
+   "clientes": [
+    {
+     "nome": "NACIONAL - CTG",
+     "qtd": 0.0
+    }
+   ],
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 0
+   "val_venda": 0.0
   },
   {
    "pedido": "8414",
@@ -11920,8 +12039,8 @@
    "status": "PENDENTE",
    "ret": 1056.81,
    "ind": 1056.81,
-   "venda": 0,
-   "venda_bruta": 0,
+   "venda": 0.0,
+   "venda_bruta": 0.0,
    "dev": 0,
    "mp": 0,
    "max_dif": 1056.81,
@@ -11940,17 +12059,22 @@
     },
     {
      "nome": "Venda",
-     "qtd": 0
+     "qtd": 0.0
     }
    ],
    "navios": [],
    "navio_detalhe": [],
-   "cliente": "",
-   "clientes": [],
+   "cliente": "CARBOAMERICA - MG",
+   "clientes": [
+    {
+     "nome": "CARBOAMERICA - MG",
+     "qtd": 0.0
+    }
+   ],
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 0
+   "val_venda": 0.0
   },
   {
    "pedido": "8416",
@@ -11958,8 +12082,8 @@
    "status": "PENDENTE",
    "ret": 98.15,
    "ind": 98.15,
-   "venda": 0,
-   "venda_bruta": 0,
+   "venda": 0.0,
+   "venda_bruta": 0.0,
    "dev": 0,
    "mp": 0,
    "max_dif": 98.15,
@@ -11978,17 +12102,22 @@
     },
     {
      "nome": "Venda",
-     "qtd": 0
+     "qtd": 0.0
     }
    ],
    "navios": [],
    "navio_detalhe": [],
-   "cliente": "",
-   "clientes": [],
+   "cliente": "BELOCAL - MTZ",
+   "clientes": [
+    {
+     "nome": "BELOCAL - MTZ",
+     "qtd": 0.0
+    }
+   ],
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 0
+   "val_venda": 0.0
   },
   {
    "pedido": "8417",
@@ -11996,8 +12125,8 @@
    "status": "PENDENTE",
    "ret": 519.16,
    "ind": 519.16,
-   "venda": 0,
-   "venda_bruta": 0,
+   "venda": 0.0,
+   "venda_bruta": 0.0,
    "dev": 0,
    "mp": 0,
    "max_dif": 519.16,
@@ -12016,17 +12145,22 @@
     },
     {
      "nome": "Venda",
-     "qtd": 0
+     "qtd": 0.0
     }
    ],
    "navios": [],
    "navio_detalhe": [],
-   "cliente": "",
-   "clientes": [],
+   "cliente": "BELOCAL - SJDL",
+   "clientes": [
+    {
+     "nome": "BELOCAL - SJDL",
+     "qtd": 0.0
+    }
+   ],
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 0
+   "val_venda": 0.0
   },
   {
    "pedido": "8418",
@@ -12034,8 +12168,8 @@
    "status": "PENDENTE",
    "ret": 312.38,
    "ind": 312.38,
-   "venda": 0,
-   "venda_bruta": 0,
+   "venda": 0.0,
+   "venda_bruta": 0.0,
    "dev": 0,
    "mp": 0,
    "max_dif": 312.38,
@@ -12054,17 +12188,222 @@
     },
     {
      "nome": "Venda",
-     "qtd": 0
+     "qtd": 0.0
     }
    ],
    "navios": [],
    "navio_detalhe": [],
-   "cliente": "",
-   "clientes": [],
+   "cliente": "BELOCAL - ARCOS",
+   "clientes": [
+    {
+     "nome": "BELOCAL - ARCOS",
+     "qtd": 0.0
+    }
+   ],
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 0
+   "val_venda": 0.0
+  },
+  {
+   "pedido": "8419",
+   "tipo": "OUTRO",
+   "status": "OK",
+   "ret": 0,
+   "ind": 0,
+   "venda": 0.0,
+   "venda_bruta": 0.0,
+   "dev": 0,
+   "mp": 0,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 0
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 0
+    },
+    {
+     "nome": "Venda",
+     "qtd": 0.0
+    }
+   ],
+   "navios": [],
+   "navio_detalhe": [],
+   "cliente": "PROQUIGEL QUIMICA",
+   "clientes": [
+    {
+     "nome": "PROQUIGEL QUIMICA",
+     "qtd": 0.0
+    }
+   ],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 0.0
+  },
+  {
+   "pedido": "8420",
+   "tipo": "OUTRO",
+   "status": "OK",
+   "ret": 0,
+   "ind": 0,
+   "venda": 0.0,
+   "venda_bruta": 0.0,
+   "dev": 0,
+   "mp": 0,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 0
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 0
+    },
+    {
+     "nome": "Venda",
+     "qtd": 0.0
+    }
+   ],
+   "navios": [],
+   "navio_detalhe": [],
+   "cliente": "PROQUIGEL QUIMICA",
+   "clientes": [
+    {
+     "nome": "PROQUIGEL QUIMICA",
+     "qtd": 0.0
+    }
+   ],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 0.0
+  },
+  {
+   "pedido": "8422",
+   "tipo": "OUTRO",
+   "status": "OK",
+   "ret": 0,
+   "ind": 0,
+   "venda": 0.0,
+   "venda_bruta": 0.0,
+   "dev": 0,
+   "mp": 0,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 0
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 0
+    },
+    {
+     "nome": "Venda",
+     "qtd": 0.0
+    }
+   ],
+   "navios": [],
+   "navio_detalhe": [],
+   "cliente": "PROQUIGEL QUIMICA",
+   "clientes": [
+    {
+     "nome": "PROQUIGEL QUIMICA",
+     "qtd": 0.0
+    }
+   ],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 0.0
+  },
+  {
+   "pedido": "8423",
+   "tipo": "OUTRO",
+   "status": "OK",
+   "ret": 0,
+   "ind": 0,
+   "venda": 0.0,
+   "venda_bruta": 0.0,
+   "dev": 0,
+   "mp": 0,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 0
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 0
+    },
+    {
+     "nome": "Venda",
+     "qtd": 0.0
+    }
+   ],
+   "navios": [],
+   "navio_detalhe": [],
+   "cliente": "PROQUIGEL QUIMICA",
+   "clientes": [
+    {
+     "nome": "PROQUIGEL QUIMICA",
+     "qtd": 0.0
+    }
+   ],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 0.0
+  },
+  {
+   "pedido": "8424",
+   "tipo": "OUTRO",
+   "status": "OK",
+   "ret": 0,
+   "ind": 0,
+   "venda": 0.0,
+   "venda_bruta": 0.0,
+   "dev": 0,
+   "mp": 0,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 0
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 0
+    },
+    {
+     "nome": "Venda",
+     "qtd": 0.0
+    }
+   ],
+   "navios": [],
+   "navio_detalhe": [],
+   "cliente": "PROQUIGEL QUIMICA",
+   "clientes": [
+    {
+     "nome": "PROQUIGEL QUIMICA",
+     "qtd": 0.0
+    }
+   ],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 0.0
   },
   {
    "pedido": "17501",
@@ -13373,6 +13712,46 @@
    "val_venda": 4845005.0
   },
   {
+   "pedido": "151401",
+   "tipo": "OUTRO",
+   "status": "OK",
+   "ret": 0,
+   "ind": 0,
+   "venda": 0.0,
+   "venda_bruta": 0.0,
+   "dev": 0,
+   "mp": 0,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 0
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 0
+    },
+    {
+     "nome": "Venda",
+     "qtd": 0.0
+    }
+   ],
+   "navios": [],
+   "navio_detalhe": [],
+   "cliente": "MINAS PORT",
+   "clientes": [
+    {
+     "nome": "MINAS PORT",
+     "qtd": 0.0
+    }
+   ],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 0.0
+  },
+  {
    "pedido": "818102",
    "tipo": "VENDA_DIRETA",
    "status": "DIRETA",
@@ -13740,6 +14119,126 @@
    "produto": "",
    "data_pedido": "",
    "val_venda": 4153027.69
+  },
+  {
+   "pedido": "841101",
+   "tipo": "OUTRO",
+   "status": "OK",
+   "ret": 0,
+   "ind": 0,
+   "venda": 0.0,
+   "venda_bruta": 0.0,
+   "dev": 0,
+   "mp": 0,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 0
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 0
+    },
+    {
+     "nome": "Venda",
+     "qtd": 0.0
+    }
+   ],
+   "navios": [],
+   "navio_detalhe": [],
+   "cliente": "PROQUIGEL QUIMICA",
+   "clientes": [
+    {
+     "nome": "PROQUIGEL QUIMICA",
+     "qtd": 0.0
+    }
+   ],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 0.0
+  },
+  {
+   "pedido": "842001",
+   "tipo": "OUTRO",
+   "status": "OK",
+   "ret": 0,
+   "ind": 0,
+   "venda": 0.0,
+   "venda_bruta": 0.0,
+   "dev": 0,
+   "mp": 0,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 0
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 0
+    },
+    {
+     "nome": "Venda",
+     "qtd": 0.0
+    }
+   ],
+   "navios": [],
+   "navio_detalhe": [],
+   "cliente": "PROQUIGEL QUIMICA",
+   "clientes": [
+    {
+     "nome": "PROQUIGEL QUIMICA",
+     "qtd": 0.0
+    }
+   ],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 0.0
+  },
+  {
+   "pedido": "842201",
+   "tipo": "OUTRO",
+   "status": "OK",
+   "ret": 0,
+   "ind": 0,
+   "venda": 0.0,
+   "venda_bruta": 0.0,
+   "dev": 0,
+   "mp": 0,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 0
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 0
+    },
+    {
+     "nome": "Venda",
+     "qtd": 0.0
+    }
+   ],
+   "navios": [],
+   "navio_detalhe": [],
+   "cliente": "PROQUIGEL QUIMICA",
+   "clientes": [
+    {
+     "nome": "PROQUIGEL QUIMICA",
+     "qtd": 0.0
+    }
+   ],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 0.0
   },
   {
    "pedido": "14780101",
