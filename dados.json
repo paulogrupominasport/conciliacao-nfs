@@ -1,5 +1,5 @@
 {
- "gerado_em": "06/10/2026 13:18",
+ "gerado_em": "06/10/2026 13:28",
  "periodo": "01/05/2026 a 05/10/2026",
  "tolerancia": 0.01,
  "resumo": {
@@ -5026,11 +5026,11 @@
     }
    ],
    "navios": [
-    "#N/A"
+    "PHOENIX"
    ],
    "navio_detalhe": [
     {
-     "navio": "#N/A",
+     "navio": "PHOENIX",
      "ret": 0,
      "ind": 0,
      "venda": 21.44
@@ -12122,13 +12122,13 @@
     }
    ],
    "navios": [
-    "#N/A"
+    "LILA MUNDRA"
    ],
    "navio_detalhe": [
     {
-     "navio": "#N/A",
-     "ret": 0,
-     "ind": 0,
+     "navio": "LILA MUNDRA",
+     "ret": 98.15,
+     "ind": 98.15,
      "venda": 98.15
     }
    ],
@@ -12175,13 +12175,13 @@
     }
    ],
    "navios": [
-    "#N/A"
+    "LILA MUNDRA"
    ],
    "navio_detalhe": [
     {
-     "navio": "#N/A",
-     "ret": 0,
-     "ind": 0,
+     "navio": "LILA MUNDRA",
+     "ret": 519.16,
+     "ind": 519.16,
      "venda": 519.16
     }
    ],
@@ -12228,13 +12228,13 @@
     }
    ],
    "navios": [
-    "#N/A"
+    "LILA MUNDRA"
    ],
    "navio_detalhe": [
     {
-     "navio": "#N/A",
-     "ret": 0,
-     "ind": 0,
+     "navio": "LILA MUNDRA",
+     "ret": 312.38,
+     "ind": 312.38,
      "venda": 312.38
     }
    ],
@@ -12269,11 +12269,11 @@
     }
    ],
    "navios": [
-    "#N/A"
+    "PHOENIX"
    ],
    "navio_detalhe": [
     {
-     "navio": "#N/A",
+     "navio": "PHOENIX",
      "ret": 0,
      "ind": 0,
      "venda": 500.0
@@ -12310,11 +12310,11 @@
     }
    ],
    "navios": [
-    "#N/A"
+    "MV LETO"
    ],
    "navio_detalhe": [
     {
-     "navio": "#N/A",
+     "navio": "MV LETO",
      "ret": 0,
      "ind": 0,
      "venda": 490.49
@@ -12351,11 +12351,11 @@
     }
    ],
    "navios": [
-    "#N/A"
+    "MV LETO"
    ],
    "navio_detalhe": [
     {
-     "navio": "#N/A",
+     "navio": "MV LETO",
      "ret": 0,
      "ind": 0,
      "venda": 490.49
@@ -12392,11 +12392,11 @@
     }
    ],
    "navios": [
-    "#N/A"
+    "PHOENIX"
    ],
    "navio_detalhe": [
     {
-     "navio": "#N/A",
+     "navio": "PHOENIX",
      "ret": 0,
      "ind": 0,
      "venda": 500.0
@@ -12433,11 +12433,11 @@
     }
    ],
    "navios": [
-    "#N/A"
+    "MV LETO"
    ],
    "navio_detalhe": [
     {
-     "navio": "#N/A",
+     "navio": "MV LETO",
      "ret": 0,
      "ind": 0,
      "venda": 490.49
@@ -14231,11 +14231,11 @@
     }
    ],
    "navios": [
-    "#N/A"
+    "PHOENIX"
    ],
    "navio_detalhe": [
     {
-     "navio": "#N/A",
+     "navio": "PHOENIX",
      "ret": 0,
      "ind": 0,
      "venda": 465.92
@@ -14272,11 +14272,11 @@
     }
    ],
    "navios": [
-    "#N/A"
+    "PHOENIX"
    ],
    "navio_detalhe": [
     {
-     "navio": "#N/A",
+     "navio": "PHOENIX",
      "ret": 0,
      "ind": 0,
      "venda": 489.65
@@ -14341,32 +14341,21 @@
    "navio": "#N/A",
    "ret": 0.0,
    "ind": 0.0,
-   "venda": 17660.03,
+   "venda": 13281.87,
    "pedidos": [
     "0",
     "169",
     "511",
     "513",
     "621",
-    "622",
     "8307",
     "8414",
-    "8416",
-    "8417",
-    "8418",
-    "8419",
-    "8420",
-    "8422",
-    "8423",
-    "8424",
     "147501",
     "148901",
     "149201",
-    "842001",
-    "842201",
     "14780101"
    ],
-   "n_pedidos": 22,
+   "n_pedidos": 11,
    "status": "DIVERGENTE"
   },
   {
@@ -14529,16 +14518,19 @@
   },
   {
    "navio": "LILA MUNDRA",
-   "ret": 5814.62,
-   "ind": 5814.62,
-   "venda": 61103.35,
+   "ret": 6744.31,
+   "ind": 6744.31,
+   "venda": 62033.04,
    "pedidos": [
     "8315",
     "8396",
     "8413",
+    "8416",
+    "8417",
+    "8418",
     "149601"
    ],
-   "n_pedidos": 4,
+   "n_pedidos": 7,
    "status": "DIVERGENTE"
   },
   {
@@ -14664,16 +14656,19 @@
    "navio": "MV LETO",
    "ret": 18805.49,
    "ind": 18760.03,
-   "venda": 41951.56,
+   "venda": 43423.02,
    "pedidos": [
     "8397",
     "8398",
     "8399",
     "8400",
     "8411",
+    "8420",
+    "8422",
+    "8424",
     "151201"
    ],
-   "n_pedidos": 6,
+   "n_pedidos": 9,
    "status": "DIVERGENTE"
   },
   {
@@ -14797,7 +14792,7 @@
    "navio": "PHOENIX",
    "ret": 0.0,
    "ind": 0.0,
-   "venda": 57764.26,
+   "venda": 59741.27,
    "pedidos": [
     "601",
     "603",
@@ -14808,15 +14803,20 @@
     "612",
     "614",
     "616",
+    "622",
     "8374",
     "8394",
     "8407",
+    "8419",
+    "8423",
     "837401",
     "839401",
     "840701",
-    "841101"
+    "841101",
+    "842001",
+    "842201"
    ],
-   "n_pedidos": 16,
+   "n_pedidos": 21,
    "status": "DIRETA"
   },
   {
