@@ -1,5 +1,5 @@
 {
- "gerado_em": "06/10/2026 09:18",
+ "gerado_em": "06/10/2026 09:28",
  "periodo": "01/05/2026 a 22/09/2026",
  "tolerancia": 0.01,
  "resumo": {
@@ -1565,11 +1565,11 @@
     }
    ],
    "navios": [
-    "MV LAWIN ARROW"
+    "PHOENICIAN"
    ],
    "navio_detalhe": [
     {
-     "navio": "MV LAWIN ARROW",
+     "navio": "PHOENICIAN",
      "ret": 0,
      "ind": 0,
      "venda": 2658.69
@@ -13657,7 +13657,7 @@
    "navio": "MV LAWIN ARROW",
    "ret": 10117.11,
    "ind": 10117.11,
-   "venda": 33768.66,
+   "venda": 31109.97,
    "pedidos": [
     "32",
     "42",
@@ -13665,7 +13665,6 @@
     "44",
     "174",
     "175",
-    "176",
     "177",
     "178",
     "179",
@@ -13682,7 +13681,7 @@
     "17801",
     "17901"
    ],
-   "n_pedidos": 22,
+   "n_pedidos": 21,
    "status": "DIVERGENTE"
   },
   {
@@ -13806,15 +13805,16 @@
    "navio": "PHOENICIAN",
    "ret": 11372.44,
    "ind": 6623.47,
-   "venda": 15123.98,
+   "venda": 17782.67,
    "pedidos": [
+    "176",
     "593",
     "596",
     "8375",
     "8395",
     "17601"
    ],
-   "n_pedidos": 5,
+   "n_pedidos": 6,
    "status": "DIVERGENTE"
   },
   {
