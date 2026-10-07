@@ -1,5 +1,5 @@
 {
- "gerado_em": "07/10/2026 09:28",
+ "gerado_em": "07/10/2026 09:38",
  "periodo": "01/05/2026 a 06/10/2026",
  "tolerancia": 0.01,
  "resumo": {
@@ -13,7 +13,7 @@
  },
  "totais": {
   "ret": 319445.83,
-  "ind": 289368.1,
+  "ind": 289403.77,
   "venda": 901716.4,
   "val_venda": 792886983.18
  },
@@ -2518,15 +2518,15 @@
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
    "ret": 28953.49,
-   "ind": 28883.98,
+   "ind": 28919.65,
    "venda": 21997.66,
    "venda_bruta": 21997.66,
    "dev": 0,
    "mp": 0,
    "max_dif": 6955.83,
    "difs": {
-    "ret_ind": 69.51,
-    "ind_venda": 6886.32,
+    "ret_ind": 33.84,
+    "ind_venda": 6921.99,
     "ret_venda": 6955.83
    },
    "etapas": [
@@ -2536,7 +2536,7 @@
     },
     {
      "nome": "Industrializacao",
-     "qtd": 28883.98
+     "qtd": 28919.65
     },
     {
      "nome": "Venda",
@@ -2550,7 +2550,7 @@
     {
      "navio": "TERMICO STR- JOKER",
      "ret": 28953.49,
-     "ind": 28883.98,
+     "ind": 28919.65,
      "venda": 21997.66
     }
    ],
@@ -14993,7 +14993,7 @@
   {
    "navio": "TERMICO STR- JOKER",
    "ret": 42449.5,
-   "ind": 40857.04,
+   "ind": 40892.71,
    "venda": 55881.88,
    "pedidos": [
     "552",
