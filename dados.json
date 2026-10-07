@@ -1,19 +1,19 @@
 {
- "gerado_em": "07/10/2026 09:08",
+ "gerado_em": "07/10/2026 09:18",
  "periodo": "01/05/2026 a 06/10/2026",
  "tolerancia": 0.01,
  "resumo": {
-  "completos_ok": 59,
-  "completos_div": 33,
+  "completos_ok": 61,
+  "completos_div": 32,
   "sem_ind_ok": 6,
   "sem_ind_div": 1,
-  "venda_direta": 167,
+  "venda_direta": 166,
   "pendentes": 12,
   "total_pedidos": 321
  },
  "totais": {
-  "ret": 317430.41,
-  "ind": 287352.68,
+  "ret": 319445.83,
+  "ind": 289368.1,
   "venda": 901716.4,
   "val_venda": 792886983.18
  },
@@ -2517,26 +2517,26 @@
    "pedido": "565",
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
-   "ret": 28727.2,
-   "ind": 28657.69,
+   "ret": 28953.49,
+   "ind": 28883.98,
    "venda": 21997.66,
    "venda_bruta": 21997.66,
    "dev": 0,
    "mp": 0,
-   "max_dif": 6729.54,
+   "max_dif": 6955.83,
    "difs": {
     "ret_ind": 69.51,
-    "ind_venda": 6660.03,
-    "ret_venda": 6729.54
+    "ind_venda": 6886.32,
+    "ret_venda": 6955.83
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 28727.2
+     "qtd": 28953.49
     },
     {
      "nome": "Industrializacao",
-     "qtd": 28657.69
+     "qtd": 28883.98
     },
     {
      "nome": "Venda",
@@ -4916,27 +4916,27 @@
   {
    "pedido": "620",
    "tipo": "COMPLETO",
-   "status": "DIVERGENTE",
-   "ret": 1309.96,
-   "ind": 1309.96,
+   "status": "OK",
+   "ret": 1414.26,
+   "ind": 1414.26,
    "venda": 1414.26,
    "venda_bruta": 1414.26,
    "dev": 0,
    "mp": 0,
-   "max_dif": 104.3,
+   "max_dif": 0.0,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": -104.3,
-    "ret_venda": -104.3
+    "ind_venda": 0.0,
+    "ret_venda": 0.0
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 1309.96
+     "qtd": 1414.26
     },
     {
      "nome": "Industrializacao",
-     "qtd": 1309.96
+     "qtd": 1414.26
     },
     {
      "nome": "Venda",
@@ -5577,7 +5577,7 @@
    "venda": 0,
    "venda_bruta": 0,
    "dev": 0,
-   "mp": 5373.12,
+   "mp": 5644.46,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
@@ -11136,26 +11136,26 @@
    "pedido": "8393",
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
-   "ret": 4963.74,
-   "ind": 4963.74,
+   "ret": 5577.2,
+   "ind": 5577.2,
    "venda": 5530.15,
    "venda_bruta": 5530.15,
    "dev": 0,
    "mp": 0,
-   "max_dif": 566.41,
+   "max_dif": 47.05,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": -566.41,
-    "ret_venda": -566.41
+    "ind_venda": 47.05,
+    "ret_venda": 47.05
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 4963.74
+     "qtd": 5577.2
     },
     {
      "nome": "Industrializacao",
-     "qtd": 4963.74
+     "qtd": 5577.2
     },
     {
      "nome": "Venda",
@@ -11283,26 +11283,26 @@
    "pedido": "8396",
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
-   "ret": 5389.82,
-   "ind": 5389.82,
+   "ret": 5584.71,
+   "ind": 5584.71,
    "venda": 5535.54,
    "venda_bruta": 5535.54,
    "dev": 0,
    "mp": 0,
-   "max_dif": 145.72,
+   "max_dif": 49.17,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": -145.72,
-    "ret_venda": -145.72
+    "ind_venda": 49.17,
+    "ret_venda": 49.17
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 5389.82
+     "qtd": 5584.71
     },
     {
      "nome": "Industrializacao",
-     "qtd": 5389.82
+     "qtd": 5584.71
     },
     {
      "nome": "Venda",
@@ -11577,26 +11577,26 @@
    "pedido": "8402",
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
-   "ret": 2996.57,
-   "ind": 2996.57,
+   "ret": 3029.51,
+   "ind": 3029.51,
    "venda": 2994.79,
    "venda_bruta": 2994.79,
    "dev": 0,
    "mp": 0,
-   "max_dif": 1.78,
+   "max_dif": 34.72,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": 1.78,
-    "ret_venda": 1.78
+    "ind_venda": 34.72,
+    "ret_venda": 34.72
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 2996.57
+     "qtd": 3029.51
     },
     {
      "nome": "Industrializacao",
-     "qtd": 2996.57
+     "qtd": 3029.51
     },
     {
      "nome": "Venda",
@@ -11630,26 +11630,26 @@
    "pedido": "8403",
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
-   "ret": 16017.97,
-   "ind": 16057.35,
+   "ret": 16374.95,
+   "ind": 16414.33,
    "venda": 16341.57,
    "venda_bruta": 16341.57,
    "dev": 0,
    "mp": 0,
-   "max_dif": 323.6,
+   "max_dif": 72.76,
    "difs": {
     "ret_ind": -39.38,
-    "ind_venda": -284.22,
-    "ret_venda": -323.6
+    "ind_venda": 72.76,
+    "ret_venda": 33.38
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 16017.97
+     "qtd": 16374.95
     },
     {
      "nome": "Industrializacao",
-     "qtd": 16057.35
+     "qtd": 16414.33
     },
     {
      "nome": "Venda",
@@ -11683,26 +11683,26 @@
    "pedido": "8404",
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
-   "ret": 4777.6,
-   "ind": 4740.22,
+   "ret": 4907.52,
+   "ind": 4870.14,
    "venda": 4907.52,
    "venda_bruta": 4907.52,
    "dev": 0,
    "mp": 0,
-   "max_dif": 167.3,
+   "max_dif": 37.38,
    "difs": {
     "ret_ind": 37.38,
-    "ind_venda": -167.3,
-    "ret_venda": -129.92
+    "ind_venda": -37.38,
+    "ret_venda": 0.0
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 4777.6
+     "qtd": 4907.52
     },
     {
      "nome": "Industrializacao",
-     "qtd": 4740.22
+     "qtd": 4870.14
     },
     {
      "nome": "Venda",
@@ -11736,26 +11736,26 @@
    "pedido": "8406",
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
-   "ret": 2681.75,
-   "ind": 2632.73,
+   "ret": 3007.75,
+   "ind": 2958.73,
    "venda": 2937.23,
    "venda_bruta": 2937.23,
    "dev": 0,
    "mp": 0,
-   "max_dif": 304.5,
+   "max_dif": 70.52,
    "difs": {
     "ret_ind": 49.02,
-    "ind_venda": -304.5,
-    "ret_venda": -255.48
+    "ind_venda": 21.5,
+    "ret_venda": 70.52
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 2681.75
+     "qtd": 3007.75
     },
     {
      "nome": "Industrializacao",
-     "qtd": 2632.73
+     "qtd": 2958.73
     },
     {
      "nome": "Venda",
@@ -11987,17 +11987,29 @@
   },
   {
    "pedido": "8412",
-   "tipo": "VENDA_DIRETA",
-   "status": "DIRETA",
-   "ret": 0,
-   "ind": 0,
+   "tipo": "COMPLETO",
+   "status": "OK",
+   "ret": 30.64,
+   "ind": 30.64,
    "venda": 30.64,
    "venda_bruta": 30.64,
    "dev": 0,
    "mp": 0,
    "max_dif": 0.0,
-   "difs": {},
+   "difs": {
+    "ret_ind": 0.0,
+    "ind_venda": 0.0,
+    "ret_venda": 0.0
+   },
    "etapas": [
+    {
+     "nome": "Retorno",
+     "qtd": 30.64
+    },
+    {
+     "nome": "Industrializacao",
+     "qtd": 30.64
+    },
     {
      "nome": "Venda",
      "qtd": 30.64
