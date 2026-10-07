@@ -1,20 +1,20 @@
 {
- "gerado_em": "07/10/2026 08:38",
- "periodo": "01/05/2026 a 05/10/2026",
+ "gerado_em": "07/10/2026 08:48",
+ "periodo": "01/05/2026 a 06/10/2026",
  "tolerancia": 0.01,
  "resumo": {
-  "completos_ok": 60,
-  "completos_div": 32,
+  "completos_ok": 59,
+  "completos_div": 33,
   "sem_ind_ok": 6,
   "sem_ind_div": 1,
-  "venda_direta": 165,
+  "venda_direta": 167,
   "pendentes": 12,
-  "total_pedidos": 319
+  "total_pedidos": 321
  },
  "totais": {
   "ret": 317430.41,
   "ind": 287352.68,
-  "venda": 897290.5,
+  "venda": 901716.4,
   "val_venda": 790154296.17
  },
  "pedidos": [
@@ -24,8 +24,8 @@
    "status": "DIRETA",
    "ret": 0,
    "ind": 0,
-   "venda": 980.38,
-   "venda_bruta": 980.38,
+   "venda": 1161.38,
+   "venda_bruta": 1161.38,
    "dev": 0,
    "mp": 0,
    "max_dif": 0.0,
@@ -33,7 +33,7 @@
    "etapas": [
     {
      "nome": "Venda",
-     "qtd": 980.38
+     "qtd": 1161.38
     }
    ],
    "navios": [
@@ -47,8 +47,12 @@
      "venda": 980.38
     }
    ],
-   "cliente": "CIM. LIZ",
+   "cliente": "LUCDAN COMERCIO DE A",
    "clientes": [
+    {
+     "nome": "LUCDAN COMERCIO DE A",
+     "qtd": 360.0
+    },
     {
      "nome": "CIM. LIZ",
      "qtd": 283.36
@@ -56,10 +60,6 @@
     {
      "nome": "FIO FORTE MATERIAL E",
      "qtd": 190.0
-    },
-    {
-     "nome": "LUCDAN COMERCIO DE A",
-     "qtd": 180.0
     },
     {
      "nome": "GERDAU ACOMINAS",
@@ -83,7 +83,7 @@
     },
     {
      "nome": "PETRORECONCAVO (RN)",
-     "qtd": 24.0
+     "qtd": 25.0
     },
     {
      "nome": "GERDAU",
@@ -4620,8 +4620,8 @@
    "status": "DIRETA",
    "ret": 0,
    "ind": 0,
-   "venda": 11119.22,
-   "venda_bruta": 11119.22,
+   "venda": 11667.28,
+   "venda_bruta": 11667.28,
    "dev": 0,
    "mp": 0,
    "max_dif": 0.0,
@@ -4629,7 +4629,7 @@
    "etapas": [
     {
      "nome": "Venda",
-     "qtd": 11119.22
+     "qtd": 11667.28
     }
    ],
    "navios": [
@@ -4647,7 +4647,7 @@
    "clientes": [
     {
      "nome": "ITAMBÉ",
-     "qtd": 11119.22
+     "qtd": 11667.28
     }
    ],
    "filial": "",
@@ -4878,8 +4878,8 @@
    "status": "DIRETA",
    "ret": 0,
    "ind": 0,
-   "venda": 1398.01,
-   "venda_bruta": 1398.01,
+   "venda": 1510.15,
+   "venda_bruta": 1510.15,
    "dev": 0,
    "mp": 0,
    "max_dif": 0.0,
@@ -4887,7 +4887,7 @@
    "etapas": [
     {
      "nome": "Venda",
-     "qtd": 1398.01
+     "qtd": 1510.15
     }
    ],
    "navios": [
@@ -4905,7 +4905,7 @@
    "clientes": [
     {
      "nome": "MARGEM CIA / SUPREMO",
-     "qtd": 1398.01
+     "qtd": 1510.15
     }
    ],
    "filial": "",
@@ -4916,18 +4916,18 @@
   {
    "pedido": "620",
    "tipo": "COMPLETO",
-   "status": "OK",
+   "status": "DIVERGENTE",
    "ret": 1309.96,
    "ind": 1309.96,
-   "venda": 1309.96,
-   "venda_bruta": 1309.96,
+   "venda": 1414.26,
+   "venda_bruta": 1414.26,
    "dev": 0,
    "mp": 0,
-   "max_dif": 0.0,
+   "max_dif": 104.3,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": 0.0,
-    "ret_venda": 0.0
+    "ind_venda": -104.3,
+    "ret_venda": -104.3
    },
    "etapas": [
     {
@@ -4940,7 +4940,7 @@
     },
     {
      "nome": "Venda",
-     "qtd": 1309.96
+     "qtd": 1414.26
     }
    ],
    "navios": [
@@ -4958,7 +4958,7 @@
    "clientes": [
     {
      "nome": "BRASKEM",
-     "qtd": 1309.96
+     "qtd": 1414.26
     }
    ],
    "filial": "",
@@ -4972,8 +4972,8 @@
    "status": "DIRETA",
    "ret": 0,
    "ind": 0,
-   "venda": 1966.44,
-   "venda_bruta": 1966.44,
+   "venda": 2504.22,
+   "venda_bruta": 2504.22,
    "dev": 0,
    "mp": 0,
    "max_dif": 0.0,
@@ -4981,7 +4981,7 @@
    "etapas": [
     {
      "nome": "Venda",
-     "qtd": 1966.44
+     "qtd": 2504.22
     }
    ],
    "navios": [
@@ -4999,7 +4999,7 @@
    "clientes": [
     {
      "nome": "CARBOAMERICA - MG",
-     "qtd": 1966.44
+     "qtd": 2504.22
     }
    ],
    "filial": "",
@@ -11138,15 +11138,15 @@
    "status": "DIVERGENTE",
    "ret": 4963.74,
    "ind": 4963.74,
-   "venda": 4916.69,
-   "venda_bruta": 4916.69,
+   "venda": 5530.15,
+   "venda_bruta": 5530.15,
    "dev": 0,
    "mp": 0,
-   "max_dif": 47.05,
+   "max_dif": 566.41,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": 47.05,
-    "ret_venda": 47.05
+    "ind_venda": -566.41,
+    "ret_venda": -566.41
    },
    "etapas": [
     {
@@ -11159,7 +11159,7 @@
     },
     {
      "nome": "Venda",
-     "qtd": 4916.69
+     "qtd": 5530.15
     }
    ],
    "navios": [
@@ -11177,7 +11177,7 @@
    "clientes": [
     {
      "nome": "CARBOAMERICA - MG",
-     "qtd": 4916.69
+     "qtd": 5530.15
     }
    ],
    "filial": "",
@@ -11285,15 +11285,15 @@
    "status": "DIVERGENTE",
    "ret": 5389.82,
    "ind": 5389.82,
-   "venda": 5340.65,
-   "venda_bruta": 5340.65,
+   "venda": 5535.54,
+   "venda_bruta": 5535.54,
    "dev": 0,
    "mp": 0,
-   "max_dif": 49.17,
+   "max_dif": 145.72,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": 49.17,
-    "ret_venda": 49.17
+    "ind_venda": -145.72,
+    "ret_venda": -145.72
    },
    "etapas": [
     {
@@ -11306,7 +11306,7 @@
     },
     {
      "nome": "Venda",
-     "qtd": 5340.65
+     "qtd": 5535.54
     }
    ],
    "navios": [
@@ -11324,7 +11324,7 @@
    "clientes": [
     {
      "nome": "CIM. LIZ",
-     "qtd": 5340.65
+     "qtd": 5535.54
     }
    ],
    "filial": "",
@@ -11579,15 +11579,15 @@
    "status": "DIVERGENTE",
    "ret": 2996.57,
    "ind": 2996.57,
-   "venda": 2961.85,
-   "venda_bruta": 2961.85,
+   "venda": 2994.79,
+   "venda_bruta": 2994.79,
    "dev": 0,
    "mp": 0,
-   "max_dif": 34.72,
+   "max_dif": 1.78,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": 34.72,
-    "ret_venda": 34.72
+    "ind_venda": 1.78,
+    "ret_venda": 1.78
    },
    "etapas": [
     {
@@ -11600,7 +11600,7 @@
     },
     {
      "nome": "Venda",
-     "qtd": 2961.85
+     "qtd": 2994.79
     }
    ],
    "navios": [
@@ -11618,7 +11618,7 @@
    "clientes": [
     {
      "nome": "NASSAU",
-     "qtd": 2961.85
+     "qtd": 2994.79
     }
    ],
    "filial": "",
@@ -11632,15 +11632,15 @@
    "status": "DIVERGENTE",
    "ret": 16017.97,
    "ind": 16057.35,
-   "venda": 15984.59,
-   "venda_bruta": 15984.59,
+   "venda": 16341.57,
+   "venda_bruta": 16341.57,
    "dev": 0,
    "mp": 0,
-   "max_dif": 72.76,
+   "max_dif": 323.6,
    "difs": {
     "ret_ind": -39.38,
-    "ind_venda": 72.76,
-    "ret_venda": 33.38
+    "ind_venda": -284.22,
+    "ret_venda": -323.6
    },
    "etapas": [
     {
@@ -11653,7 +11653,7 @@
     },
     {
      "nome": "Venda",
-     "qtd": 15984.59
+     "qtd": 16341.57
     }
    ],
    "navios": [
@@ -11671,7 +11671,7 @@
    "clientes": [
     {
      "nome": "CARBOAMERICA - MG",
-     "qtd": 15984.59
+     "qtd": 16341.57
     }
    ],
    "filial": "",
@@ -11685,15 +11685,15 @@
    "status": "DIVERGENTE",
    "ret": 4777.6,
    "ind": 4740.22,
-   "venda": 4777.6,
-   "venda_bruta": 4777.6,
+   "venda": 4907.52,
+   "venda_bruta": 4907.52,
    "dev": 0,
    "mp": 0,
-   "max_dif": 37.38,
+   "max_dif": 167.3,
    "difs": {
     "ret_ind": 37.38,
-    "ind_venda": -37.38,
-    "ret_venda": 0.0
+    "ind_venda": -167.3,
+    "ret_venda": -129.92
    },
    "etapas": [
     {
@@ -11706,7 +11706,7 @@
     },
     {
      "nome": "Venda",
-     "qtd": 4777.6
+     "qtd": 4907.52
     }
    ],
    "navios": [
@@ -11724,7 +11724,7 @@
    "clientes": [
     {
      "nome": "CARBOAMERICA-RJ",
-     "qtd": 4777.6
+     "qtd": 4907.52
     }
    ],
    "filial": "",
@@ -11738,15 +11738,15 @@
    "status": "DIVERGENTE",
    "ret": 2681.75,
    "ind": 2632.73,
-   "venda": 2611.23,
-   "venda_bruta": 2611.23,
+   "venda": 2937.23,
+   "venda_bruta": 2937.23,
    "dev": 0,
    "mp": 0,
-   "max_dif": 70.52,
+   "max_dif": 304.5,
    "difs": {
     "ret_ind": 49.02,
-    "ind_venda": 21.5,
-    "ret_venda": 70.52
+    "ind_venda": -304.5,
+    "ret_venda": -255.48
    },
    "etapas": [
     {
@@ -11759,7 +11759,7 @@
     },
     {
      "nome": "Venda",
-     "qtd": 2611.23
+     "qtd": 2937.23
     }
    ],
    "navios": [
@@ -11777,7 +11777,7 @@
    "clientes": [
     {
      "nome": "CIM. LIZ",
-     "qtd": 2611.23
+     "qtd": 2937.23
     }
    ],
    "filial": "",
@@ -11984,6 +11984,38 @@
    "produto": "",
    "data_pedido": "",
    "val_venda": 1597030.0
+  },
+  {
+   "pedido": "8412",
+   "tipo": "VENDA_DIRETA",
+   "status": "DIRETA",
+   "ret": 0,
+   "ind": 0,
+   "venda": 30.64,
+   "venda_bruta": 30.64,
+   "dev": 0,
+   "mp": 0,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Venda",
+     "qtd": 30.64
+    }
+   ],
+   "navios": [],
+   "navio_detalhe": [],
+   "cliente": "APERAM",
+   "clientes": [
+    {
+     "nome": "APERAM",
+     "qtd": 30.64
+    }
+   ],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 0.0
   },
   {
    "pedido": "8413",
@@ -12666,8 +12698,8 @@
    "status": "DIRETA",
    "ret": 0,
    "ind": 0,
-   "venda": 6341.29,
-   "venda_bruta": 6341.29,
+   "venda": 6567.58,
+   "venda_bruta": 6567.58,
    "dev": 0,
    "mp": 0,
    "max_dif": 0.0,
@@ -12675,7 +12707,7 @@
    "etapas": [
     {
      "nome": "Venda",
-     "qtd": 6341.29
+     "qtd": 6567.58
     }
    ],
    "navios": [
@@ -12693,7 +12725,7 @@
    "clientes": [
     {
      "nome": "BRASKEM",
-     "qtd": 6341.29
+     "qtd": 6567.58
     }
    ],
    "filial": "",
@@ -12946,6 +12978,38 @@
    "produto": "",
    "data_pedido": "",
    "val_venda": 121178.71
+  },
+  {
+   "pedido": "147206",
+   "tipo": "VENDA_DIRETA",
+   "status": "DIRETA",
+   "ret": 0,
+   "ind": 0,
+   "venda": 917.53,
+   "venda_bruta": 917.53,
+   "dev": 0,
+   "mp": 0,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Venda",
+     "qtd": 917.53
+    }
+   ],
+   "navios": [],
+   "navio_detalhe": [],
+   "cliente": "CARBOBRÁS",
+   "clientes": [
+    {
+     "nome": "CARBOBRÁS",
+     "qtd": 917.53
+    }
+   ],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 0.0
   },
   {
    "pedido": "147501",
@@ -13644,8 +13708,8 @@
    "status": "DIRETA",
    "ret": 0,
    "ind": 0,
-   "venda": 3894.31,
-   "venda_bruta": 3894.31,
+   "venda": 4008.28,
+   "venda_bruta": 4008.28,
    "dev": 0,
    "mp": 0,
    "max_dif": 0.0,
@@ -13653,7 +13717,7 @@
    "etapas": [
     {
      "nome": "Venda",
-     "qtd": 3894.31
+     "qtd": 4008.28
     }
    ],
    "navios": [
@@ -13671,7 +13735,7 @@
    "clientes": [
     {
      "nome": "MINAS TRADING (MG)",
-     "qtd": 3894.31
+     "qtd": 4008.28
     }
    ],
    "filial": "",
