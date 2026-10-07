@@ -1,5 +1,5 @@
 {
- "gerado_em": "07/10/2026 08:48",
+ "gerado_em": "07/10/2026 08:58",
  "periodo": "01/05/2026 a 06/10/2026",
  "tolerancia": 0.01,
  "resumo": {
@@ -15,7 +15,7 @@
   "ret": 317430.41,
   "ind": 287352.68,
   "venda": 901716.4,
-  "val_venda": 790154296.17
+  "val_venda": 792886983.18
  },
  "pedidos": [
   {
@@ -44,7 +44,7 @@
      "navio": "#N/A",
      "ret": 0,
      "ind": 0,
-     "venda": 980.38
+     "venda": 1161.38
     }
    ],
    "cliente": "LUCDAN COMERCIO DE A",
@@ -133,7 +133,7 @@
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 5611224.41
+   "val_venda": 5629463.28
   },
   {
    "pedido": "20",
@@ -4640,7 +4640,7 @@
      "navio": "MAGIC CELESTE",
      "ret": 0,
      "ind": 0,
-     "venda": 11119.22
+     "venda": 11667.28
     }
    ],
    "cliente": "ITAMBÉ",
@@ -4653,7 +4653,7 @@
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 3024872.59
+   "val_venda": 3173966.83
   },
   {
    "pedido": "614",
@@ -4898,7 +4898,7 @@
      "navio": "MV RIVERTEC",
      "ret": 0,
      "ind": 0,
-     "venda": 1398.01
+     "venda": 1510.15
     }
    ],
    "cliente": "MARGEM CIA / SUPREMO",
@@ -4911,7 +4911,7 @@
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 1165989.85
+   "val_venda": 1259518.58
   },
   {
    "pedido": "620",
@@ -4951,7 +4951,7 @@
      "navio": "PACIFIC TALENT",
      "ret": 1309.96,
      "ind": 1309.96,
-     "venda": 1309.96
+     "venda": 1414.26
     }
    ],
    "cliente": "BRASKEM",
@@ -4964,7 +4964,7 @@
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 1283433.32
+   "val_venda": 1385621.25
   },
   {
    "pedido": "621",
@@ -4992,7 +4992,7 @@
      "navio": "#N/A",
      "ret": 0,
      "ind": 0,
-     "venda": 1966.44
+     "venda": 2504.22
     }
    ],
    "cliente": "CARBOAMERICA - MG",
@@ -5005,7 +5005,7 @@
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 1273710.53
+   "val_venda": 1622043.58
   },
   {
    "pedido": "622",
@@ -11170,7 +11170,7 @@
      "navio": "MV LAWIN ARROW",
      "ret": 4963.74,
      "ind": 4963.74,
-     "venda": 4916.69
+     "venda": 5530.15
     }
    ],
    "cliente": "CARBOAMERICA - MG",
@@ -11183,7 +11183,7 @@
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 2500609.93
+   "val_venda": 2654116.01
   },
   {
    "pedido": "8394",
@@ -11317,7 +11317,7 @@
      "navio": "LILA MUNDRA",
      "ret": 5389.82,
      "ind": 5389.82,
-     "venda": 5340.65
+     "venda": 5535.54
     }
    ],
    "cliente": "CIM. LIZ",
@@ -11330,7 +11330,7 @@
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 6947170.94
+   "val_venda": 7200685.79
   },
   {
    "pedido": "8397",
@@ -11611,7 +11611,7 @@
      "navio": "MV LAWIN ARROW",
      "ret": 2996.57,
      "ind": 2996.57,
-     "venda": 2961.85
+     "venda": 2994.79
     }
    ],
    "cliente": "NASSAU",
@@ -11624,7 +11624,7 @@
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 951908.99
+   "val_venda": 962495.58
   },
   {
    "pedido": "8403",
@@ -11664,7 +11664,7 @@
      "navio": "MV LAWIN ARROW",
      "ret": 16017.97,
      "ind": 16057.35,
-     "venda": 15984.59
+     "venda": 16341.57
     }
    ],
    "cliente": "CARBOAMERICA - MG",
@@ -11677,7 +11677,7 @@
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 6557105.73
+   "val_venda": 6661683.03
   },
   {
    "pedido": "8404",
@@ -11717,7 +11717,7 @@
      "navio": "MV LAWIN ARROW",
      "ret": 4777.6,
      "ind": 4740.22,
-     "venda": 4777.6
+     "venda": 4907.52
     }
    ],
    "cliente": "CARBOAMERICA-RJ",
@@ -11730,7 +11730,7 @@
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 1215169.67
+   "val_venda": 1247679.54
   },
   {
    "pedido": "8406",
@@ -11770,7 +11770,7 @@
      "navio": "50 MV FYM CRYSTAL / 50 MV LETO",
      "ret": 2681.75,
      "ind": 2632.73,
-     "venda": 2611.23
+     "venda": 2937.23
     }
    ],
    "cliente": "CIM. LIZ",
@@ -11783,7 +11783,7 @@
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 3134264.68
+   "val_venda": 3520137.95
   },
   {
    "pedido": "8407",
@@ -12003,8 +12003,17 @@
      "qtd": 30.64
     }
    ],
-   "navios": [],
-   "navio_detalhe": [],
+   "navios": [
+    "PHOENICIAN"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "PHOENICIAN",
+     "ret": 0,
+     "ind": 0,
+     "venda": 30.64
+    }
+   ],
    "cliente": "APERAM",
    "clientes": [
     {
@@ -12015,7 +12024,7 @@
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 0.0
+   "val_venda": 57397.3
   },
   {
    "pedido": "8413",
@@ -12718,7 +12727,7 @@
      "navio": "TERMICO STR- JOKER",
      "ret": 0,
      "ind": 0,
-     "venda": 6341.29
+     "venda": 6567.58
     }
    ],
    "cliente": "BRASKEM",
@@ -12731,7 +12740,7 @@
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 6212878.84
+   "val_venda": 6434586.47
   },
   {
    "pedido": "59001",
@@ -12997,8 +13006,17 @@
      "qtd": 917.53
     }
    ],
-   "navios": [],
-   "navio_detalhe": [],
+   "navios": [
+    "REMESSA"
+   ],
+   "navio_detalhe": [
+    {
+     "navio": "REMESSA",
+     "ret": 0,
+     "ind": 0,
+     "venda": 917.53
+    }
+   ],
    "cliente": "CARBOBRÁS",
    "clientes": [
     {
@@ -13009,7 +13027,7 @@
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 0.0
+   "val_venda": 789094.6
   },
   {
    "pedido": "147501",
@@ -13728,7 +13746,7 @@
      "navio": "Normal",
      "ret": 0,
      "ind": 0,
-     "venda": 3894.31
+     "venda": 4008.28
     }
    ],
    "cliente": "MINAS TRADING (MG)",
@@ -13741,7 +13759,7 @@
    "filial": "",
    "produto": "",
    "data_pedido": "",
-   "val_venda": 428374.1
+   "val_venda": 440910.8
   },
   {
    "pedido": "151201",
@@ -14405,7 +14423,7 @@
    "navio": "#N/A",
    "ret": 0.0,
    "ind": 0.0,
-   "venda": 13281.87,
+   "venda": 14000.65,
    "pedidos": [
     "0",
     "169",
@@ -14426,7 +14444,7 @@
    "navio": "50 MV FYM CRYSTAL / 50 MV LETO",
    "ret": 3066.2,
    "ind": 3017.18,
-   "venda": 2995.68,
+   "venda": 3321.68,
    "pedidos": [
     "8406",
     "8408",
@@ -14584,7 +14602,7 @@
    "navio": "LILA MUNDRA",
    "ret": 6744.31,
    "ind": 6744.31,
-   "venda": 62033.04,
+   "venda": 62227.93,
    "pedidos": [
     "8315",
     "8396",
@@ -14601,7 +14619,7 @@
    "navio": "MAGIC CELESTE",
    "ret": 0.0,
    "ind": 0.0,
-   "venda": 26137.74,
+   "venda": 26685.8,
    "pedidos": [
     "589",
     "602",
@@ -14688,7 +14706,7 @@
    "navio": "MV LAWIN ARROW",
    "ret": 29417.73,
    "ind": 29417.73,
-   "venda": 50410.59,
+   "venda": 51543.89,
    "pedidos": [
     "32",
     "42",
@@ -14739,7 +14757,7 @@
    "navio": "MV RIVERTEC",
    "ret": 0.0,
    "ind": 0.0,
-   "venda": 8553.77,
+   "venda": 8665.91,
    "pedidos": [
     "617",
     "618",
@@ -14785,7 +14803,7 @@
    "navio": "Normal",
    "ret": 0.0,
    "ind": 0.0,
-   "venda": 51661.8,
+   "venda": 51775.77,
    "pedidos": [
     "8337",
     "8364",
@@ -14805,7 +14823,7 @@
    "navio": "PACIFIC TALENT",
    "ret": 2401.5,
    "ind": 2401.5,
-   "venda": 2401.5,
+   "venda": 2505.8,
    "pedidos": [
     "559",
     "563",
@@ -14840,16 +14858,17 @@
    "navio": "PHOENICIAN",
    "ret": 8108.77,
    "ind": 7840.5,
-   "venda": 19522.41,
+   "venda": 19553.05,
    "pedidos": [
     "176",
     "593",
     "596",
     "8375",
     "8395",
+    "8412",
     "17601"
    ],
-   "n_pedidos": 6,
+   "n_pedidos": 7,
    "status": "DIVERGENTE"
   },
   {
@@ -14902,16 +14921,17 @@
    "navio": "REMESSA",
    "ret": 0.0,
    "ind": 0.0,
-   "venda": 6928.06,
+   "venda": 7845.59,
    "pedidos": [
     "118012",
+    "147206",
     "151401",
     "831301",
     "836601",
     "837501",
     "838201"
    ],
-   "n_pedidos": 6,
+   "n_pedidos": 7,
    "status": "DIRETA"
   },
   {
@@ -14962,7 +14982,7 @@
    "navio": "TERMICO STR- JOKER",
    "ret": 42223.21,
    "ind": 40630.75,
-   "venda": 55655.59,
+   "venda": 55881.88,
    "pedidos": [
     "552",
     "565",
