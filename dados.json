@@ -1,10 +1,10 @@
 {
- "gerado_em": "09/10/2026 14:38",
- "periodo": "01/05/2026 a 06/10/2026",
+ "gerado_em": "09/10/2026 14:48",
+ "periodo": "01/05/2026 a 08/10/2026",
  "tolerancia": 0.01,
  "resumo": {
-  "completos_ok": 61,
-  "completos_div": 32,
+  "completos_ok": 60,
+  "completos_div": 33,
   "sem_ind_ok": 6,
   "sem_ind_div": 1,
   "venda_direta": 166,
@@ -12,8 +12,8 @@
   "total_pedidos": 321
  },
  "totais": {
-  "ret": 319445.83,
-  "ind": 289403.77,
+  "ret": 320033.87,
+  "ind": 289991.81,
   "venda": 901716.4,
   "val_venda": 792886983.18
  },
@@ -2517,26 +2517,26 @@
    "pedido": "565",
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
-   "ret": 28953.49,
-   "ind": 28919.65,
+   "ret": 29085.45,
+   "ind": 29051.61,
    "venda": 21997.66,
    "venda_bruta": 21997.66,
    "dev": 0,
    "mp": 0,
-   "max_dif": 6955.83,
+   "max_dif": 7087.79,
    "difs": {
     "ret_ind": 33.84,
-    "ind_venda": 6921.99,
-    "ret_venda": 6955.83
+    "ind_venda": 7053.95,
+    "ret_venda": 7087.79
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 28953.49
+     "qtd": 29085.45
     },
     {
      "nome": "Industrializacao",
-     "qtd": 28919.65
+     "qtd": 29051.61
     },
     {
      "nome": "Venda",
@@ -2549,8 +2549,8 @@
    "navio_detalhe": [
     {
      "navio": "TERMICO STR- JOKER",
-     "ret": 28953.49,
-     "ind": 28919.65,
+     "ret": 29085.45,
+     "ind": 29051.61,
      "venda": 21997.66
     }
    ],
@@ -4916,27 +4916,27 @@
   {
    "pedido": "620",
    "tipo": "COMPLETO",
-   "status": "OK",
-   "ret": 1414.26,
-   "ind": 1414.26,
+   "status": "DIVERGENTE",
+   "ret": 1558.11,
+   "ind": 1558.11,
    "venda": 1414.26,
    "venda_bruta": 1414.26,
    "dev": 0,
    "mp": 0,
-   "max_dif": 0.0,
+   "max_dif": 143.85,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": 0.0,
-    "ret_venda": 0.0
+    "ind_venda": 143.85,
+    "ret_venda": 143.85
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 1414.26
+     "qtd": 1558.11
     },
     {
      "nome": "Industrializacao",
-     "qtd": 1414.26
+     "qtd": 1558.11
     },
     {
      "nome": "Venda",
@@ -4949,8 +4949,8 @@
    "navio_detalhe": [
     {
      "navio": "PACIFIC TALENT",
-     "ret": 1414.26,
-     "ind": 1414.26,
+     "ret": 1558.11,
+     "ind": 1558.11,
      "venda": 1414.26
     }
    ],
@@ -5577,7 +5577,7 @@
    "venda": 0,
    "venda_bruta": 0,
    "dev": 0,
-   "mp": 5644.46,
+   "mp": 5798.95,
    "max_dif": 0.0,
    "difs": {},
    "etapas": [
@@ -11736,26 +11736,26 @@
    "pedido": "8406",
    "tipo": "COMPLETO",
    "status": "DIVERGENTE",
-   "ret": 3007.75,
-   "ind": 2958.73,
+   "ret": 3319.98,
+   "ind": 3270.96,
    "venda": 2937.23,
    "venda_bruta": 2937.23,
    "dev": 0,
    "mp": 0,
-   "max_dif": 70.52,
+   "max_dif": 382.75,
    "difs": {
     "ret_ind": 49.02,
-    "ind_venda": 21.5,
-    "ret_venda": 70.52
+    "ind_venda": 333.73,
+    "ret_venda": 382.75
    },
    "etapas": [
     {
      "nome": "Retorno",
-     "qtd": 3007.75
+     "qtd": 3319.98
     },
     {
      "nome": "Industrializacao",
-     "qtd": 2958.73
+     "qtd": 3270.96
     },
     {
      "nome": "Venda",
@@ -11768,8 +11768,8 @@
    "navio_detalhe": [
     {
      "navio": "50 MV FYM CRYSTAL / 50 MV LETO",
-     "ret": 3007.75,
-     "ind": 2958.73,
+     "ret": 3319.98,
+     "ind": 3270.96,
      "venda": 2937.23
     }
    ],
@@ -14454,8 +14454,8 @@
   },
   {
    "navio": "50 MV FYM CRYSTAL / 50 MV LETO",
-   "ret": 3392.2,
-   "ind": 3343.18,
+   "ret": 3704.43,
+   "ind": 3655.41,
    "venda": 3321.68,
    "pedidos": [
     "8406",
@@ -14833,8 +14833,8 @@
   },
   {
    "navio": "PACIFIC TALENT",
-   "ret": 2505.8,
-   "ind": 2505.8,
+   "ret": 2649.65,
+   "ind": 2649.65,
    "venda": 2505.8,
    "pedidos": [
     "559",
@@ -14992,8 +14992,8 @@
   },
   {
    "navio": "TERMICO STR- JOKER",
-   "ret": 42449.5,
-   "ind": 40892.71,
+   "ret": 42581.46,
+   "ind": 41024.67,
    "venda": 55881.88,
    "pedidos": [
     "552",
