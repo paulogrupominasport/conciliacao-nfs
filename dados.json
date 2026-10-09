@@ -1,20 +1,20 @@
 {
- "gerado_em": "09/10/2026 15:28",
+ "gerado_em": "09/10/2026 15:38",
  "periodo": "01/05/2026 a 08/10/2026",
  "tolerancia": 0.01,
  "resumo": {
-  "completos_ok": 60,
-  "completos_div": 33,
+  "completos_ok": 59,
+  "completos_div": 34,
   "sem_ind_ok": 6,
   "sem_ind_div": 1,
-  "venda_direta": 166,
+  "venda_direta": 173,
   "pendentes": 12,
-  "total_pedidos": 321
+  "total_pedidos": 328
  },
  "totais": {
   "ret": 320033.87,
   "ind": 289991.81,
-  "venda": 901716.4,
+  "venda": 923317.51,
   "val_venda": 792886983.18
  },
  "pedidos": [
@@ -24,8 +24,8 @@
    "status": "DIRETA",
    "ret": 0,
    "ind": 0,
-   "venda": 1161.38,
-   "venda_bruta": 1161.38,
+   "venda": 1346.38,
+   "venda_bruta": 1346.38,
    "dev": 0,
    "mp": 0,
    "max_dif": 0.0,
@@ -33,7 +33,7 @@
    "etapas": [
     {
      "nome": "Venda",
-     "qtd": 1161.38
+     "qtd": 1346.38
     }
    ],
    "navios": [
@@ -51,7 +51,7 @@
    "clientes": [
     {
      "nome": "LUCDAN COMERCIO DE A",
-     "qtd": 360.0
+     "qtd": 540.0
     },
     {
      "nome": "CIM. LIZ",
@@ -63,7 +63,7 @@
     },
     {
      "nome": "GERDAU ACOMINAS",
-     "qtd": 119.0
+     "qtd": 121.0
     },
     {
      "nome": "JEVINETWORK",
@@ -78,12 +78,12 @@
      "qtd": 31.27
     },
     {
-     "nome": "GERDAU S.A.",
-     "qtd": 27.0
+     "nome": "PETRORECONCAVO (RN)",
+     "qtd": 28.0
     },
     {
-     "nome": "PETRORECONCAVO (RN)",
-     "qtd": 25.0
+     "nome": "GERDAU S.A.",
+     "qtd": 27.0
     },
     {
      "nome": "GERDAU",
@@ -4620,8 +4620,8 @@
    "status": "DIRETA",
    "ret": 0,
    "ind": 0,
-   "venda": 11667.28,
-   "venda_bruta": 11667.28,
+   "venda": 13058.5,
+   "venda_bruta": 13058.5,
    "dev": 0,
    "mp": 0,
    "max_dif": 0.0,
@@ -4629,7 +4629,7 @@
    "etapas": [
     {
      "nome": "Venda",
-     "qtd": 11667.28
+     "qtd": 13058.5
     }
    ],
    "navios": [
@@ -4647,7 +4647,7 @@
    "clientes": [
     {
      "nome": "ITAMBÉ",
-     "qtd": 11667.28
+     "qtd": 13058.5
     }
    ],
    "filial": "",
@@ -4699,18 +4699,18 @@
   {
    "pedido": "615",
    "tipo": "COMPLETO",
-   "status": "OK",
+   "status": "DIVERGENTE",
    "ret": 79.0,
    "ind": 79.0,
-   "venda": 79.0,
-   "venda_bruta": 79.0,
+   "venda": 106.0,
+   "venda_bruta": 106.0,
    "dev": 0,
    "mp": 0,
-   "max_dif": 0.0,
+   "max_dif": 27.0,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": 0.0,
-    "ret_venda": 0.0
+    "ind_venda": -27.0,
+    "ret_venda": -27.0
    },
    "etapas": [
     {
@@ -4723,7 +4723,7 @@
     },
     {
      "nome": "Venda",
-     "qtd": 79.0
+     "qtd": 106.0
     }
    ],
    "navios": [
@@ -4741,7 +4741,7 @@
    "clientes": [
     {
      "nome": "BELLUNO",
-     "qtd": 79.0
+     "qtd": 106.0
     }
    ],
    "filial": "",
@@ -4878,8 +4878,8 @@
    "status": "DIRETA",
    "ret": 0,
    "ind": 0,
-   "venda": 1510.15,
-   "venda_bruta": 1510.15,
+   "venda": 1937.43,
+   "venda_bruta": 1937.43,
    "dev": 0,
    "mp": 0,
    "max_dif": 0.0,
@@ -4887,7 +4887,7 @@
    "etapas": [
     {
      "nome": "Venda",
-     "qtd": 1510.15
+     "qtd": 1937.43
     }
    ],
    "navios": [
@@ -4905,7 +4905,7 @@
    "clientes": [
     {
      "nome": "MARGEM CIA / SUPREMO",
-     "qtd": 1510.15
+     "qtd": 1937.43
     }
    ],
    "filial": "",
@@ -4919,15 +4919,15 @@
    "status": "DIVERGENTE",
    "ret": 1558.11,
    "ind": 1558.11,
-   "venda": 1414.26,
-   "venda_bruta": 1414.26,
+   "venda": 1625.9,
+   "venda_bruta": 1625.9,
    "dev": 0,
    "mp": 0,
-   "max_dif": 143.85,
+   "max_dif": 67.79,
    "difs": {
     "ret_ind": 0.0,
-    "ind_venda": 143.85,
-    "ret_venda": 143.85
+    "ind_venda": -67.79,
+    "ret_venda": -67.79
    },
    "etapas": [
     {
@@ -4940,7 +4940,7 @@
     },
     {
      "nome": "Venda",
-     "qtd": 1414.26
+     "qtd": 1625.9
     }
    ],
    "navios": [
@@ -4958,7 +4958,7 @@
    "clientes": [
     {
      "nome": "BRASKEM",
-     "qtd": 1414.26
+     "qtd": 1625.9
     }
    ],
    "filial": "",
@@ -4972,8 +4972,8 @@
    "status": "DIRETA",
    "ret": 0,
    "ind": 0,
-   "venda": 2504.22,
-   "venda_bruta": 2504.22,
+   "venda": 3083.3,
+   "venda_bruta": 3083.3,
    "dev": 0,
    "mp": 0,
    "max_dif": 0.0,
@@ -4981,7 +4981,7 @@
    "etapas": [
     {
      "nome": "Venda",
-     "qtd": 2504.22
+     "qtd": 3083.3
     }
    ],
    "navios": [
@@ -4999,7 +4999,7 @@
    "clientes": [
     {
      "nome": "CARBOAMERICA - MG",
-     "qtd": 2504.22
+     "qtd": 3083.3
     }
    ],
    "filial": "",
@@ -5047,6 +5047,38 @@
    "produto": "",
    "data_pedido": "",
    "val_venda": 21029.55
+  },
+  {
+   "pedido": "623",
+   "tipo": "VENDA_DIRETA",
+   "status": "DIRETA",
+   "ret": 0,
+   "ind": 0,
+   "venda": 98.34,
+   "venda_bruta": 98.34,
+   "dev": 0,
+   "mp": 0,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Venda",
+     "qtd": 98.34
+    }
+   ],
+   "navios": [],
+   "navio_detalhe": [],
+   "cliente": "ITAMBÉ",
+   "clientes": [
+    {
+     "nome": "ITAMBÉ",
+     "qtd": 98.34
+    }
+   ],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 0.0
   },
   {
    "pedido": "1180",
@@ -11632,15 +11664,15 @@
    "status": "DIVERGENTE",
    "ret": 16374.95,
    "ind": 16414.33,
-   "venda": 16341.57,
-   "venda_bruta": 16341.57,
+   "venda": 16460.96,
+   "venda_bruta": 16460.96,
    "dev": 0,
    "mp": 0,
-   "max_dif": 72.76,
+   "max_dif": 86.01,
    "difs": {
     "ret_ind": -39.38,
-    "ind_venda": 72.76,
-    "ret_venda": 33.38
+    "ind_venda": -46.63,
+    "ret_venda": -86.01
    },
    "etapas": [
     {
@@ -11653,7 +11685,7 @@
     },
     {
      "nome": "Venda",
-     "qtd": 16341.57
+     "qtd": 16460.96
     }
    ],
    "navios": [
@@ -11671,7 +11703,7 @@
    "clientes": [
     {
      "nome": "CARBOAMERICA - MG",
-     "qtd": 16341.57
+     "qtd": 16460.96
     }
    ],
    "filial": "",
@@ -11738,15 +11770,15 @@
    "status": "DIVERGENTE",
    "ret": 3319.98,
    "ind": 3270.96,
-   "venda": 2937.23,
-   "venda_bruta": 2937.23,
+   "venda": 3457.51,
+   "venda_bruta": 3457.51,
    "dev": 0,
    "mp": 0,
-   "max_dif": 382.75,
+   "max_dif": 186.55,
    "difs": {
     "ret_ind": 49.02,
-    "ind_venda": 333.73,
-    "ret_venda": 382.75
+    "ind_venda": -186.55,
+    "ret_venda": -137.53
    },
    "etapas": [
     {
@@ -11759,7 +11791,7 @@
     },
     {
      "nome": "Venda",
-     "qtd": 2937.23
+     "qtd": 3457.51
     }
    ],
    "navios": [
@@ -11777,7 +11809,7 @@
    "clientes": [
     {
      "nome": "CIM. LIZ",
-     "qtd": 2937.23
+     "qtd": 3457.51
     }
    ],
    "filial": "",
@@ -12509,6 +12541,166 @@
    "val_venda": 3650287.64
   },
   {
+   "pedido": "8425",
+   "tipo": "VENDA_DIRETA",
+   "status": "DIRETA",
+   "ret": 0,
+   "ind": 0,
+   "venda": 490.49,
+   "venda_bruta": 490.49,
+   "dev": 0,
+   "mp": 0,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Venda",
+     "qtd": 490.49
+    }
+   ],
+   "navios": [],
+   "navio_detalhe": [],
+   "cliente": "PROQUIGEL QUIMICA",
+   "clientes": [
+    {
+     "nome": "PROQUIGEL QUIMICA",
+     "qtd": 490.49
+    }
+   ],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 0.0
+  },
+  {
+   "pedido": "8426",
+   "tipo": "VENDA_DIRETA",
+   "status": "DIRETA",
+   "ret": 0,
+   "ind": 0,
+   "venda": 490.49,
+   "venda_bruta": 490.49,
+   "dev": 0,
+   "mp": 0,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Venda",
+     "qtd": 490.49
+    }
+   ],
+   "navios": [],
+   "navio_detalhe": [],
+   "cliente": "PROQUIGEL QUIMICA",
+   "clientes": [
+    {
+     "nome": "PROQUIGEL QUIMICA",
+     "qtd": 490.49
+    }
+   ],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 0.0
+  },
+  {
+   "pedido": "8427",
+   "tipo": "VENDA_DIRETA",
+   "status": "DIRETA",
+   "ret": 0,
+   "ind": 0,
+   "venda": 490.49,
+   "venda_bruta": 490.49,
+   "dev": 0,
+   "mp": 0,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Venda",
+     "qtd": 490.49
+    }
+   ],
+   "navios": [],
+   "navio_detalhe": [],
+   "cliente": "PROQUIGEL QUIMICA",
+   "clientes": [
+    {
+     "nome": "PROQUIGEL QUIMICA",
+     "qtd": 490.49
+    }
+   ],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 0.0
+  },
+  {
+   "pedido": "8428",
+   "tipo": "VENDA_DIRETA",
+   "status": "DIRETA",
+   "ret": 0,
+   "ind": 0,
+   "venda": 490.49,
+   "venda_bruta": 490.49,
+   "dev": 0,
+   "mp": 0,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Venda",
+     "qtd": 490.49
+    }
+   ],
+   "navios": [],
+   "navio_detalhe": [],
+   "cliente": "PROQUIGEL QUIMICA",
+   "clientes": [
+    {
+     "nome": "PROQUIGEL QUIMICA",
+     "qtd": 490.49
+    }
+   ],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 0.0
+  },
+  {
+   "pedido": "8429",
+   "tipo": "VENDA_DIRETA",
+   "status": "DIRETA",
+   "ret": 0,
+   "ind": 0,
+   "venda": 490.49,
+   "venda_bruta": 490.49,
+   "dev": 0,
+   "mp": 0,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Venda",
+     "qtd": 490.49
+    }
+   ],
+   "navios": [],
+   "navio_detalhe": [],
+   "cliente": "PROQUIGEL QUIMICA",
+   "clientes": [
+    {
+     "nome": "PROQUIGEL QUIMICA",
+     "qtd": 490.49
+    }
+   ],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 0.0
+  },
+  {
    "pedido": "17501",
    "tipo": "VENDA_DIRETA",
    "status": "DIRETA",
@@ -12719,8 +12911,8 @@
    "status": "DIRETA",
    "ret": 0,
    "ind": 0,
-   "venda": 6567.58,
-   "venda_bruta": 6567.58,
+   "venda": 6832.3,
+   "venda_bruta": 6832.3,
    "dev": 0,
    "mp": 0,
    "max_dif": 0.0,
@@ -12728,7 +12920,7 @@
    "etapas": [
     {
      "nome": "Venda",
-     "qtd": 6567.58
+     "qtd": 6832.3
     }
    ],
    "navios": [
@@ -12746,7 +12938,7 @@
    "clientes": [
     {
      "nome": "BRASKEM",
-     "qtd": 6567.58
+     "qtd": 6832.3
     }
    ],
    "filial": "",
@@ -13738,8 +13930,8 @@
    "status": "DIRETA",
    "ret": 0,
    "ind": 0,
-   "venda": 4008.28,
-   "venda_bruta": 4008.28,
+   "venda": 4351.19,
+   "venda_bruta": 4351.19,
    "dev": 0,
    "mp": 0,
    "max_dif": 0.0,
@@ -13747,7 +13939,7 @@
    "etapas": [
     {
      "nome": "Venda",
-     "qtd": 4008.28
+     "qtd": 4351.19
     }
    ],
    "navios": [
@@ -13765,7 +13957,7 @@
    "clientes": [
     {
      "nome": "MINAS TRADING (MG)",
-     "qtd": 4008.28
+     "qtd": 4351.19
     }
    ],
    "filial": "",
@@ -13820,8 +14012,8 @@
    "status": "DIRETA",
    "ret": 0,
    "ind": 0,
-   "venda": 5500.0,
-   "venda_bruta": 5500.0,
+   "venda": 20193.5,
+   "venda_bruta": 20193.5,
    "dev": 0,
    "mp": 0,
    "max_dif": 0.0,
@@ -13829,7 +14021,7 @@
    "etapas": [
     {
      "nome": "Venda",
-     "qtd": 5500.0
+     "qtd": 20193.5
     }
    ],
    "navios": [
@@ -13843,8 +14035,12 @@
      "venda": 5500.0
     }
    ],
-   "cliente": "CANTEIROPOLIS",
+   "cliente": "CARBOAMERICA CANTEIR",
    "clientes": [
+    {
+     "nome": "CARBOAMERICA CANTEIR",
+     "qtd": 14693.5
+    },
     {
      "nome": "CANTEIROPOLIS",
      "qtd": 5500.0
@@ -14271,8 +14467,8 @@
    "status": "DIRETA",
    "ret": 0,
    "ind": 0,
-   "venda": 208.17,
-   "venda_bruta": 208.17,
+   "venda": 304.35,
+   "venda_bruta": 304.35,
    "dev": 0,
    "mp": 0,
    "max_dif": 0.0,
@@ -14280,7 +14476,7 @@
    "etapas": [
     {
      "nome": "Venda",
-     "qtd": 208.17
+     "qtd": 304.35
     }
    ],
    "navios": [
@@ -14298,13 +14494,45 @@
    "clientes": [
     {
      "nome": "PROQUIGEL QUIMICA",
-     "qtd": 208.17
+     "qtd": 304.35
     }
    ],
    "filial": "",
    "produto": "",
    "data_pedido": "",
    "val_venda": 1543751.25
+  },
+  {
+   "pedido": "841901",
+   "tipo": "VENDA_DIRETA",
+   "status": "DIRETA",
+   "ret": 0,
+   "ind": 0,
+   "venda": 192.14,
+   "venda_bruta": 192.14,
+   "dev": 0,
+   "mp": 0,
+   "max_dif": 0.0,
+   "difs": {},
+   "etapas": [
+    {
+     "nome": "Venda",
+     "qtd": 192.14
+    }
+   ],
+   "navios": [],
+   "navio_detalhe": [],
+   "cliente": "PROQUIGEL QUIMICA",
+   "clientes": [
+    {
+     "nome": "PROQUIGEL QUIMICA",
+     "qtd": 192.14
+    }
+   ],
+   "filial": "",
+   "produto": "",
+   "data_pedido": "",
+   "val_venda": 0.0
   },
   {
    "pedido": "842001",
